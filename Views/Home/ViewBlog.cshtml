@@ -1,0 +1,112 @@
+﻿@model TegudData.ViewModels.Blog.SingleBlogItemViewModel
+@using TegudMVC3.Helpers
+@{
+    ViewBag.Title = "Steve Elliott's Blog - " + Model.Title;
+    Layout = "~/Views/Shared/_SideBar.cshtml";
+    string url = string.Format("/{0}/{1}", Model.ID, Url.Encode(Model.Title.Replace(":", string.Empty)));
+}
+<h2>@Model.Title</h2>
+<article>
+    @Model.Content
+</article>
+@if ((Model.Series.Previous ?? Model.Series.Next) != null)
+{
+    <ul id="SeriesNavigator">
+        @if (Model.Series.Next != null)
+        {
+            <li class="NextInSeries">
+                Next@(!Model.Series.Next.Complete ? " (coming soon)" : string.Empty):<br/>
+                @(Html.Raw(Model.Series.Next.Complete && !string.IsNullOrWhiteSpace(Model.Series.Next.Link) ? string.Format("<a href=\"{0}\">", Model.Series.Next.Link) : string.Empty))
+                @(Model.Series.Next.Name)
+                @(Html.Raw(Model.Series.Next.Complete && !string.IsNullOrWhiteSpace(Model.Series.Next.Link) ? "</a>" : string.Empty))
+            </li>
+        }
+        @if (Model.Series.Previous != null)
+        {
+            <li class="PreviousInSeries">
+                Previous@(!Model.Series.Previous.Complete ? " (coming soon)" : string.Empty):<br/>
+                @(Html.Raw(Model.Series.Previous.Complete && !string.IsNullOrWhiteSpace(Model.Series.Previous.Link) ? string.Format("<a href=\"{0}\">", Model.Series.Previous.Link) : string.Empty))
+                @(Model.Series.Previous.Name)
+                @(Html.Raw(Model.Series.Previous.Complete && !string.IsNullOrWhiteSpace(Model.Series.Previous.Link) ? "</a>" : string.Empty))
+            </li>
+        }
+    </ul>
+}
+<div id="DisqusHolder" class="ClearBoth">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'tegud',
+            disqus_identifier = 'Tegud_Blog_@(Model.ID)',
+            disqus_url = 'http://www.tegud.net/';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+@section Sidebar
+{
+    <article>
+        <h3>Info</h3>
+        <ul class="blog-item-details block">
+            <li class="blog-item-posted-at" title="Posted at">@Model.PostedAt</li>
+            <li class="blog-item-author" title="by">@Model.Author</li>
+            <li class="blog-item-category"><a href="/Categories/@Model.Category">@Model.Category</a></li>
+            <li class="blog-item-comments"><a href="#disqus_thread">Jump to comments</a></li>
+        </ul>
+        @if (Model.Tags.Any())
+        {
+            <ul class="blog-item-tags">
+                @foreach (var t in Model.Tags)
+                {
+                    <li><a href="/Tags/@t.Link">@t.Name</a></li>
+                }
+            </ul>
+        }
+    </article>
+    <article>
+        <h3 class="ClearBoth">Social</h3>
+        <div id="SocialStuff">
+            @(Html.TwitterButton(url, Model.Title))
+            @(Html.FacebookButton(url, 45, 60)) 
+            <g:plusone size="tall" href="@url"></g:plusone>
+        </div>
+    </article>
+    @if (Model.Series.Entries.Any())
+    {
+    <article>
+        <h3 class="ClearBoth">Series</h3>
+        <ol id="BlogSeriesList">
+            @foreach (var bs in Model.Series.Entries)
+            {
+                @Html.Raw(string.Format("<li{0}>{1}{2}{3}{4}{5}</li>",
+                                              bs.Complete ? string.Empty : " class=\"PlaceholderSeriesItem\"",
+                                              bs.IsCurrent ? "<strong>" : string.Empty,
+                                              !string.IsNullOrWhiteSpace(bs.Link) && !bs.IsCurrent ? string.Format("<a href=\"{0}\">", bs.Link) : string.Empty,
+                                              bs.Name,
+                                              !string.IsNullOrWhiteSpace(bs.Link) ? "</a>" : string.Empty,
+                                              bs.IsCurrent ? "</strong>" : string.Empty
+                                    ))
+            }
+        </ol>
+    </article>
+    }
+}
+
+@section Scripts
+{
+    <script type="text/javascript">
+        require(['Blog/base']);
+        require(['http://platform.twitter.com/widgets.js']);
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+        { lang: 'en-GB' }
+    </script>
+}

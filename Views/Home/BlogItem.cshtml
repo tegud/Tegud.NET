@@ -1,0 +1,41 @@
+﻿@model TegudData.ViewModels.Blog.BlogItemViewModel
+@using TegudMVC3.Helpers
+<article class="BlogItem" id="BlogItem_@(Model.ID)">
+    <header class="BlogItemHeader">
+        <div class="BlogItemHeaderContainer"><h3><a href="@(Model.Url)">@Model.Title</a></h3></div>
+    </header>
+    <article class="BlogItemContent">
+        @Model.Content
+    </article>
+    
+    <footer class="BlogItemFooter">
+        @if (ViewBag.User != null && ViewBag.User.IsAuthenticated && ViewBag.User.IsAdmin)
+        {
+        <ul class="blog-item-admin">
+            <li class="blog-item-edit" title="Edit this blog item"></li>
+            <li class="blog-item-delete" title="Delete this blog item"></li>
+        </ul>
+        }
+        <ul class="blog-item-details">
+            <li class="blog-item-posted-at" title="at @Model.PostedAtTime">@Model.PostedAtTime</li>
+            <li class="blog-item-author" title="by @Model.Author">@Model.Author</li>
+            <li class="blog-item-category" title="in @Model.Category"><a href="/Categories/@Model.Category">@Model.Category</a></li>
+            @if(Model.SeriesSummary.PartOfSeries)
+            {
+                <li class="blog-item-series">
+                    <a href="">@Model.SeriesSummary.Name</a> part @Model.SeriesSummary.Part of @Model.SeriesSummary.TotalParts                        
+                </li>
+            }
+            <li class="blog-item-comments"><a href="/@Model.ID/@Url.Encode(Model.Title.Replace(":", string.Empty)).Replace("+", "%20")#disqus_thread" data-disqus-identifier="Tegud_Blog_@(Model.ID)"></a></li>
+        </ul>
+        @if (Model.Tags.Any())
+        {
+            <ul class="blog-item-tags">
+                @foreach (var t in Model.Tags)
+                {
+                    <li><a href="/Tags/@t.Link">@t.Name</a></li>
+                }
+            </ul>
+        }
+    </footer>
+</article>

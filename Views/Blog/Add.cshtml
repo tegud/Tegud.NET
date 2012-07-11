@@ -1,0 +1,193 @@
+﻿@{
+    ViewBag.Title = "Steve Elliott's Blog - Add New";
+    Layout = "~/Views/Shared/_SideBar.cshtml";
+}
+<h2>Add New Blog Item</h2>
+
+<div class="wmd-panel blog-item-content-container">
+    <div class="blog-item-field-container first-field">
+        <div class="blog-item-text-container">
+            <input type="text" class="blog-item-field-title required" placeholder="Blog Title" id="blog-item-title-field" />
+        </div>
+    </div>
+    
+    <div class="blog-item-field-container blog-item-datetime-holder">
+        <label>Date/Time</label>
+        <label class="blog-item-datetime-use-current-label touch-checkbox checked">
+            <input type="checkbox" id="blog-item-datetime-use-current" checked />
+            <div class="touch-checkbox-icon"></div>
+            Set to current (<span id="blog-entry-current-date-time">26th June 2012, 23:50pm</span>)
+        </label>
+    </div>
+    
+    <div class="blog-item-manual-date-fields hidden">
+        <div class="blog-item-field-container blog-item-date-holder" id="blog-item-date-fields">
+            <label>Date</label>
+            <input type="number" class="day-field" min="1" max="31" name="BlogItemDay" placeholder="Day" />
+            <select class="month-field" name="BlogItemMonth">
+                <option value="">Month</option>
+                <option value="1">January</option>
+                <option value="2">Feburary</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+            <input type="number" class="year-field" min="2010" max="2060" name="BlogItemYear" placeholder="Year" />
+            <div class="blog-item-date-icon"></div>
+            <div class="blog-item-date-error-holder"></div>
+            <div class="blog-item-calendar-container big-calendar right-calendar white-theme hidden" id="blog-item-calendar-container"></div>
+        </div>
+    
+        <div class="blog-item-field-container blog-item-date-holder blog-item-time-holder" id="blog-item-time-fields">
+            <label>Time</label>
+            <input type="number" class="hour-field" min="0" max="23" name="BlogItemHour" placeholder="Hour" />
+            <input type="number" class="minute-field" min="0" max="59" name="BlogItemMinute" placeholder="Minute" />
+        </div>
+    </div>
+
+    <div class="blog-item-field-container blog-item-series-field-container">
+        <label>Blog Series</label>
+        <select class="blog-item-category-field" id="blog-item-series-selector">
+            <option>Standalone</option>
+            <option data-series-existing-parts="4">The A Word</option>
+            <option data-series-existing-parts="1">Javascript Deferreds</option>
+            <option data-series-existing-parts="0">.NET OAuth</option>
+        </select>
+        <div class="blog-item-new-series-icon" id="blog-item-new-series-icon"></div>
+    </div>
+
+    <div class="blog-item-field-container blog-item-series-part-field-container hidden" id="blog-item-series-part-field-container">
+        <label for="blog-item-series-part-field">Blog Series Part</label>
+        <ul class="number-spinner" id="blog-item-blog-part-spinner">
+            <li class="number-spinner-control number-spinner-up">+</li>
+            <li class="number-spinner-field">
+                <input type="text" id="blog-item-series-part-field" class="required numeric" />
+            </li>
+            <li class="number-spinner-control number-spinner-down">-</li>
+        </ul>
+    </div>
+
+    <div class="blog-item-field-container blog-item-category-field-container">
+        <label>Category</label>
+        <select class="blog-item-category-field required" id="blog-item-category-field">
+            <option class="ignore-option" value="">Select...</option>
+            <option>one</option>
+            <option>one</option>
+            <option>one</option>
+        </select>
+    </div>
+    
+    <div class="blog-item-field-container">
+        <label>Tags</label>
+    </div>
+
+    <div class="blog-item-content-container-inner">
+        <div id="wmd-button-bar"></div>
+        <textarea class="wmd-input" id="wmd-input"></textarea>
+    </div>
+    <div id="wmd-preview" class="wmd-panel wmd-preview"></div>
+</div>
+
+@section Style
+{
+    <link href="@Url.Content("~/Content/Pagedown/Pagedown.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/datepicker/css/datepicker.css")" rel="stylesheet" type="text/css" />
+}
+
+@section Sidebar
+{
+    <article>
+        <h3>Info</h3>
+        <ul class="blog-item-details block">
+            <li class="blog-item-posted-at" title="Posted at">26th June 2012 @@00:15</li>
+            <li class="blog-item-author" title="by">Steve</li>
+            <li class="blog-item-category">
+                <select>
+                    
+                </select>
+            </li>
+        </ul>
+        <ul class="blog-item-tags">
+            <li>Tag</li>
+        </ul>
+    </article>
+}
+
+@section Scripts
+{
+    <script type="text/javascript">
+        require(['Pagedown/Markdown.Converter'], function () {
+            require(['Pagedown/Markdown.Editor',
+                    'Pagedown/Markdown.Sanitizer',
+                    'utilities/base',
+                    'forms/validator',
+                    'forms/dateSelector',
+                    'forms/timeValidator',
+                    'forms/currentTime',
+                    'tegud/numberspinner'], function () {
+                var tegud = TEGUD;
+                
+                new Markdown.Editor(new Markdown.Converter()).run();
+
+                $(function () {
+                    var blogPartSpinner = new tegud.NumberSpinner($('#blog-item-blog-part-spinner')),
+                        currentTime = new TEGUD.Forms.CurrentTime($('#blog-entry-current-date-time'));
+
+                    var dateSelector = new tegud.Forms.DateSelector($('#blog-item-date-fields'));
+
+                    (function () {
+                        var timeValidator = new TEGUD.Forms.TimeValidator($('#blog-item-time-fields')),
+                            titleValidator = new TEGUD.Forms.Validator($('#blog-item-title-field')),
+                            categoryValidator = new TEGUD.Forms.Validator($('#blog-item-category-field'));
+                    })();
+
+                    $('#blog-item-series-selector')
+                        .on('change', function () {
+                            var select = $(this),
+                                selectedIndex = this.selectedIndex,
+                                selectedItem,
+                                maxPartNumber;
+                            
+                            if(selectedIndex < 1) {
+                                $('#blog-item-series-part-field-container').addClass('hidden');
+                                return;
+                            }
+                            
+                            $('#blog-item-series-part-field-container').removeClass('hidden');
+
+                            selectedItem = select.children('option:selected');
+                            maxPartNumber = selectedItem.data('seriesExistingParts') + 1;
+
+                            blogPartSpinner
+                                .set({
+                                    max: maxPartNumber,
+                                    min: 1
+                                })
+                                .val(maxPartNumber);
+                        });
+
+                    $('#blog-item-datetime-use-current')
+                        .on('change', function () {
+                            var checkbox = $(this),
+                                container = checkbox.parent(),
+                                useDefaultDate = checkbox.is(':checked');
+
+                            container
+                                [useDefaultDate ? 'addClass' : 'removeClass']('checked')
+                                .parent()
+                                    .next()
+                                        [useDefaultDate ? 'addClass' : 'removeClass']('hidden');
+
+                        });
+                });
+            });
+        });
+    </script>
+}

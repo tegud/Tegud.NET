@@ -1,0 +1,1775 @@
+2011-09-18T20:17:10.5660000Z - 7068 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-18T20:17:10.6300000Z - 7068 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-18T20:17:10.7110000Z - 7068 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-18T20:17:13.3050000Z - 7068 - Debug - Initialising redirection module
+2011-09-18T20:17:13.3060000Z - 7068 - Debug - Initialising redirection module static fields.
+2011-09-18T20:17:13.3080000Z - 7068 - Debug - Initialising redirection module event handlers
+2011-09-18T20:17:16.0250000Z - 7068 - Debug - Initialising redirection module
+2011-09-18T20:17:16.0250000Z - 7068 - Debug - Initialising redirection module event handlers
+2011-09-18T20:17:17.7270000Z - 7068 - Info - Loaded 14691 devices using 12720 strings in 4095ms
+2011-09-18T20:17:19.9780000Z - 9028 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-18T20:17:19.9920000Z - 9028 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-18T20:17:18.1750000Z - 7068 - Debug - Request for 'http://localhost:61268/' with handler type 'System.Web.Mvc.MvcHandler' and current page '' is not a restricted page for redirect.
+2011-09-18T20:17:18.1750000Z - 7068 - Debug - Redirecting device with useragent 'Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3' from url 'http://localhost:61268/' to '~/Mobile/Default.aspx' due to 'default'.
+2011-09-18T20:17:20.0930000Z - 9028 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-18T20:17:27.5970000Z - 7068 - Debug - Initialising redirection module
+2011-09-18T20:17:27.5970000Z - 7068 - Debug - Initialising redirection module event handlers
+2011-09-18T20:17:27.5970000Z - 7068 - Debug - Initialising redirection module
+2011-09-18T20:17:27.5970000Z - 7068 - Debug - Initialising redirection module event handlers
+2011-09-18T20:17:27.6520000Z - 7068 - Debug - Initialising redirection module
+2011-09-18T20:17:27.6520000Z - 7068 - Debug - Initialising redirection module event handlers
+2011-09-18T20:17:28.3240000Z - 7068 - Debug - Initialising redirection module
+2011-09-18T20:17:28.3250000Z - 7068 - Debug - Initialising redirection module event handlers
+2011-09-18T20:18:07.9910000Z - 7068 - Debug - Disposing Redirection Module
+2011-09-18T20:19:05.3930000Z - 7068 - Debug - Initialising redirection module
+2011-09-18T20:19:05.3930000Z - 7068 - Debug - Initialising redirection module event handlers
+2011-09-18T20:19:38.0340000Z - 7068 - Debug - Disposing Redirection Module
+2011-09-18T20:20:08.0430000Z - 7068 - Debug - Disposing Redirection Module
+2011-09-18T20:20:38.0550000Z - 7068 - Debug - Disposing Redirection Module
+2011-09-18T20:21:08.0680000Z - 7068 - Debug - Disposing Redirection Module
+2011-09-18T20:21:38.0810000Z - 7068 - Debug - Disposing Redirection Module
+2011-09-18T20:24:37.2440000Z - 7068 - Debug - Disposing Redirection Module
+2011-09-18T20:24:50.7860000Z - 7068 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-18T20:24:50.7920000Z - 7068 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-18T20:24:50.8010000Z - 7068 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-18T20:24:52.2850000Z - 7068 - Debug - Initialising redirection module
+2011-09-18T20:24:52.2880000Z - 7068 - Debug - Initialising redirection module static fields.
+2011-09-18T20:24:52.2890000Z - 7068 - Debug - Initialising redirection module event handlers
+2011-09-18T20:24:55.7070000Z - 7068 - Info - Loaded 14691 devices using 12720 strings in 3334ms
+2011-09-18T20:24:57.2790000Z - 7068 - Debug - Initialising redirection module
+2011-09-18T20:24:57.2790000Z - 7068 - Debug - Initialising redirection module event handlers
+2011-09-18T20:26:20.7380000Z - 7068 - Debug - Disposing Redirection Module
+2011-09-18T20:26:42.3390000Z - 7068 - Debug - Disposing Redirection Module
+2011-09-18T20:26:47.0570000Z - 7068 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-18T20:26:47.0630000Z - 7068 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-18T20:26:47.1010000Z - 7068 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-18T20:26:49.7940000Z - 7068 - Debug - Initialising redirection module
+2011-09-18T20:26:49.7960000Z - 7068 - Debug - Initialising redirection module static fields.
+2011-09-18T20:26:49.7970000Z - 7068 - Debug - Initialising redirection module event handlers
+2011-09-18T20:26:53.8600000Z - 7068 - Info - Loaded 14691 devices using 12720 strings in 3902ms
+2011-09-18T20:26:57.3080000Z - 7068 - Debug - Initialising redirection module
+2011-09-18T20:26:57.3090000Z - 7068 - Debug - Initialising redirection module event handlers
+2011-09-18T20:26:57.3110000Z - 7068 - Debug - Initialising redirection module
+2011-09-18T20:26:57.3110000Z - 7068 - Debug - Initialising redirection module event handlers
+2011-09-18T20:26:57.3220000Z - 7068 - Debug - Initialising redirection module
+2011-09-18T20:26:57.3220000Z - 7068 - Debug - Initialising redirection module event handlers
+2011-09-18T20:26:57.3270000Z - 7068 - Debug - Initialising redirection module
+2011-09-18T20:26:57.3270000Z - 7068 - Debug - Initialising redirection module event handlers
+2011-09-18T20:27:45.4580000Z - 7068 - Debug - Disposing Redirection Module
+2011-09-18T20:28:15.4710000Z - 7068 - Debug - Disposing Redirection Module
+2011-09-18T20:28:45.4850000Z - 7068 - Debug - Disposing Redirection Module
+2011-09-18T20:29:15.4960000Z - 7068 - Debug - Disposing Redirection Module
+2011-09-18T20:31:25.8890000Z - 7068 - Debug - Could not write device information for useragent 'Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3' to URL 'http://devices.51degrees.mobi/new.ashx'. Exception 'The operation has timed out'
+2011-09-18T20:34:58.4900000Z - 7068 - Debug - Disposing Redirection Module
+2011-09-18T20:35:02.5830000Z - 9028 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-18T20:35:02.6400000Z - 9028 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-18T20:35:02.6520000Z - 9028 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-18T20:35:21.6120000Z - 7068 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-18T20:35:21.6190000Z - 7068 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-18T20:35:21.6280000Z - 7068 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-18T20:35:23.1470000Z - 7068 - Debug - Initialising redirection module
+2011-09-18T20:35:23.1510000Z - 7068 - Debug - Initialising redirection module static fields.
+2011-09-18T20:35:23.1520000Z - 7068 - Debug - Initialising redirection module event handlers
+2011-09-18T20:35:26.5100000Z - 7068 - Info - Loaded 14691 devices using 12720 strings in 3281ms
+2011-09-18T21:05:36.4670000Z - 7068 - Debug - Disposing Redirection Module
+2011-09-19T19:46:35.0870000Z - 9732 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-19T19:46:35.1330000Z - 9732 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-19T19:46:35.2400000Z - 9732 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-19T19:46:43.1630000Z - 9732 - Debug - Initialising redirection module
+2011-09-19T19:46:43.1660000Z - 9732 - Debug - Initialising redirection module static fields.
+2011-09-19T19:46:43.1670000Z - 9732 - Debug - Initialising redirection module event handlers
+2011-09-19T19:46:48.5180000Z - 9732 - Info - Loaded 14691 devices using 12720 strings in 4953ms
+2011-09-19T19:46:57.3310000Z - 9732 - Debug - Initialising redirection module
+2011-09-19T19:46:57.3310000Z - 9732 - Debug - Initialising redirection module
+2011-09-19T19:46:57.3310000Z - 9732 - Debug - Initialising redirection module event handlers
+2011-09-19T19:46:57.3310000Z - 9732 - Debug - Initialising redirection module event handlers
+2011-09-19T19:46:57.3320000Z - 9732 - Debug - Initialising redirection module
+2011-09-19T19:46:57.3320000Z - 9732 - Debug - Initialising redirection module event handlers
+2011-09-19T19:48:19.6700000Z - 9732 - Debug - Request for 'http://localhost:61268/' with handler type 'System.Web.Mvc.MvcHandler' and current page '' is not a restricted page for redirect.
+2011-09-19T19:48:19.6700000Z - 9732 - Debug - Redirecting device with useragent 'Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3' from url 'http://localhost:61268/' to '~/Mobile/Default.aspx' due to 'default'.
+2011-09-19T19:48:19.7140000Z - 9732 - Info - Trimmed request history file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\Devices.dat' by removing 96 bytes.
+2011-09-19T19:48:27.9390000Z - 9732 - Debug - Disposing Redirection Module
+2011-09-19T19:49:57.9770000Z - 9732 - Debug - Disposing Redirection Module
+2011-09-19T19:50:27.9900000Z - 9732 - Debug - Disposing Redirection Module
+2011-09-19T19:54:31.3150000Z - 9732 - Debug - Initialising redirection module
+2011-09-19T19:54:31.3150000Z - 9732 - Debug - Initialising redirection module event handlers
+2011-09-19T19:54:31.6290000Z - 9732 - Debug - Initialising redirection module
+2011-09-19T19:54:31.6290000Z - 9732 - Debug - Initialising redirection module event handlers
+2011-09-19T19:54:31.6340000Z - 9732 - Debug - Initialising redirection module
+2011-09-19T19:54:31.6340000Z - 9732 - Debug - Initialising redirection module event handlers
+2011-09-19T19:54:34.3080000Z - 9732 - Debug - Initialising redirection module
+2011-09-19T19:54:34.3080000Z - 9732 - Debug - Initialising redirection module event handlers
+2011-09-19T19:54:34.3380000Z - 9732 - Debug - Initialising redirection module
+2011-09-19T19:54:34.3380000Z - 9732 - Debug - Initialising redirection module event handlers
+2011-09-19T19:55:58.1320000Z - 9732 - Debug - Disposing Redirection Module
+2011-09-19T19:56:28.1440000Z - 9732 - Debug - Disposing Redirection Module
+2011-09-19T19:56:58.1590000Z - 9732 - Debug - Disposing Redirection Module
+2011-09-19T19:57:28.1700000Z - 9732 - Debug - Disposing Redirection Module
+2011-09-19T19:57:58.1830000Z - 9732 - Debug - Disposing Redirection Module
+2011-09-19T20:12:36.5820000Z - 9732 - Debug - Initialising redirection module
+2011-09-19T20:12:36.5820000Z - 9732 - Debug - Initialising redirection module event handlers
+2011-09-19T20:12:36.6120000Z - 9732 - Debug - Initialising redirection module
+2011-09-19T20:12:36.6120000Z - 9732 - Debug - Initialising redirection module event handlers
+2011-09-19T20:12:53.2520000Z - 9280 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-19T20:12:53.2580000Z - 9280 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-19T20:12:53.4950000Z - 9280 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-19T20:13:28.5850000Z - 9732 - Debug - Disposing Redirection Module
+2011-09-19T20:13:58.5950000Z - 9732 - Debug - Disposing Redirection Module
+2011-09-19T20:23:07.2480000Z - 9732 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-19T20:23:07.2540000Z - 9732 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-19T20:23:07.2620000Z - 9732 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-19T20:23:08.6410000Z - 9732 - Debug - Initialising redirection module
+2011-09-19T20:23:08.6450000Z - 9732 - Debug - Initialising redirection module static fields.
+2011-09-19T20:23:08.6460000Z - 9732 - Debug - Initialising redirection module event handlers
+2011-09-19T20:23:12.0810000Z - 9732 - Info - Loaded 14691 devices using 12720 strings in 3356ms
+2011-09-19T20:23:12.1810000Z - 9732 - Debug - Request for 'http://localhost:61268/' with handler type 'System.Web.Mvc.MvcHandler' and current page '' is not a restricted page for redirect.
+2011-09-19T20:23:12.1810000Z - 9732 - Debug - Redirecting device with useragent 'Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3' from url 'http://localhost:61268/' to '~/Mobile/Default.aspx' due to 'default'.
+2011-09-19T20:23:12.2040000Z - 9732 - Info - Trimmed request history file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\Devices.dat' by removing 32 bytes.
+2011-09-19T20:23:53.2740000Z - 9732 - Debug - Initialising redirection module
+2011-09-19T20:23:53.2740000Z - 9732 - Debug - Initialising redirection module event handlers
+2011-09-19T20:25:36.8160000Z - 9732 - Debug - Disposing Redirection Module
+2011-09-19T21:09:30.1610000Z - 9732 - Debug - Disposing Redirection Module
+2011-09-22T20:30:57.9120000Z - 7644 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-22T20:30:57.9800000Z - 7644 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-22T20:30:58.2030000Z - 7644 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-22T20:35:20.0000000Z - 7612 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-22T20:35:20.0490000Z - 7612 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-22T20:35:20.3280000Z - 7612 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-22T20:35:24.7080000Z - 7644 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-22T20:35:24.7140000Z - 7644 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-22T20:35:24.7230000Z - 7644 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-22T20:35:29.3690000Z - 7612 - Debug - Initialising redirection module
+2011-09-22T20:35:29.3710000Z - 7612 - Debug - Initialising redirection module static fields.
+2011-09-22T20:35:29.3720000Z - 7612 - Debug - Initialising redirection module event handlers
+2011-09-22T20:35:35.3550000Z - 7612 - Info - Loaded 14691 devices using 12720 strings in 5617ms
+2011-09-22T20:35:41.4020000Z - 7612 - Debug - Initialising redirection module
+2011-09-22T20:35:41.4020000Z - 7612 - Debug - Initialising redirection module event handlers
+2011-09-22T20:35:41.4020000Z - 7612 - Debug - Initialising redirection module
+2011-09-22T20:35:41.4020000Z - 7612 - Debug - Initialising redirection module event handlers
+2011-09-22T20:35:41.5170000Z - 7612 - Debug - Initialising redirection module
+2011-09-22T20:35:41.5170000Z - 7612 - Debug - Initialising redirection module event handlers
+2011-09-22T20:35:43.1870000Z - 7612 - Debug - Initialising redirection module
+2011-09-22T20:35:43.1870000Z - 7612 - Debug - Initialising redirection module event handlers
+2011-09-22T20:36:46.4640000Z - 7612 - Debug - Disposing Redirection Module
+2011-09-22T20:37:16.4760000Z - 7612 - Debug - Disposing Redirection Module
+2011-09-22T20:37:46.4890000Z - 7612 - Debug - Disposing Redirection Module
+2011-09-22T20:38:16.5020000Z - 7612 - Debug - Disposing Redirection Module
+2011-09-22T20:39:01.5510000Z - 7612 - Debug - Initialising redirection module
+2011-09-22T20:39:01.5510000Z - 7612 - Debug - Initialising redirection module event handlers
+2011-09-22T20:39:01.8640000Z - 7612 - Debug - Initialising redirection module
+2011-09-22T20:39:01.8640000Z - 7612 - Debug - Initialising redirection module event handlers
+2011-09-22T20:39:01.8930000Z - 7612 - Debug - Initialising redirection module
+2011-09-22T20:39:01.8930000Z - 7612 - Debug - Initialising redirection module event handlers
+2011-09-22T20:39:01.9360000Z - 7612 - Debug - Initialising redirection module
+2011-09-22T20:39:01.9360000Z - 7612 - Debug - Initialising redirection module event handlers
+2011-09-22T20:39:46.5410000Z - 7612 - Debug - Disposing Redirection Module
+2011-09-22T20:40:16.5540000Z - 7612 - Debug - Disposing Redirection Module
+2011-09-22T20:40:46.5670000Z - 7612 - Debug - Disposing Redirection Module
+2011-09-22T20:41:16.5790000Z - 7612 - Debug - Disposing Redirection Module
+2011-09-22T20:42:46.1850000Z - 7612 - Debug - Initialising redirection module
+2011-09-22T20:42:46.1860000Z - 7612 - Debug - Initialising redirection module
+2011-09-22T20:42:46.2040000Z - 7612 - Debug - Initialising redirection module event handlers
+2011-09-22T20:42:46.2040000Z - 7612 - Debug - Initialising redirection module event handlers
+2011-09-22T20:42:46.2190000Z - 7612 - Debug - Initialising redirection module
+2011-09-22T20:42:46.2190000Z - 7612 - Debug - Initialising redirection module event handlers
+2011-09-22T20:42:54.1510000Z - 7612 - Debug - Initialising redirection module
+2011-09-22T20:42:54.1510000Z - 7612 - Debug - Initialising redirection module event handlers
+2011-09-22T20:42:54.2110000Z - 7612 - Debug - Initialising redirection module
+2011-09-22T20:42:54.2110000Z - 7612 - Debug - Initialising redirection module event handlers
+2011-09-22T20:43:46.6440000Z - 7612 - Debug - Disposing Redirection Module
+2011-09-22T20:44:16.6570000Z - 7612 - Debug - Disposing Redirection Module
+2011-09-22T20:44:46.6700000Z - 7612 - Debug - Disposing Redirection Module
+2011-09-22T20:45:16.6820000Z - 7612 - Debug - Disposing Redirection Module
+2011-09-22T20:45:46.6950000Z - 7612 - Debug - Disposing Redirection Module
+2011-09-22T20:51:28.0520000Z - 7612 - Debug - Request for 'http://localhost:61268/43/jQuery+Deferreds+Part+One+-+Introduction' with handler type 'System.Web.Mvc.MvcHandler' and current page '' is not a restricted page for redirect.
+2011-09-22T20:51:28.0530000Z - 7612 - Debug - Redirecting device with useragent 'Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3' from url 'http://localhost:61268/43/jQuery+Deferreds+Part+One+-+Introduction' to '~/Mobile/Default.aspx' due to 'default'.
+2011-09-22T20:51:28.0550000Z - 7612 - Info - Trimmed request history file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\Devices.dat' by removing 32 bytes.
+2011-09-22T20:53:01.1140000Z - 7612 - Debug - Disposing Redirection Module
+2011-09-25T15:23:44.4120000Z - 5392 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-25T15:23:44.4670000Z - 5392 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-25T15:23:44.6740000Z - 5392 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-25T15:39:33.0690000Z - 7348 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-25T15:39:33.1150000Z - 7348 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-25T15:39:33.1820000Z - 7348 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-25T15:39:37.8800000Z - 7348 - Debug - Initialising redirection module
+2011-09-25T15:39:37.8820000Z - 7348 - Debug - Initialising redirection module static fields.
+2011-09-25T15:39:37.8830000Z - 7348 - Debug - Initialising redirection module event handlers
+2011-09-25T15:39:42.2780000Z - 7348 - Info - Loaded 14691 devices using 12720 strings in 4136ms
+2011-09-25T15:39:48.5000000Z - 7348 - Debug - Initialising redirection module
+2011-09-25T15:39:48.5000000Z - 7348 - Debug - Initialising redirection module event handlers
+2011-09-25T15:39:48.5000000Z - 7348 - Debug - Initialising redirection module
+2011-09-25T15:39:48.5000000Z - 7348 - Debug - Initialising redirection module event handlers
+2011-09-25T15:39:48.5020000Z - 7348 - Debug - Initialising redirection module
+2011-09-25T15:39:48.5020000Z - 7348 - Debug - Initialising redirection module event handlers
+2011-09-25T15:40:30.6860000Z - 7348 - Debug - Disposing Redirection Module
+2011-09-25T15:40:32.1500000Z - 7348 - Debug - Initialising redirection module
+2011-09-25T15:40:32.1500000Z - 7348 - Debug - Initialising redirection module event handlers
+2011-09-25T15:40:33.9560000Z - 7348 - Debug - Initialising redirection module
+2011-09-25T15:40:33.9560000Z - 7348 - Debug - Initialising redirection module event handlers
+2011-09-25T15:41:30.7110000Z - 7348 - Debug - Disposing Redirection Module
+2011-09-25T15:42:00.7240000Z - 7348 - Debug - Disposing Redirection Module
+2011-09-25T15:42:30.7370000Z - 7348 - Debug - Disposing Redirection Module
+2011-09-25T15:42:58.4260000Z - 7348 - Debug - Request for 'http://localhost:61268/' with handler type 'System.Web.Mvc.MvcHandler' and current page '' is not a restricted page for redirect.
+2011-09-25T15:42:58.4260000Z - 7348 - Debug - Redirecting device with useragent 'Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3' from url 'http://localhost:61268/' to '~/Mobile/Default.aspx' due to 'default'.
+2011-09-25T15:43:30.7650000Z - 7348 - Debug - Disposing Redirection Module
+2011-09-25T15:44:06.1430000Z - 7348 - Debug - Initialising redirection module
+2011-09-25T15:44:06.1440000Z - 7348 - Debug - Initialising redirection module event handlers
+2011-09-25T15:45:00.8010000Z - 7348 - Debug - Disposing Redirection Module
+2011-09-25T17:57:25.8930000Z - 7348 - Debug - Disposing Redirection Module
+2011-09-25T20:22:16.1030000Z - 6876 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-25T20:22:16.1320000Z - 6876 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-25T20:22:16.2300000Z - 6876 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-25T20:23:38.3840000Z - 580 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-25T20:23:38.4030000Z - 580 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-25T20:23:38.4220000Z - 580 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-25T20:23:40.2680000Z - 580 - Debug - Initialising redirection module
+2011-09-25T20:23:40.2690000Z - 580 - Debug - Initialising redirection module static fields.
+2011-09-25T20:23:40.2710000Z - 580 - Debug - Initialising redirection module event handlers
+2011-09-25T20:23:44.1580000Z - 580 - Info - Loaded 14691 devices using 12720 strings in 3734ms
+2011-09-25T20:23:47.0670000Z - 580 - Debug - Initialising redirection module
+2011-09-25T20:23:47.0670000Z - 580 - Debug - Initialising redirection module event handlers
+2011-09-25T20:23:47.0760000Z - 580 - Debug - Initialising redirection module
+2011-09-25T20:23:47.0760000Z - 580 - Debug - Initialising redirection module event handlers
+2011-09-25T20:23:47.4230000Z - 580 - Debug - Initialising redirection module
+2011-09-25T20:23:47.4230000Z - 580 - Debug - Initialising redirection module event handlers
+2011-09-25T20:24:07.6990000Z - 580 - Debug - Initialising redirection module
+2011-09-25T20:24:07.6990000Z - 580 - Debug - Initialising redirection module event handlers
+2011-09-25T20:25:07.2720000Z - 580 - Debug - Disposing Redirection Module
+2011-09-25T20:25:37.2840000Z - 580 - Debug - Disposing Redirection Module
+2011-09-25T20:26:07.2970000Z - 580 - Debug - Disposing Redirection Module
+2011-09-25T20:26:37.3100000Z - 580 - Debug - Disposing Redirection Module
+2011-09-25T20:46:39.8060000Z - 580 - Debug - Initialising redirection module
+2011-09-25T20:46:39.8070000Z - 580 - Debug - Initialising redirection module event handlers
+2011-09-25T20:46:40.1180000Z - 580 - Debug - Initialising redirection module
+2011-09-25T20:46:40.1220000Z - 580 - Debug - Initialising redirection module event handlers
+2011-09-25T20:46:40.1650000Z - 580 - Debug - Initialising redirection module
+2011-09-25T20:46:40.1650000Z - 580 - Debug - Initialising redirection module event handlers
+2011-09-25T20:46:40.1850000Z - 580 - Debug - Initialising redirection module
+2011-09-25T20:46:40.1850000Z - 580 - Debug - Initialising redirection module event handlers
+2011-09-25T20:47:39.9250000Z - 580 - Debug - Disposing Redirection Module
+2011-09-25T20:48:09.9380000Z - 580 - Debug - Disposing Redirection Module
+2011-09-25T20:48:39.9510000Z - 580 - Debug - Disposing Redirection Module
+2011-09-25T20:49:09.9640000Z - 580 - Debug - Disposing Redirection Module
+2011-09-25T21:18:36.8540000Z - 580 - Debug - Initialising redirection module
+2011-09-25T21:18:36.8540000Z - 580 - Debug - Initialising redirection module event handlers
+2011-09-25T21:18:37.1610000Z - 580 - Debug - Initialising redirection module
+2011-09-25T21:18:37.1840000Z - 580 - Debug - Initialising redirection module event handlers
+2011-09-25T21:18:37.1970000Z - 580 - Debug - Initialising redirection module
+2011-09-25T21:18:37.1970000Z - 580 - Debug - Initialising redirection module event handlers
+2011-09-25T21:19:10.7360000Z - 580 - Debug - Disposing Redirection Module
+2011-09-25T21:19:40.7490000Z - 580 - Debug - Disposing Redirection Module
+2011-09-25T21:20:01.5980000Z - 580 - Debug - Disposing Redirection Module
+2011-09-25T21:20:01.5990000Z - 580 - Debug - Disposing Redirection Module
+2011-09-26T19:08:36.2960000Z - 7544 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-26T19:08:36.3010000Z - 7544 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-26T19:08:36.5080000Z - 7544 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-26T21:44:00.0990000Z - 7544 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-26T21:44:00.1050000Z - 7544 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-26T21:44:00.1140000Z - 7544 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-26T21:44:10.2670000Z - 1764 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-26T21:44:10.2920000Z - 1764 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-26T21:44:10.4180000Z - 1764 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-26T21:44:19.0920000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T21:44:19.0940000Z - 1764 - Debug - Initialising redirection module static fields.
+2011-09-26T21:44:19.0950000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T21:44:23.7580000Z - 1764 - Info - Loaded 14691 devices using 12720 strings in 4142ms
+2011-09-26T21:44:30.6840000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T21:44:30.6840000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T21:44:30.6880000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T21:44:30.6880000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T21:44:30.8210000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T21:44:30.8210000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T21:44:31.5660000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T21:44:31.5660000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T21:44:36.0270000Z - 1764 - Info - Trimmed request history file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\Devices.dat' by removing 48 bytes.
+2011-09-26T21:44:36.0280000Z - 1764 - Debug - Request for 'http://localhost:61268/' with handler type 'System.Web.Mvc.MvcHandler' and current page '' is not a restricted page for redirect.
+2011-09-26T21:44:36.0280000Z - 1764 - Debug - Redirecting device with useragent 'Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3' from url 'http://localhost:61268/' to '~/' due to 'default'.
+2011-09-26T21:45:29.4240000Z - 1764 - Debug - Disposing Redirection Module
+2011-09-26T21:45:59.4330000Z - 1764 - Debug - Disposing Redirection Module
+2011-09-26T21:46:29.4460000Z - 1764 - Debug - Disposing Redirection Module
+2011-09-26T21:46:36.4530000Z - 1764 - Debug - Disposing Redirection Module
+2011-09-26T21:46:36.4540000Z - 1764 - Debug - Disposing Redirection Module
+2011-09-26T21:46:46.0260000Z - 1764 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-26T21:46:46.0330000Z - 1764 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-26T21:46:46.0450000Z - 1764 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-26T21:46:47.8090000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T21:46:47.8160000Z - 1764 - Debug - Initialising redirection module static fields.
+2011-09-26T21:46:47.8170000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T21:46:51.2370000Z - 1764 - Info - Loaded 14691 devices using 12720 strings in 3305ms
+2011-09-26T21:46:55.1660000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T21:46:55.1660000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T21:47:44.9000000Z - 1764 - Debug - Disposing Redirection Module
+2011-09-26T21:50:51.4490000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T21:50:51.4490000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T21:50:52.2270000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T21:50:52.2270000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T21:51:45.0030000Z - 1764 - Debug - Disposing Redirection Module
+2011-09-26T21:52:15.0160000Z - 1764 - Debug - Disposing Redirection Module
+2011-09-26T22:00:47.6770000Z - 1764 - Debug - Disposing Redirection Module
+2011-09-26T22:00:59.2570000Z - 1764 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-26T22:00:59.2630000Z - 1764 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-09-26T22:00:59.2750000Z - 1764 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-09-26T22:01:01.5210000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T22:01:01.5250000Z - 1764 - Debug - Initialising redirection module static fields.
+2011-09-26T22:01:01.5260000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T22:01:04.9830000Z - 1764 - Info - Loaded 14691 devices using 12720 strings in 3353ms
+2011-09-26T22:01:07.9170000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T22:01:07.9170000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T22:01:08.2380000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T22:01:08.2380000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T22:01:57.9580000Z - 1764 - Debug - Disposing Redirection Module
+2011-09-26T22:02:27.9720000Z - 1764 - Debug - Disposing Redirection Module
+2011-09-26T22:14:07.6320000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T22:14:07.6340000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T22:14:07.6620000Z - 1764 - Debug - Request for 'http://localhost:61268/' with handler type 'System.Web.Mvc.MvcHandler' and current page '' is not a restricted page for redirect.
+2011-09-26T22:14:07.6620000Z - 1764 - Debug - Redirecting device with useragent 'Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3' from url 'http://localhost:61268/' to '~/' due to 'default'.
+2011-09-26T22:14:07.6760000Z - 1764 - Info - Trimmed request history file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\Devices.dat' by removing 32 bytes.
+2011-09-26T22:14:07.6860000Z - 1764 - Debug - Request for 'http://localhost:61268/' with handler type 'System.Web.Mvc.MvcHandler' and current page '' is not a restricted page for redirect.
+2011-09-26T22:14:07.6860000Z - 1764 - Debug - Redirecting device with useragent 'Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3' from url 'http://localhost:61268/' to '~/' due to 'default'.
+2011-09-26T22:14:58.2930000Z - 1764 - Debug - Disposing Redirection Module
+2011-09-26T22:15:10.3590000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T22:15:10.3590000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T22:15:58.3180000Z - 1764 - Debug - Disposing Redirection Module
+2011-09-26T22:16:25.5210000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T22:16:25.5210000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T22:16:26.3350000Z - 1764 - Debug - Initialising redirection module
+2011-09-26T22:16:26.3350000Z - 1764 - Debug - Initialising redirection module event handlers
+2011-09-26T22:17:28.3570000Z - 1764 - Debug - Disposing Redirection Module
+2011-09-26T22:17:58.3700000Z - 1764 - Debug - Disposing Redirection Module
+2011-09-26T22:21:34.4220000Z - 1764 - Debug - Disposing Redirection Module
+2011-10-05T22:34:00.2910000Z - 6576 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-10-05T22:34:00.3010000Z - 6576 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-10-05T22:34:00.9200000Z - 6576 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-10-05T22:54:56.9120000Z - 7792 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-10-05T22:54:56.9180000Z - 7792 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-10-05T22:54:56.9320000Z - 7792 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-10-08T20:55:28.7780000Z - 5892 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-10-08T20:55:28.9130000Z - 5892 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-10-08T20:55:28.9280000Z - 5892 - Debug - Constructing MobileCapabilitiesProvider - Default
+2011-11-14T04:41:23.2310000Z - 6164 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-11-14T04:41:23.4050000Z - 6164 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Claire\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2011-11-14T04:41:24.1820000Z - 6164 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-09T22:13:14.1877208Z - 4668 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-09T22:13:14.2547246Z - 4668 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-09T22:13:14.3677311Z - 4668 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-09T22:13:18.7153763Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:13:18.7163764Z - 4668 - Debug - Initialising redirection module static fields.
+2012-01-09T22:13:18.7163764Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:13:21.2885235Z - 4668 - Info - Loaded 14691 devices using 12720 strings in 2230ms
+2012-01-09T22:13:27.1302542Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:13:27.1302542Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:13:27.1312542Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:13:27.1312542Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:13:27.1322543Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:13:27.1332543Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:13:27.1362545Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:13:27.1362545Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:13:27.1722566Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:13:27.1722566Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:13:46.6153686Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:13:46.6153686Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:14:39.0143657Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:15:09.0270823Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:15:36.3936476Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:15:36.3936476Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:15:36.3936476Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:15:36.3936476Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:15:36.3936476Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:17:06.2977898Z - 4668 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-09T22:17:06.3017901Z - 4668 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-09T22:17:06.3077904Z - 4668 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-09T22:17:07.2148423Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:17:07.2148423Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:17:07.2148423Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:17:07.2168424Z - 4668 - Debug - Initialising redirection module static fields.
+2012-01-09T22:17:07.2178424Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:17:07.2178424Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:17:07.2178424Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:17:08.5909210Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:17:08.5909210Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:17:09.4179683Z - 4668 - Info - Loaded 14691 devices using 12720 strings in 2154ms
+2012-01-09T22:17:10.7000416Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:17:10.7000416Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:17:10.7460443Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:17:10.7460443Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:18:05.5281776Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:18:25.0572946Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:18:25.0572946Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:19:11.4579486Z - 4704 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-09T22:19:11.4619488Z - 4704 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-09T22:19:11.4859502Z - 4704 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-09T22:19:35.5703277Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:20:05.5850445Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:20:35.5997612Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:20:38.3449182Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:20:38.3449182Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:20:38.3479184Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:20:38.3479184Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:21:35.6291947Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:23:09.7495781Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:23:09.7495781Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:23:37.6691750Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:23:37.6691750Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:25:05.7312118Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:26:05.7606453Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:26:35.7753621Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:27:05.7900788Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:27:29.2574211Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:27:29.2574211Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:27:29.2774222Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:27:29.2774222Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:27:29.2784223Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:27:29.2784223Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:28:35.8332290Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:29:05.8479457Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:29:35.8626625Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:30:05.1283364Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:30:05.1283364Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:30:05.1323366Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:30:05.1323366Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:30:05.1323366Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:30:05.1323366Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:30:35.8920960Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:31:35.9205294Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:32:05.9352461Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:32:35.9499629Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:41:33.8307279Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:41:33.8307279Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:41:33.8307279Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:41:33.8307279Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:41:33.8357282Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:41:33.8357282Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:41:33.8857311Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:41:33.8857311Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:42:06.2275809Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:42:36.2422976Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:42:38.3824201Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:42:38.3824201Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:42:38.3844202Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:42:38.3844202Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:42:38.3844202Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:42:38.3844202Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:44:06.2854478Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:45:06.3148813Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:46:06.3443148Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:46:30.5787009Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:46:30.5787009Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:46:58.7143102Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:46:58.7143102Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:48:06.4021817Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:48:27.5453910Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:48:27.5453910Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:49:06.4316152Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:49:36.4463319Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:49:53.6343150Z - 4668 - Debug - Initialising redirection module
+2012-01-09T22:49:53.6343150Z - 4668 - Debug - Initialising redirection module event handlers
+2012-01-09T22:50:36.4757654Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:51:06.4904822Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:51:36.5041989Z - 4668 - Debug - Disposing Redirection Module
+2012-01-09T22:52:25.6590104Z - 4668 - Debug - Disposing Redirection Module
+2012-01-11T20:01:38.4435807Z - 4564 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T20:01:38.4555814Z - 4564 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T20:01:38.5075843Z - 4564 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-11T21:25:13.2513232Z - 4564 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T21:25:13.2613238Z - 4564 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T21:25:13.2673241Z - 4564 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-11T21:25:43.3483936Z - 6752 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T21:25:43.3703949Z - 6752 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T21:25:43.4273981Z - 6752 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-11T21:25:48.7677036Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:25:48.7687036Z - 6752 - Debug - Initialising redirection module static fields.
+2012-01-11T21:25:48.7697037Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:25:51.2408450Z - 6752 - Info - Loaded 14691 devices using 12720 strings in 2237ms
+2012-01-11T21:26:23.2670474Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:26:23.2670474Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:26:23.2670474Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:26:23.2670474Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:26:23.2670474Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:26:23.2670474Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:26:23.2670474Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:26:23.2670474Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:26:23.2780481Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:26:23.2780481Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:26:35.0099087Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:26:35.0099087Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:27:10.1354866Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:27:40.1492033Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:28:10.1639201Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:28:40.1786022Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:29:10.1928618Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:29:40.2078973Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:44:16.9857586Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:44:16.9857586Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:44:16.9857586Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:44:16.9857586Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:44:16.9867586Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:44:16.9867586Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:44:57.6816350Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:44:57.6816350Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:44:57.6816350Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:44:57.6816350Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:45:06.7641415Z - 6752 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T21:45:06.7691418Z - 6752 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T21:45:06.7751421Z - 6752 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-11T21:45:08.3402317Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:45:08.3432318Z - 6752 - Debug - Initialising redirection module static fields.
+2012-01-11T21:45:08.3432318Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:45:10.5843600Z - 6752 - Info - Loaded 14691 devices using 12720 strings in 2118ms
+2012-01-11T21:45:20.8189454Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:45:20.8189454Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:45:20.8189454Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:45:20.8189454Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:45:20.8249457Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:45:20.8249457Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:45:20.8249457Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:45:20.8249457Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:45:20.8249457Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:45:20.8249457Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:46:05.3697950Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:46:35.3834987Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:47:05.3981635Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:47:35.4132509Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:48:05.4279374Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:51:51.8561282Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:51:51.8561282Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:51:51.8581283Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:51:51.8581283Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:51:51.8791295Z - 6752 - Debug - Initialising redirection module
+2012-01-11T21:51:51.8791295Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T21:52:35.5585889Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:52:47.9784889Z - 4564 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T21:52:47.9824891Z - 4564 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T21:52:47.9884895Z - 4564 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-11T21:53:05.5732797Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T21:53:35.5885394Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:03:56.0850108Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:03:56.0850108Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:03:56.0850108Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:03:56.0850108Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:03:56.0850108Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:03:56.0850108Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:03:56.1790162Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:03:56.1790162Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:04:35.9088363Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:05:05.9240916Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:05:35.9387540Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:06:05.9534707Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:08:23.4593356Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:08:27.4885661Z - 6752 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T22:08:27.4935664Z - 6752 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T22:08:27.5005668Z - 6752 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-11T22:08:28.4546213Z - 4564 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T22:08:28.4586216Z - 4564 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T22:08:28.4646219Z - 4564 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-11T22:08:28.8196422Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:08:28.8226424Z - 6752 - Debug - Initialising redirection module static fields.
+2012-01-11T22:08:28.8236424Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:08:31.2067787Z - 6752 - Info - Loaded 14691 devices using 12720 strings in 2326ms
+2012-01-11T22:08:34.6709769Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:08:34.6709769Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:08:34.6709769Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:08:34.6709769Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:08:34.6719769Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:08:34.6719769Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:08:34.6739771Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:08:34.6739771Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:08:34.7169795Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:08:34.7169795Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:09:26.1649222Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:09:56.1796389Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:10:26.1943557Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:10:52.5058606Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:10:52.5068606Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:10:52.5098608Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:10:52.5098608Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:11:26.2227891Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:12:16.6926758Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:12:16.6926758Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:13:26.2816561Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:13:56.2963728Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:14:26.3110895Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:14:56.3248062Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:21:45.3477908Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:21:45.3477908Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:21:45.3477908Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:21:45.3477908Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:21:45.3477908Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:21:45.3477908Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:22:10.1932119Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:22:10.1932119Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:22:56.5588638Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:23:01.6861571Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:23:01.6861571Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:23:06.3684249Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:23:06.3684249Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:23:06.3684249Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:23:06.3684249Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:23:06.3684249Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:23:11.5257199Z - 6752 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T22:23:11.5307202Z - 6752 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T22:23:11.5377206Z - 6752 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-11T22:23:12.6387835Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:23:12.6407836Z - 6752 - Debug - Initialising redirection module static fields.
+2012-01-11T22:23:12.6417837Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:23:14.8139079Z - 6752 - Info - Loaded 14691 devices using 12720 strings in 2120ms
+2012-01-11T22:23:17.9230858Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:23:17.9230858Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:23:17.9320863Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:23:17.9320863Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:23:17.9330864Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:23:17.9330864Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:23:17.9340864Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:23:17.9340864Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:23:17.9670883Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:23:17.9670883Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:24:10.6591021Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:24:40.6738189Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:25:10.6885356Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:25:40.7032523Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:26:10.7179691Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:27:49.6626284Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:27:49.6626284Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:27:49.6626284Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:27:49.6626284Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:27:49.6626284Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:27:49.6626284Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:27:49.6636284Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:27:49.6636284Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:28:40.7905527Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:29:10.8052695Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:29:40.8199862Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:30:10.8347030Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:42:07.8783345Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:42:07.8783345Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:42:08.4553675Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:42:08.4553675Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:42:08.4563676Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:42:08.4563676Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:42:08.4573676Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:42:08.4573676Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:42:08.4573676Z - 6752 - Debug - Initialising redirection module
+2012-01-11T22:42:08.4573676Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T22:42:41.1995845Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:43:11.2141024Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:43:41.2281501Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:44:11.2427235Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:45:11.2724243Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T22:57:39.2004777Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T23:02:19.4834852Z - 6752 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T23:02:19.4874854Z - 6752 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T23:02:19.4944858Z - 6752 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-11T23:02:20.7583555Z - 6752 - Debug - Initialising redirection module
+2012-01-11T23:02:20.7613557Z - 6752 - Debug - Initialising redirection module static fields.
+2012-01-11T23:02:20.7613557Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T23:02:22.9702751Z - 6752 - Info - Loaded 14691 devices using 12720 strings in 2152ms
+2012-01-11T23:02:27.5843278Z - 6752 - Debug - Initialising redirection module
+2012-01-11T23:02:27.5843278Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T23:02:27.5853278Z - 6752 - Debug - Initialising redirection module
+2012-01-11T23:02:27.5853278Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T23:02:27.5863279Z - 6752 - Debug - Initialising redirection module
+2012-01-11T23:02:27.5863279Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T23:02:27.5873279Z - 6752 - Debug - Initialising redirection module
+2012-01-11T23:02:27.5873279Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T23:02:27.5893281Z - 6752 - Debug - Initialising redirection module
+2012-01-11T23:02:27.5893281Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T23:02:51.7450956Z - 4564 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T23:02:51.7490959Z - 4564 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-11T23:02:51.7560963Z - 4564 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-11T23:03:18.4864360Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T23:03:48.4956784Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T23:04:29.0585462Z - 6752 - Debug - Initialising redirection module
+2012-01-11T23:04:29.0585462Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T23:04:45.7295682Z - 6752 - Debug - Initialising redirection module
+2012-01-11T23:04:45.7295682Z - 6752 - Debug - Initialising redirection module event handlers
+2012-01-11T23:05:48.5516695Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T23:06:18.7534061Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T23:07:18.6052663Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T23:07:48.6057591Z - 6752 - Debug - Disposing Redirection Module
+2012-01-11T23:08:18.6346674Z - 6752 - Debug - Disposing Redirection Module
+2012-01-12T03:22:01.6911861Z - 6752 - Debug - Disposing Redirection Module
+2012-01-12T22:01:46.8904629Z - 6336 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T22:01:46.9124642Z - 6336 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T22:01:47.0534722Z - 6336 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-12T22:01:50.8196876Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:01:50.8206877Z - 6336 - Debug - Initialising redirection module static fields.
+2012-01-12T22:01:50.8216878Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:01:53.4688392Z - 6336 - Info - Loaded 14691 devices using 12720 strings in 2428ms
+2012-01-12T22:02:57.5997512Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:02:57.5997512Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:02:57.5997512Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:02:57.5997512Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:02:57.5997512Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:02:57.5997512Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:02:57.5997512Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:02:57.5997512Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:02:57.6057515Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:02:57.6057515Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:02:57.9127691Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:02:57.9127691Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:03:42.8115867Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:04:12.8262083Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:04:42.8400285Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:05:12.8547107Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:05:42.8699963Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:06:12.8838637Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:12:03.9698096Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:12:03.9928109Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:12:03.9928109Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:12:03.9928109Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:12:03.9928109Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:12:03.9928109Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:12:03.9928109Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:12:03.9928109Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:12:03.9928109Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:12:03.9928109Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:12:04.2398251Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:12:04.2398251Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:12:04.2398251Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:12:04.2398251Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:13:13.0887630Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:13:43.1034798Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:14:13.1171964Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:14:43.1319132Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:15:13.1466299Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:15:43.1613467Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:16:13.1760634Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:23:43.6468289Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:23:43.6468289Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:23:43.6468289Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:23:43.6468289Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:23:43.6468289Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:23:43.6468289Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:23:43.6468289Z - 6336 - Debug - Initialising redirection module
+2012-01-12T22:23:43.6468289Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T22:24:43.4242479Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:25:13.4389647Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:25:43.4536814Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T22:26:13.4673981Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T23:13:46.4316458Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T23:13:53.3127763Z - 6336 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:13:53.3167765Z - 6336 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:13:53.3267771Z - 6336 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-12T23:13:54.7998613Z - 6336 - Debug - Initialising redirection module
+2012-01-12T23:13:54.8028615Z - 6336 - Debug - Initialising redirection module static fields.
+2012-01-12T23:13:54.8028615Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T23:13:57.0199883Z - 6336 - Info - Loaded 14691 devices using 12720 strings in 2164ms
+2012-01-12T23:23:35.5303699Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T23:23:42.5169591Z - 6336 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:23:42.5209593Z - 6336 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:23:42.5269597Z - 6336 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-12T23:23:44.0390462Z - 6336 - Debug - Initialising redirection module
+2012-01-12T23:23:44.0410463Z - 6336 - Debug - Initialising redirection module static fields.
+2012-01-12T23:23:44.0420463Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T23:23:46.1715647Z - 6336 - Info - Loaded 14691 devices using 12720 strings in 2077ms
+2012-01-12T23:25:52.4321841Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T23:25:58.9593333Z - 6336 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:25:58.9633335Z - 6336 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:25:58.9703339Z - 6336 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-12T23:26:00.3524129Z - 6336 - Debug - Initialising redirection module
+2012-01-12T23:26:00.3554131Z - 6336 - Debug - Initialising redirection module static fields.
+2012-01-12T23:26:00.3554131Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T23:26:02.5125365Z - 6336 - Info - Loaded 14691 devices using 12720 strings in 2105ms
+2012-01-12T23:26:07.6596283Z - 6336 - Debug - Initialising redirection module
+2012-01-12T23:26:07.6596283Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T23:26:07.6596283Z - 6336 - Debug - Initialising redirection module
+2012-01-12T23:26:07.6596283Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T23:26:07.6606284Z - 6336 - Debug - Initialising redirection module
+2012-01-12T23:26:07.6606284Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T23:26:07.6616284Z - 6336 - Debug - Initialising redirection module
+2012-01-12T23:26:07.6616284Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T23:26:57.9640658Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T23:27:00.5502137Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T23:27:00.5502137Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T23:27:00.5502137Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T23:27:00.5512138Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T23:28:49.6061791Z - 5768 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:28:49.6151796Z - 5768 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:28:49.6901839Z - 5768 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-12T23:31:22.8968289Z - 5768 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:31:22.9058294Z - 5768 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:31:22.9178301Z - 5768 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-12T23:31:33.0378011Z - 5768 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:31:33.0378011Z - 5768 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:31:33.0534011Z - 5768 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-12T23:31:35.4309337Z - 6336 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:31:35.4409342Z - 6336 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:31:35.4529349Z - 6336 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-12T23:31:37.9050752Z - 6336 - Debug - Initialising redirection module
+2012-01-12T23:31:37.9070753Z - 6336 - Debug - Initialising redirection module static fields.
+2012-01-12T23:31:37.9080753Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T23:31:40.3162131Z - 6336 - Info - Loaded 14691 devices using 12720 strings in 2323ms
+2012-01-12T23:32:41.3525305Z - 6336 - Debug - Disposing Redirection Module
+2012-01-12T23:32:47.0048538Z - 6336 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:32:47.0148544Z - 6336 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-12T23:32:47.0268551Z - 6336 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-12T23:32:48.6139459Z - 6336 - Debug - Initialising redirection module
+2012-01-12T23:32:48.6159460Z - 6336 - Debug - Initialising redirection module static fields.
+2012-01-12T23:32:48.6169460Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T23:32:50.8830756Z - 6336 - Info - Loaded 14691 devices using 12720 strings in 2206ms
+2012-01-12T23:32:56.4483940Z - 6336 - Debug - Initialising redirection module
+2012-01-12T23:32:56.4483940Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T23:32:56.4483940Z - 6336 - Debug - Initialising redirection module
+2012-01-12T23:32:56.4483940Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T23:32:56.4493940Z - 6336 - Debug - Initialising redirection module
+2012-01-12T23:32:56.4493940Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T23:32:56.5163979Z - 6336 - Debug - Initialising redirection module
+2012-01-12T23:32:56.5163979Z - 6336 - Debug - Initialising redirection module event handlers
+2012-01-12T23:33:46.2823879Z - 6336 - Debug - Disposing Redirection Module
+2012-01-13T03:00:12.5000000Z - 6336 - Debug - Disposing Redirection Module
+2012-01-13T03:00:42.5094244Z - 6336 - Debug - Disposing Redirection Module
+2012-01-13T03:01:12.5265164Z - 6336 - Debug - Disposing Redirection Module
+2012-01-13T03:16:18.0449358Z - 6336 - Debug - Disposing Redirection Module
+2012-01-13T18:37:56.9985093Z - 5836 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-13T18:37:57.0351106Z - 5836 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-13T18:37:57.0851134Z - 5836 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-13T18:38:00.1094803Z - 5836 - Debug - Initialising redirection module
+2012-01-13T18:38:00.1104804Z - 5836 - Debug - Initialising redirection module static fields.
+2012-01-13T18:38:00.1114805Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T18:38:02.5970192Z - 5836 - Info - Loaded 14691 devices using 12720 strings in 2259ms
+2012-01-13T18:38:12.3493311Z - 5836 - Debug - Initialising redirection module
+2012-01-13T18:38:12.3493311Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T18:38:12.3493311Z - 5836 - Debug - Initialising redirection module
+2012-01-13T18:38:12.3493311Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T18:38:12.3503312Z - 5836 - Debug - Initialising redirection module
+2012-01-13T18:38:12.3503312Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T18:38:12.3503312Z - 5836 - Debug - Initialising redirection module
+2012-01-13T18:38:12.3503312Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T18:38:12.3923336Z - 5836 - Debug - Initialising redirection module
+2012-01-13T18:38:12.3923336Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T18:38:23.0651071Z - 5836 - Debug - Initialising redirection module
+2012-01-13T18:38:23.0651071Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T18:38:54.5401475Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T18:39:24.5655775Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T18:39:54.5742221Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T18:40:24.5975402Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T18:40:54.5977619Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T18:41:11.2370454Z - 5836 - Debug - Initialising redirection module
+2012-01-13T18:41:11.2370454Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T18:41:11.2370454Z - 5836 - Debug - Initialising redirection module
+2012-01-13T18:41:11.2370454Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T18:41:11.2770477Z - 5836 - Debug - Initialising redirection module
+2012-01-13T18:41:11.2770477Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T18:41:11.3100495Z - 5836 - Debug - Initialising redirection module
+2012-01-13T18:41:11.3100495Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T18:41:54.6269001Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T18:42:24.6416168Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T18:42:54.6563336Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T18:43:24.6700503Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T18:43:54.6847670Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T19:00:28.0122783Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T19:08:27.3674207Z - 5836 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-13T19:08:27.3834216Z - 5836 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-13T19:08:27.4014226Z - 5836 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-13T19:08:30.8726169Z - 5836 - Debug - Initialising redirection module
+2012-01-13T19:08:30.8746170Z - 5836 - Debug - Initialising redirection module static fields.
+2012-01-13T19:08:30.8756170Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T19:08:33.0987442Z - 5836 - Info - Loaded 14691 devices using 12720 strings in 2101ms
+2012-01-13T19:08:37.7270089Z - 5836 - Debug - Initialising redirection module
+2012-01-13T19:08:37.7270089Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T19:08:37.7270089Z - 5836 - Debug - Initialising redirection module
+2012-01-13T19:08:37.7270089Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T19:08:37.7300091Z - 5836 - Debug - Initialising redirection module
+2012-01-13T19:08:37.7300091Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T19:08:37.7850122Z - 5836 - Debug - Initialising redirection module
+2012-01-13T19:08:37.7850122Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T19:09:25.5717891Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T19:09:55.5848045Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T19:10:25.6101676Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T19:10:55.6252522Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T20:50:45.8276310Z - 4840 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-13T20:50:45.8326313Z - 4840 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-13T20:50:45.9346371Z - 4840 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-13T20:56:51.2158830Z - 5836 - Debug - Initialising redirection module
+2012-01-13T20:56:51.2158830Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T20:56:51.2168831Z - 5836 - Debug - Initialising redirection module
+2012-01-13T20:56:51.2168831Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T20:57:41.7168864Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T20:58:11.7348403Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T21:16:06.6585328Z - 5836 - Debug - Initialising redirection module
+2012-01-13T21:16:06.6585328Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T21:16:06.6585328Z - 5836 - Debug - Initialising redirection module
+2012-01-13T21:16:06.6585328Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T21:16:06.6595328Z - 5836 - Debug - Initialising redirection module
+2012-01-13T21:16:06.6595328Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T21:16:06.6605329Z - 5836 - Debug - Initialising redirection module
+2012-01-13T21:16:06.6605329Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T21:17:12.2852864Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T21:17:42.3002393Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T21:18:12.3149365Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T21:18:42.3296533Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T21:29:48.7770971Z - 5836 - Debug - Initialising redirection module
+2012-01-13T21:29:48.7770971Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T21:29:48.7770971Z - 5836 - Debug - Initialising redirection module
+2012-01-13T21:29:48.7770971Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T21:29:48.7780971Z - 5836 - Debug - Initialising redirection module
+2012-01-13T21:29:48.7780971Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T21:29:48.7780971Z - 5836 - Debug - Initialising redirection module
+2012-01-13T21:29:48.7780971Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T21:29:52.6133165Z - 5836 - Debug - Initialising redirection module
+2012-01-13T21:29:52.6133165Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T21:30:42.6799040Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T21:31:12.6946208Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T21:31:42.7083374Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T21:32:12.7230542Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T21:32:42.7377709Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T21:34:45.1137704Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T22:08:06.1840956Z - 4840 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-13T22:08:06.1870957Z - 4840 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-13T22:08:06.1940961Z - 4840 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-13T22:13:57.4136226Z - 5836 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-13T22:13:57.4176228Z - 5836 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-13T22:13:57.4246232Z - 5836 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-13T22:13:58.7857011Z - 5836 - Debug - Initialising redirection module
+2012-01-13T22:13:58.7877012Z - 5836 - Debug - Initialising redirection module static fields.
+2012-01-13T22:13:58.7887012Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T22:14:00.9268235Z - 5836 - Info - Loaded 14691 devices using 12720 strings in 2039ms
+2012-01-13T22:14:05.7941019Z - 5836 - Debug - Initialising redirection module
+2012-01-13T22:14:05.7941019Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T22:14:05.7941019Z - 5836 - Debug - Initialising redirection module
+2012-01-13T22:14:05.7941019Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T22:14:05.7981021Z - 5836 - Debug - Initialising redirection module
+2012-01-13T22:14:05.7981021Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T22:14:05.7981021Z - 5836 - Debug - Initialising redirection module
+2012-01-13T22:14:05.7981021Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T22:14:55.8829625Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T22:15:25.8966792Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T22:15:55.9113959Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T22:16:12.4113397Z - 5836 - Debug - Initialising redirection module
+2012-01-13T22:16:12.4113397Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T22:16:12.4113397Z - 5836 - Debug - Initialising redirection module
+2012-01-13T22:16:12.4113397Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T22:16:12.4123397Z - 5836 - Debug - Initialising redirection module
+2012-01-13T22:16:12.4133398Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T22:17:25.9555462Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T22:17:55.9702629Z - 5836 - Debug - Disposing Redirection Module
+2012-01-13T22:18:23.3378282Z - 5836 - Debug - Initialising redirection module
+2012-01-13T22:18:23.3378282Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-13T22:18:30.0272109Z - 5836 - Debug - Initialising redirection module
+2012-01-13T22:18:30.0272109Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T02:18:59.5430024Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:03:37.5370021Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:04:07.5377181Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:04:37.5524348Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:13:43.3970216Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:13:43.3970216Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:13:43.3970216Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:13:43.3970216Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:13:43.3980217Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:13:43.3980217Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:15:07.8589291Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:15:37.8735541Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:16:07.8879444Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:19:40.8672517Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:19:40.8672517Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:19:40.8672517Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:19:40.8672517Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:19:40.8672517Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:19:40.8682518Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:19:40.8702519Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:19:40.8702519Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:20:09.5228907Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:20:09.5228907Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:21:08.0342374Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:21:38.0489541Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:22:08.0636709Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:22:38.0773875Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:23:08.0921043Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:24:48.2828349Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:24:48.2828349Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:24:48.2828349Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:24:48.2828349Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:24:48.2828349Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:24:48.2828349Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:24:52.3700686Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:24:52.3700686Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:24:57.8183803Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:24:57.8183803Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:26:38.1941214Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:27:08.2088382Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:27:38.2235549Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:28:05.6451233Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:28:05.6451233Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:28:38.2529884Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:29:08.2677052Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:29:38.2824219Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:47:36.7761082Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:47:36.7761082Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:47:36.7761082Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:47:36.7761082Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:47:36.7881089Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:47:36.7881089Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:48:08.8219411Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:48:38.8366579Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:48:48.4182059Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:48:48.4182059Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:48:48.4182059Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:48:48.4182059Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:48:51.8604028Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:48:51.8604028Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:49:38.8660914Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:50:38.8980420Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:50:54.1604989Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:50:54.1604989Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:50:54.1604989Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:50:54.1604989Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:50:54.1604989Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:50:54.1604989Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:51:38.9246133Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:52:08.9383299Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:52:39.0550059Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:52:40.9035082Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:52:40.9035082Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:52:40.9035082Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:52:40.9035082Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:53:38.9820578Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:54:08.9975929Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:54:39.0114788Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:55:09.0258637Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:56:48.3728170Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:56:48.3728170Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:56:48.3728170Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:56:48.3728170Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:57:39.0993759Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:58:09.1262482Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T09:59:00.3443689Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:59:00.3443689Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:59:00.3443689Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:59:00.3443689Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:59:00.3483691Z - 5836 - Debug - Initialising redirection module
+2012-01-14T09:59:00.3483691Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T09:59:39.1574325Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T10:00:09.1779734Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T10:00:39.1940695Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T18:06:56.6652776Z - 5836 - Debug - Initialising redirection module
+2012-01-14T18:06:56.6652776Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T18:06:56.6652776Z - 5836 - Debug - Initialising redirection module
+2012-01-14T18:06:56.6652776Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T18:06:56.6652776Z - 5836 - Debug - Initialising redirection module
+2012-01-14T18:06:56.6652776Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T18:06:56.6662776Z - 5836 - Debug - Initialising redirection module
+2012-01-14T18:06:56.6662776Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T18:06:56.6692778Z - 5836 - Debug - Initialising redirection module
+2012-01-14T18:06:56.6692778Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T18:07:52.5734438Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T18:08:22.5875465Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T18:08:52.6019990Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T18:09:22.6164737Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T18:09:52.6317150Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T18:15:20.8201673Z - 5836 - Debug - Initialising redirection module
+2012-01-14T18:15:20.8201673Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T18:15:20.8201673Z - 5836 - Debug - Initialising redirection module
+2012-01-14T18:15:20.8201673Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T18:15:20.8201673Z - 5836 - Debug - Initialising redirection module
+2012-01-14T18:15:20.8201673Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T18:15:52.8062391Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T18:16:22.8209559Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T18:16:52.8361662Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T19:57:06.2717707Z - 5836 - Debug - Initialising redirection module
+2012-01-14T19:57:06.2717707Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T19:57:06.2717707Z - 5836 - Debug - Initialising redirection module
+2012-01-14T19:57:06.2717707Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T19:57:06.2717707Z - 5836 - Debug - Initialising redirection module
+2012-01-14T19:57:06.2717707Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T19:57:06.2737708Z - 5836 - Debug - Initialising redirection module
+2012-01-14T19:57:06.2737708Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T19:57:06.2787711Z - 5836 - Debug - Initialising redirection module
+2012-01-14T19:57:06.2787711Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T19:58:16.6877982Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T19:58:46.7025150Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T19:59:16.7162317Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T19:59:46.7309484Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:00:00.6447442Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:00:00.6447442Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:00:00.6447442Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:00:00.6447442Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:00:00.6587450Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:00:00.6587450Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:01:46.7899657Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:02:16.8112252Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:02:46.8284497Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:03:16.8430538Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:08:39.3755436Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:08:39.3755436Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:08:39.3765437Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:08:39.3765437Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:08:39.3945447Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:08:39.3945447Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:08:42.1747037Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:08:42.1747037Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:08:42.1747037Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:08:42.1757038Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:08:57.1306371Z - 5836 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-14T20:08:57.1396377Z - 5836 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-14T20:08:57.1596388Z - 5836 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-14T20:08:59.7395794Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:08:59.7395794Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:08:59.7405795Z - 5836 - Debug - Initialising redirection module static fields.
+2012-01-14T20:08:59.7415796Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:08:59.7415796Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:09:00.4604181Z - 4840 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-14T20:09:00.4694186Z - 4840 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-14T20:09:00.4824193Z - 4840 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-14T20:09:02.2749184Z - 5836 - Info - Loaded 14691 devices using 12720 strings in 2386ms
+2012-01-14T20:09:10.3191759Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:09:10.3191759Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:09:10.3191759Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:09:10.3191759Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:09:10.3191759Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:09:10.3191759Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:09:10.3231761Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:09:10.3231761Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:09:54.1064689Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:10:24.1249424Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:10:54.1490222Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:11:24.1496030Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:11:54.1641822Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:12:34.1169160Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:12:34.1169160Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:12:34.1169160Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:12:34.1169160Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:12:34.1169160Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:12:34.1169160Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:12:34.1169160Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:12:34.1169160Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:12:34.1189161Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:12:34.1189161Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:13:24.2115389Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:13:54.2326558Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:14:24.2489648Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:14:35.3381587Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:14:35.3381587Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:14:35.3391587Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:14:35.3391587Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:14:35.3631601Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:14:35.3631601Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:14:35.6591770Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:14:35.6591770Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:15:24.2709022Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:15:54.2811696Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:16:24.2948863Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:16:54.3096030Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:17:24.3243085Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:17:54.3432544Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:19:48.7316852Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:19:48.7316852Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:19:48.7316852Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:19:48.7316852Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:19:48.7316852Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:19:48.7316852Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:19:48.7326853Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:19:48.7326853Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:19:48.7326853Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:19:48.7326853Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:20:24.4121185Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:20:54.4262967Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:21:24.4416083Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:21:54.4561115Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:22:24.4708283Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:31:31.0430904Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:35:29.3117186Z - 5836 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-14T20:35:29.3257194Z - 5836 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-14T20:35:29.3377201Z - 5836 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-14T20:35:30.2167704Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:35:30.2187705Z - 5836 - Debug - Initialising redirection module static fields.
+2012-01-14T20:35:30.2187705Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:35:32.3498924Z - 5836 - Info - Loaded 14691 devices using 12720 strings in 2076ms
+2012-01-14T20:35:35.1620532Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:35:35.1620532Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:35:35.1620532Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:35:35.1660534Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:35:35.1670535Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:35:35.1670535Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:35:35.1690536Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:35:35.1690536Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:35:35.1700537Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:35:35.1700537Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:36:28.4991039Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:36:58.5128206Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:37:28.5275373Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:37:58.5422541Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:38:28.5569708Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:39:52.9167959Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:39:52.9167959Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:39:52.9167959Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:39:52.9167959Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:39:52.9327969Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:39:52.9327969Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:39:52.9377971Z - 5836 - Debug - Initialising redirection module
+2012-01-14T20:39:52.9377971Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T20:40:28.6146546Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:40:58.6291956Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:41:28.6446086Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T20:41:58.6587636Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:18:29.4169169Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:18:29.4169169Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:18:29.4169169Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:18:29.4169169Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:18:29.4189170Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:18:29.4189170Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:18:29.4189170Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:18:29.4189170Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:19:29.7532599Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:19:59.7679766Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:20:29.7826933Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:20:59.7974101Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:24:31.0261202Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:24:31.0261202Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:24:31.0261202Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:24:31.0261202Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:24:31.0271203Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:24:31.0271203Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:24:31.0451213Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:24:31.0451213Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:25:29.9283033Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:25:59.9470624Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:26:29.9578271Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:26:59.9723125Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:41:08.2837961Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:41:08.2837961Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:41:08.2867963Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:41:08.2867963Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:41:08.2987970Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:41:08.2987970Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:41:08.2997970Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:41:08.2997970Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:41:08.2997970Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:41:08.2997970Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:42:00.4096798Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:42:30.4243965Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:43:00.2591030Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:43:00.2591030Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:43:30.4537781Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:44:00.4681971Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:44:28.8295302Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:44:28.8295302Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:44:28.8395308Z - 5836 - Debug - Initialising redirection module
+2012-01-14T21:44:28.8395308Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-14T21:45:00.4973971Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:45:30.5122818Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:46:00.5269986Z - 5836 - Debug - Disposing Redirection Module
+2012-01-14T21:46:30.5407153Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:45:23.2681654Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:46:32.0250981Z - 5836 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-15T09:46:32.0360987Z - 5836 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-15T09:46:32.1411048Z - 5836 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-15T09:46:41.8476599Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:46:41.8526602Z - 5836 - Debug - Initialising redirection module static fields.
+2012-01-15T09:46:41.8546603Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:46:58.8956350Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:46:58.8956350Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:46:59.2866574Z - 5836 - Info - Loaded 14691 devices using 12720 strings in 17247ms
+2012-01-15T09:47:10.8713200Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:47:10.8713200Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:47:11.0123281Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:47:11.0123281Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:47:11.0193285Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:47:11.0193285Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:47:11.2163397Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:47:11.2163397Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:47:50.8666076Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:48:16.1060512Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:48:16.1070513Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:48:50.8640393Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:49:20.8837563Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:49:50.8924727Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:50:20.9071894Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:50:50.9219062Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:51:23.5937749Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:51:23.5937749Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:51:23.6047755Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:51:23.6047755Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:51:23.7087815Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:51:23.7087815Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:51:23.7337829Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:51:23.7337829Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:51:23.8567899Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:51:23.8567899Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:52:20.9660564Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:52:21.0970639Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:52:21.0970639Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:53:20.9954899Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:53:51.0092066Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:54:21.0239233Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:54:23.7530794Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:54:23.7530794Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:54:23.8180831Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:54:23.8180831Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:54:23.8230834Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:54:23.8230834Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:54:55.4978951Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:54:55.4978951Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:56:10.2071682Z - 4840 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-15T09:56:10.2161688Z - 4840 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-15T09:56:10.2791724Z - 4840 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-15T09:56:21.0827903Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:57:51.1259405Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:57:59.6514281Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:57:59.6524282Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:57:59.8874416Z - 5836 - Debug - Initialising redirection module
+2012-01-15T09:57:59.8874416Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T09:58:51.1553740Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:59:21.1700907Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T09:59:51.1848074Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:00:21.1995242Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:00:51.2142409Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:01:21.2289577Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:03:11.8202831Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:03:11.8202831Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:03:11.8202831Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:03:11.8202831Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:03:11.8212832Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:03:11.8212832Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:03:11.8222832Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:03:11.8222832Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:03:11.8762863Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:03:11.8762863Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:04:21.3162581Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:04:51.3309748Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:05:21.3456916Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:05:51.3594082Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:06:21.3741250Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:12:13.9149072Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:12:13.9149072Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:12:13.9149072Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:12:13.9149072Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:12:51.5643158Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:13:21.5783266Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:13:24.6268716Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:13:24.6268716Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:13:24.6288717Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:13:24.6288717Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:13:24.6298718Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:13:24.6298718Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:13:24.6418725Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:13:24.6418725Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:13:24.7058761Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:13:24.7058761Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:14:21.6081560Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:14:23.4252470Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:14:23.4252470Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:15:21.6368303Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:15:51.6521376Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:16:21.6664405Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:16:51.6811486Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:17:21.6958567Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:23:24.0717618Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:23:24.0717618Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:23:24.0717618Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:23:24.0727618Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:23:24.0737619Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:23:24.0737619Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:23:24.0747619Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:23:24.0747619Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:23:24.0877627Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:23:24.0877627Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:24:21.8996414Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:24:51.9143582Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:25:21.9290749Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:25:51.9437916Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:26:21.9585041Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:31:15.1890956Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:31:15.1890956Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:31:15.1890956Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:31:15.1890956Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:31:15.1900956Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:31:15.1900956Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:31:15.1920958Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:31:15.1920958Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:31:15.2020963Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:31:15.2020963Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:31:15.3171029Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:31:15.3171029Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:32:52.1483516Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:33:22.1626755Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:33:52.1863769Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:34:22.1920579Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:34:52.2066362Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:35:22.2207358Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:36:54.6220627Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:36:54.6220627Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:36:54.6240629Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:36:54.6240629Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:36:54.6240629Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:36:54.6240629Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:36:54.6320633Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:36:54.6320633Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:36:54.6540646Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:36:54.6540646Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:38:22.3086600Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:38:52.3233767Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:39:22.3372874Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:39:52.3520041Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:40:22.3663113Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:46:07.4631356Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:46:07.4631356Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:46:07.4631356Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:46:07.4631356Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:46:07.4641356Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:46:07.4641356Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:46:07.7041493Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:46:07.7041493Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:46:52.5564899Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:47:22.5712579Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:47:52.5858189Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:48:22.5999618Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:51:00.0151525Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:51:00.0151525Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:51:00.0151525Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:51:00.0151525Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:51:52.7026175Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:52:22.7169414Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:54:51.7048264Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:54:51.7048264Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:54:51.7048264Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:54:51.7048264Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:54:51.7048264Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:54:51.7048264Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:54:51.7068265Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:54:51.7068265Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:54:51.7078265Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:54:51.7078265Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:55:22.8046052Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:55:38.4575005Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:55:38.4585005Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:56:22.8340387Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:56:52.8487554Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:56:56.5189653Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:56:56.5189653Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:56:56.5199654Z - 5836 - Debug - Initialising redirection module
+2012-01-15T10:56:56.5199654Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T10:59:22.9213391Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T10:59:52.9360558Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:00:22.9507726Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:00:52.9654893Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:01:22.9792060Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:06:04.2272925Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:06:04.2272925Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:06:04.2272925Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:06:04.2272925Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:06:04.2272925Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:06:04.2272925Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:06:04.2292926Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:06:04.2292926Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:06:04.2292926Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:06:04.2292926Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:06:04.4893074Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:06:04.4893074Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:08:53.1989571Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:09:53.2273905Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:10:23.2421073Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:10:53.2568240Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:11:23.2715407Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:11:53.2862575Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:12:00.5226714Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:12:00.5226714Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:12:00.5236714Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:12:00.5236714Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:12:00.5236714Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:12:00.5236714Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:12:00.5236714Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:12:00.5236714Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:12:00.5246715Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:12:00.5246715Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:12:51.6405952Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:12:51.6405952Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:14:23.3588411Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:14:53.3735579Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:15:23.3882746Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:15:53.4029914Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:16:23.4177081Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:16:53.4324249Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:21:13.0332732Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:21:13.0332732Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:21:13.0332732Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:21:13.0332732Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:21:13.0332732Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:21:13.0332732Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:21:13.0332732Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:21:13.0332732Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:21:13.0382735Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:21:13.0382735Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:22:23.5923089Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:22:53.6070257Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:23:23.6217424Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:23:53.6364592Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:24:11.5474836Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:24:11.5474836Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:24:11.5474836Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:24:11.5474836Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:24:11.5474836Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:24:11.5474836Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:24:11.5584842Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:24:11.5584842Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:24:53.6658926Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:24:55.8570180Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:24:55.8570180Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:26:23.7090428Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:26:37.1718128Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:26:37.1718128Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:27:23.7384763Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:27:53.7531931Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:28:23.7679098Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:28:53.7826265Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:29:23.7963432Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:33:34.1916650Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:33:34.1916650Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:33:34.1916650Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:33:34.1916650Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:33:34.1916650Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:33:34.1916650Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:33:34.1926651Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:33:34.1926651Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:33:34.1956652Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:33:34.1956652Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:33:34.3756755Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:33:34.3756755Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:34:23.9425106Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:34:53.9572274Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:35:23.9719441Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:35:53.9866608Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:36:24.0013776Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:36:54.0160943Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:39:16.2222281Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:39:16.2222281Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:39:16.2222281Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:39:16.2222281Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:39:16.2232281Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:39:16.2232281Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:39:16.2242282Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:39:16.2242282Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:39:16.3322343Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:39:16.3322343Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:39:54.1033947Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:40:24.1181115Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:40:54.1328282Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:41:24.1465449Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:41:54.1612616Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:53:08.3688241Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:53:08.3688241Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:53:08.3688241Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:53:08.3688241Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:53:08.3718243Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:53:08.3718243Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:53:08.3718243Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:53:08.3718243Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:53:08.4918311Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:53:08.4918311Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:54:24.5261801Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:54:54.5408968Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:55:24.5556136Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:55:54.5703303Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:56:08.9671537Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:56:08.9671537Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:56:08.9681538Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:56:08.9681538Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:56:08.9691539Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:56:08.9691539Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:56:09.0481584Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:56:09.0481584Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:56:54.5997638Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:57:24.6144805Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:57:54.6281972Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:57:58.8134366Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:57:58.8134366Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:57:59.7904925Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:57:59.7904925Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:57:59.7914925Z - 5836 - Debug - Initialising redirection module
+2012-01-15T11:57:59.7914925Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T11:59:24.6723474Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T11:59:54.6870642Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:00:04.2776127Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:00:04.2776127Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:00:04.2776127Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:00:04.2776127Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:00:04.5266270Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:00:04.5266270Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:00:54.7164977Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:01:24.7312144Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:01:54.7449311Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:02:24.7596478Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:02:54.7743646Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:03:24.7890813Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:12:26.6020713Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:12:26.6020713Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:12:26.6020713Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:12:26.6020713Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:12:26.6020713Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:12:26.6020713Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:12:26.6020713Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:12:26.6020713Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:12:26.6030713Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:12:26.6030713Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:12:26.7810815Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:12:26.7810815Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:13:25.0814161Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:13:55.0951328Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:14:25.1098495Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:14:55.1245663Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:15:08.7493456Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:15:08.7493456Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:15:08.7693467Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:15:08.7693467Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:15:08.8723526Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:15:08.8723526Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:15:55.1539998Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:16:00.2112890Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:16:00.2112890Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:17:25.1981500Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:17:55.2118667Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:18:25.2265834Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:18:41.4705125Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:18:41.4705125Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:18:41.4715126Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:18:41.4715126Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:18:41.5005142Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:18:41.5005142Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:20:25.2854504Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:20:28.5186353Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:20:28.5186353Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:21:05.4537479Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:21:05.4537479Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:21:05.4537479Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:21:05.4537479Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:21:05.4537479Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:21:05.4537479Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:21:21.2956540Z - 5836 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-15T12:21:21.3056546Z - 5836 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-15T12:21:21.3286559Z - 5836 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-15T12:21:24.3988315Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:21:24.4018317Z - 5836 - Debug - Initialising redirection module static fields.
+2012-01-15T12:21:24.4028317Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:21:26.8319706Z - 5836 - Info - Loaded 14691 devices using 12720 strings in 2354ms
+2012-01-15T12:21:30.2261648Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:21:30.2261648Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:21:30.2261648Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:21:30.2261648Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:21:30.2271648Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:21:30.2271648Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:21:30.2281649Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:21:30.2281649Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:21:30.3921743Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:21:30.3921743Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:22:50.7557708Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:23:20.7704876Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:23:50.7852043Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:24:20.7999210Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:24:47.4964480Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:24:47.4964480Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:24:47.4964480Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:24:47.4964480Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:24:47.4974481Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:24:47.4974481Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:24:47.4964480Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:24:47.4974481Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:25:50.8440713Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:26:20.8587880Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:26:50.8725047Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:27:20.8872215Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:27:50.9019382Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:29:47.4396038Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:29:47.4396038Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:29:47.4396038Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:29:47.4396038Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:29:47.4396038Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:29:47.4396038Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:29:47.4396038Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:29:47.4396038Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:29:47.4856064Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:29:47.4856064Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:30:20.9755219Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:30:27.1088727Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:30:27.1088727Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:31:51.0186721Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:31:52.7317701Z - 5836 - Debug - Initialising redirection module
+2012-01-15T12:31:52.7317701Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T12:32:51.0481056Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:33:21.0628223Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:33:51.0775391Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:34:21.0922558Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T12:34:51.1059725Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T13:49:17.9080265Z - 5836 - Debug - Initialising redirection module
+2012-01-15T13:49:17.9080265Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T13:49:17.9080265Z - 5836 - Debug - Initialising redirection module
+2012-01-15T13:49:17.9080265Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T13:49:17.9080265Z - 5836 - Debug - Initialising redirection module
+2012-01-15T13:49:17.9080265Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T13:49:17.9100266Z - 5836 - Debug - Initialising redirection module
+2012-01-15T13:49:17.9100266Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T13:49:17.9120267Z - 5836 - Debug - Initialising redirection module
+2012-01-15T13:49:17.9120267Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T13:50:09.1149554Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T13:50:39.1286720Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T13:51:09.1433888Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T13:51:39.1571055Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T13:52:09.1768225Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T13:53:21.8269779Z - 5836 - Debug - Initialising redirection module
+2012-01-15T13:53:21.8269779Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T13:53:21.8269779Z - 5836 - Debug - Initialising redirection module
+2012-01-15T13:53:21.8269779Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T13:53:21.8269779Z - 5836 - Debug - Initialising redirection module
+2012-01-15T13:53:21.8269779Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T13:53:21.8279779Z - 5836 - Debug - Initialising redirection module
+2012-01-15T13:53:21.8279779Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T13:53:21.8849812Z - 5836 - Debug - Initialising redirection module
+2012-01-15T13:53:21.8849812Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T13:54:09.2306892Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T13:54:35.9262161Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T13:54:35.9262161Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T13:54:35.9262161Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T13:54:35.9262161Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T13:54:35.9262161Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T13:56:12.7717553Z - 5836 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-15T13:56:12.7807559Z - 5836 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-15T13:56:12.7927565Z - 5836 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-15T13:56:15.7149237Z - 5836 - Debug - Initialising redirection module
+2012-01-15T13:56:15.7149237Z - 5836 - Debug - Initialising redirection module
+2012-01-15T13:56:15.7149237Z - 5836 - Debug - Initialising redirection module
+2012-01-15T13:56:15.7169238Z - 5836 - Debug - Initialising redirection module static fields.
+2012-01-15T13:56:15.7179239Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T13:56:15.7179239Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T13:56:15.7179239Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T13:56:18.1140609Z - 5836 - Info - Loaded 14691 devices using 12720 strings in 2265ms
+2012-01-15T13:57:12.4691698Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T13:57:42.4838866Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T14:05:53.0753217Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T14:06:02.9371050Z - 5836 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-15T14:06:02.9471056Z - 5836 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-15T14:06:02.9961084Z - 5836 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-15T14:06:03.7451512Z - 4840 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-15T14:06:03.7551518Z - 4840 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Users\Steve Elliott\Documents\Visual Studio 2010\Projects\tegud-net\TegudMVC3\App_Data\51Degrees.mobi.config'.
+2012-01-15T14:06:03.7721528Z - 4840 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-01-15T14:06:06.6387133Z - 5836 - Debug - Initialising redirection module
+2012-01-15T14:06:06.6397133Z - 5836 - Debug - Initialising redirection module static fields.
+2012-01-15T14:06:06.6407134Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T14:06:08.9992448Z - 5836 - Info - Loaded 14691 devices using 12720 strings in 2289ms
+2012-01-15T14:06:15.7111760Z - 5836 - Debug - Initialising redirection module
+2012-01-15T14:06:15.7111760Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T14:06:15.7421778Z - 5836 - Debug - Initialising redirection module
+2012-01-15T14:06:15.7421778Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T14:06:15.7421778Z - 5836 - Debug - Initialising redirection module
+2012-01-15T14:06:15.7421778Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T14:06:15.7421778Z - 5836 - Debug - Initialising redirection module
+2012-01-15T14:06:15.7421778Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T14:06:15.7431778Z - 5836 - Debug - Initialising redirection module
+2012-01-15T14:06:15.7431778Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T14:07:02.5478549Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T14:07:32.5575714Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T14:08:02.5722881Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T14:08:32.5870048Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T14:09:02.6017216Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T14:11:53.3094855Z - 5836 - Debug - Initialising redirection module
+2012-01-15T14:11:53.3094855Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T14:11:53.3104856Z - 5836 - Debug - Initialising redirection module
+2012-01-15T14:11:53.3104856Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T14:11:53.3104856Z - 5836 - Debug - Initialising redirection module
+2012-01-15T14:11:53.3104856Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T14:11:53.3104856Z - 5836 - Debug - Initialising redirection module
+2012-01-15T14:11:53.3104856Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T14:11:53.4654944Z - 5836 - Debug - Initialising redirection module
+2012-01-15T14:11:53.4654944Z - 5836 - Debug - Initialising redirection module event handlers
+2012-01-15T14:12:32.7037387Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T14:13:02.7224557Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T14:13:32.7331722Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T14:14:02.7468889Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T14:14:32.7616056Z - 5836 - Debug - Disposing Redirection Module
+2012-01-15T14:22:55.4263564Z - 5836 - Debug - Disposing Redirection Module

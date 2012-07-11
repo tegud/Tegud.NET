@@ -1,0 +1,386 @@
+﻿@model TegudData.ViewModels.Stuff.StuffViewModel
+@{
+    ViewBag.Title = "Steve Elliott's Blog - jQuery, .NET C# and other geeky stuff";
+    Layout = "~/Views/Shared/_SingleColumn.cshtml";
+}
+<h2>The Librarian</h2>
+    
+<div id="StuffFilters">
+    <h3>Admin</h3>
+    <ul id="AdminOptions" class="RadioList">
+        <li class="icon-item add-new-item">Add New Item</li>
+        <!--<li class="icon-item scan-new-item">Scan New Item</li>-->
+    </ul>
+    
+    <h3>Filter</h3>
+
+    <label for="ItemName" id="ItemNameLabel">By Name: </label>
+    <input type="text" class="stuff-name-field" id="ItemName" value="@Model.Name" />
+    
+    <label class="ListLabel">Views:</label>
+    <ul class="views-list RadioList">
+        @foreach(var view in Model.StuffViews)
+        {
+            <li data-value="@view.ID" class="@(view.CurrentClass)">@view.Name</li>
+        }
+    </ul>
+    
+    <div>
+        <ul class="RadioList category-multi-options">
+            <li class="SelectAll enabled">All</li>
+            <li class="SelectNone">None</li>
+        </ul>
+        <label class="ListLabel">Categories:</label>
+    </div>
+    <ul class="category-list RadioList">
+        @foreach (var category in Model.Categories)
+        {
+            <li class="@category.UniqueSafeName icon-item enabled" data-value="@category.Name" data-id="@category.ID">@category.Name</li>
+        }
+    </ul>
+</div>
+
+<ul id="StuffContainer">
+    
+</ul>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        (function () {
+            require(['tegud/checkboxList', 'tegud/dialog', 'librarian/main'], function() {
+                TEGUD.Librarian.setParameters();
+
+                $(function() {
+                    TEGUD.Librarian
+                        .bindGrid($('#StuffContainer'))
+                        .bindControls($('#StuffFilters'));
+                });
+
+                return;
+                var uiSetupDeferred = $.Deferred(),
+                    listContainer,
+                    update,
+                    nameField,
+                    categoryList,
+                    viewList,
+                    librarianParams = { },
+                    paramChangeDebounceTimeout,
+                    paramChangeDebounce = 250,
+                    setParams = function() {
+                        if (paramChangeDebounceTimeout) {
+                            clearTimeout(paramChangeDebounceTimeout);
+                            paramChangeDebounceTimeout = null;
+                        }
+
+                        paramChangeDebounceTimeout = setTimeout(function() {
+                            librarianParams = {
+                                name: nameField.val(),
+                                categories: categoryList.getSelectedValues(),
+                                categoryOrView: viewList.getSelectedValues()
+                            };
+
+                            update();
+                        }, paramChangeDebounce);
+                    };
+
+                update = function() {
+                    console.log('Loading stuff items, with parameters: ' + JSON.stringify(librarianParams));
+
+                    if (!librarianParams.categories) {
+                        listContainer.html('');
+                        return;
+                    }
+
+                    $.ajax({
+                        url: '/api/librarian',
+                        data: librarianParams,
+                        success: function(data) {
+                            console.log('Stuff items loaded');
+
+                            $.when(TEGUD.pageLoadDeferred, uiSetupDeferred).then(function() {
+                                console.log('Rendering stuff items.');
+
+                                listContainer.html($.map(data, function(item) {
+                                    return '<li'
+                                        + ' data-stuff-item-id="' + item.Id + '"'
+                                            + (item.LentTo ? ' data-stuff-item-lent-to="' + item.LentTo + '"' : '')
+                                                + ' data-stuff-item-category="' + item.StuffCategory.Name + '"' + '>'
+                                                    + '<div class="item-category-icon stuff-category-type ' + item.StuffCategory.UniqueSafeName + '" title="' + item.StuffCategory.Name + '"></div>'
+                                                        + '<div class="item-status-icon stuff-status' + (item.LentTo ? ' lent-out' : '') + '" title="' + (item.LentTo ? item.LentTo : 'At Home') + '">' + (item.LentTo || 'At Home') + '</div>'
+                                                            + item.Name
+                                                                + '</li>';
+                                }).join(''));
+                            });
+                        }
+                    });
+                };
+
+                update();
+
+                $.when(TEGUD.pageLoadDeferred).then(function() {
+                    var categoriesUl = $('#CategoryList'),
+                        viewsUl = $('#ViewsList'),
+                        addNewDialog;
+
+                    categoryList = new TEGUD.CheckboxList(categoriesUl);
+                    viewList = new TEGUD.CheckboxList(viewsUl, {
+                        singleSelect: true
+                    });
+
+                    $('#CategoryMultiOptions')
+                        .on('click', '.SelectAll', function() {
+                            $(this)
+                                .addClass('enabled')
+                                .siblings()
+                                .removeClass('enabled');
+
+                            categoriesUl.children().addClass('enabled');
+                            setParams();
+                        })
+                        .on('click', '.SelectNone', function() {
+                            $(this)
+                                .addClass('enabled')
+                                .siblings()
+                                .removeClass('enabled');
+
+                            categoriesUl.children().removeClass('enabled');
+                            setParams();
+                        });
+
+                    categoriesUl.add(viewsUl).on('click', 'li', setParams);
+
+                    $('#AddNewItem').on('click', function() {
+                        var dialogContent,
+                            dialogCategoryList,
+                            dialogCategoryListUl,
+                            selectedCategories,
+                            closeDialog,
+                            newNameField,
+                            addNewItem,
+                            clearForm,
+                            dialogMessage,
+                            itemsAdded = 0,
+                            addInProgress,
+                            sizeDialogMessage = function() {
+                                dialogMessage[dialogMessage.height() > 20 ? 'addClass' : 'removeClass']('dialog-message-two-lines');
+                            },
+                            setDialogErrorMessage = function(message) {
+                                dialogMessage
+                                    .text(message)
+                                    .addClass('dialog-error-message');
+                                sizeDialogMessage();
+                            },
+                            setDialogInformationMessage = function(message) {
+                                dialogMessage
+                                    .text(message)
+                                    .removeClass('dialog-error-message');
+                                sizeDialogMessage();
+                            };
+
+                        if (addNewDialog) {
+                            return;
+                        }
+
+                        dialogContent = $('<div class="dialog-add-item"></div>')
+                            .append("<h3>Name</h3>")
+                            .append(newNameField = $("<input type=\"text\" class=\"stuff-name-field\" />"))
+                            .append("<h3>Category</h3>");
+
+                        dialogCategoryListUl = $('<ul class="RadioList category-list">' + categoriesUl.html() + '</ul>')
+                            .appendTo(dialogContent);
+
+                        dialogMessage = $('<div class="dialog-item-added-message"></div>').appendTo(dialogContent);
+
+                        selectedCategories = dialogCategoryListUl.children('.enabled');
+                        if (selectedCategories.size() > 1) {
+                            selectedCategories.removeClass('enabled');
+                        }
+
+                        dialogCategoryList = new TEGUD.CheckboxList(dialogCategoryListUl, {
+                            singleSelect: true
+                        });
+
+                        closeDialog = function() {
+                            addNewDialog.close();
+                            addNewDialog = undefined;
+
+                            if (itemsAdded) {
+                                update();
+                            }
+                        };
+
+                        newNameField.on('keydown', function(e) {
+                            if (e.keyCode !== 13) {
+                                return;
+                            }
+
+                            addNewItem();
+                        });
+
+                        clearForm = function() {
+                            newNameField
+                                .val('')
+                                .trigger('focus');
+                        };
+
+                        addNewItem = function() {
+                            if (addInProgress) {
+                                console.log('Item already being added.');
+                                setDialogErrorMessage('Already adding item');
+                                return;
+                            }
+
+                            var newItem = {
+                                name: newNameField.val(),
+                                category: dialogCategoryList.getSelectedIds()[0]
+                            };
+
+                            if (!newItem.name || !newItem.category) {
+                                setDialogErrorMessage(!newItem.name ? 'Enter name' : 'Select category');
+                                return;
+                            }
+
+                            addInProgress = true;
+
+                            console.log('Attempting to add item: ' + JSON.stringify(newItem));
+                            setDialogInformationMessage('Adding...');
+
+                            $.ajax({
+                                url: '/api/librarian',
+                                data: newItem,
+                                type: 'POST',
+                                success: function() {
+                                    console.log('Item added...');
+                                    addInProgress = false;
+                                    itemsAdded++;
+
+                                    setDialogInformationMessage(itemsAdded + ' item' + (itemsAdded > 1 ? 's' : '') + ' added');
+                                    dialogContent.parents('.dialog-content').find('.button-icon-cancel').text('Done');
+
+                                    clearForm();
+                                }
+                            });
+                        };
+
+                        addNewDialog = new TEGUD.Dialog(dialogContent, {
+                            width: 300,
+                            height: 380,
+                            title: 'Add New Item',
+                            titleIcon: 'icon-item add-new-item',
+                            buttons: [
+                                {
+                                    text: 'Cancel',
+                                    iconClass: 'icon-item button-icon-cancel',
+                                    action: function() {
+                                        if (addInProgress) {
+                                            console.log('Item add in progress.');
+                                            setDialogErrorMessage('Adding item');
+                                            return;
+                                        }
+
+                                        closeDialog();
+                                    }
+                                },
+                                {
+                                    text: 'Add',
+                                    iconClass: 'icon-item add-new-item',
+                                    action: addNewItem
+                                }]
+                        });
+                    });
+
+                    listContainer = $('#StuffContainer');
+                    nameField = $('#ItemName');
+
+                    nameField.on('keydown', setParams);
+
+                    uiSetupDeferred.resolve();
+                });
+            });
+        })();
+    </script>
+}
+
+@section Style {
+    <style type="text/css">
+        #StuffFilters h3 { font-size: 1.8em;clear: left;}
+
+        .stuff-name-field { width: 250px;font-size: 1.75em; }
+
+        .dialog-content .stuff-name-field { width: 280px;margin-bottom: 10px; }
+
+        .RadioList { list-style: none;margin: 0;padding: 5px 0; }
+        .RadioList > li { margin-right: 5px;padding: 8px 10px 7px 10px; float: left;cursor: pointer;background-color: #ddd;border-radius: 30px; }
+        .ListLabel { clear: left;display: block;padding: 10px 0; }
+        
+        .RadioList > li.enabled { background-color: #999; }
+        
+        .views-list { margin-bottom: 5px; }
+
+        .stuff-category-type,
+        .stuff-status { background-image: url('/content/icons/librarian_tileicons_black.png');background-repeat: no-repeat; }
+
+        .RadioList > .icon-item,
+        .icon-item { padding-left: 36px; background-image: url('/content/icons/librarian_tileicons_black.png');background-repeat: no-repeat; }
+
+        .add-new-item { background-position: 0 -448px; }
+
+        .category-list > li.BluRayFilm { background-position: 0 -192px; }
+        .category-list > li.BluRayTV { background-position: 0 -224px; }
+        .category-list > li.DVDFilm { background-position: 0 -256px; }
+        .category-list > li.DVDTV { background-position: 0 -288px; }
+        .category-list > li.Book { background-position: 0 -352px; }
+        .category-list > li.GameXbox360 {background-position: 0 -320px;}
+
+        .category-list > li.enabled.BluRayFilm,
+        .category-list > li.BluRayFilm:hover,
+        #StuffContainer .item-category-icon.BluRayFilm { background-position: 0 0; }
+        .category-list > li.enabled.BluRayTV,
+        .category-list > li.BluRayTV:hover,
+        #StuffContainer .item-category-icon.BluRayTV { background-position: 0 -32px; }
+        .category-list > li.enabled.DVDFilm,
+        .category-list > li.DVDFilm:hover,
+        #StuffContainer .item-category-icon.DVDFilm { background-position: 0 -64px; }
+        .category-list > li.enabled.DVDTV,
+        .category-list > li.DVDTV:hover,
+        #StuffContainer .item-category-icon.DVDTV { background-position: 0 -96px; }
+        .category-list > li.enabled.Book,
+        .category-list > li.Book:hover,
+        #StuffContainer .item-category-icon.Book { background-position: 0 -160px; }
+        .category-list > li.enabled.GameXbox360,
+        .category-list > li.GameXbox360:hover,
+        #StuffContainer .item-category-icon.GameXbox360 {background-position: 0 -128px;}
+
+        .stuff-status { background-position: 0 -384px; }
+
+        .lent-out { background-position: 0 -416px; }
+
+        #StuffContainer { clear: both;padding: 36px 0 0 0; }
+
+        #StuffContainer > li { margin: 0 2px 4px 2px;background-color: #ddd;border-radius: 15px;padding: 11px 5px 5px 42px;position: relative; width: 147px;height: 100px;cursor: pointer; }
+        #StuffContainer .item-category-icon { position: absolute;top: 5px;left: 5px;width: 32px;height: 32px; }
+        #StuffContainer .item-status-icon { position: absolute;bottom: 5px;left: 5px;height: 25px;padding: 7px 0 0 38px; }
+
+        .category-multi-options { float: right;margin-top: 20px; }
+
+        .dialog-inner-content .category-list > li {  float: none;margin-bottom: 3px;width: auto; }
+
+        .dialog-add-item { position: relative; }
+
+        .dialog-item-added-message { position: absolute; width: 100px;bottom: -25px;padding-left: 7px; }
+
+        .dialog-message-two-lines { bottom: -32px; }
+
+        .dialog-error-message { color: #f00; }
+
+        @("@media screen and (max-width:800px) ")
+        {
+            .RadioList > li { float: none;margin-bottom: 3px; }
+            .category-multi-options { display: none; }
+            .category-multi-options > li { float: left; }
+            #ItemName { width: 98%;}
+            #StuffContainer > li {display: block;width: auto; }
+        }
+    </style>
+}

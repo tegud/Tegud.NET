@@ -1,0 +1,9 @@
+﻿@model IEnumerable<TegudData.ViewModels.Blog.TagCloudViewModel>
+    <article id="TagCloud">
+        <h3>Tag Cloud</h3>
+        <ul>
+            @foreach (var tag in Model)
+            { 
+                <li style="font-size: @(tag.FontSize)em;" class="TagCloudItem"><a href="/Tags/@tag.Link">@(tag.Name)</a></li>
+            }        </ul>    </article>
+

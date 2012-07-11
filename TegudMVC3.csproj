@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{58F23EEA-0AE3-403B-8447-F0FDBEB2C8BD}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TegudMVC3</RootNamespace>
+    <AssemblyName>TegudMVC3</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotNetOpenAuth">
+      <HintPath>..\..\..\..\..\Downloads\DotNetOpenAuth-4.0.1.12097\DotNetOpenAuth-4.0.1.12097\Bin\DotNetOpenAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.4.1.10715.0\lib\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Glimpse.Core, Version=0.85.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Glimpse.0.85\lib\net40\Glimpse.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Glimpse.Mvc3, Version=0.85.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Glimpse.Mvc3.0.85\lib\net40\Glimpse.Mvc3.dll</HintPath>
+    </Reference>
+    <Reference Include="MarkdownSharp">
+      <HintPath>..\packages\MarkdownSharp.1.13.0.0\lib\35\MarkdownSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="MiniProfiler, Version=2.0.2.0, Culture=neutral, PublicKeyToken=b44f9351044011a3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MiniProfiler.2.0.2\lib\net40\MiniProfiler.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap, Version=2.6.3.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\structuremap.2.6.3\lib\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Json, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\System.Json.4.0.20126.16343\lib\net40\System.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\System.Net.Http.2.0.20126.16343\lib\net40\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\System.Net.Http.Formatting.4.0.20126.16343\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\System.Net.Http.2.0.20126.16343\lib\net40\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\AspNetMvc.4.0.20126.16343\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\AspNetWebPages.Core.2.0.20126.16343\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\AspNetWebPages.Core.2.0.20126.16343\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\AspNetWebPages.Core.2.0.20126.16343\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\AspNetWebPages.Core.2.0.20126.16343\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\AspNetWebApi.Core.4.0.20126.16343\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\System.Web.Http.Common.4.0.20126.16343\lib\net40\System.Web.Http.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\AspNetWebApi.4.0.20126.16343\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\AspNetRazor.Core.2.0.20126.16343\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebActivator, Version=1.4.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\WebActivator.1.4.3\lib\net40\WebActivator.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\StructuremapMvc.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\BlogController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LibrarianController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\RoryController.cs" />
+    <Compile Include="Controllers\StuffController.cs" />
+    <Compile Include="DependencyResolution\IoC.cs" />
+    <Compile Include="DependencyResolution\SmDependencyResolver.cs" />
+    <Compile Include="DependencyResolution\StructureMapControllerActivator.cs" />
+    <Compile Include="DependencyResolution\TegudRegistry.cs" />
+    <Compile Include="ExtendedControllers\BaseTegudApiController.cs" />
+    <Compile Include="ExtendedControllers\TegudControllerBase.cs" />
+    <Compile Include="Filters\AjaxException.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\HtmlHelpers.cs" />
+    <Compile Include="MediaTypeFormatters\JsonNetFormatter.cs" />
+    <Compile Include="Models\Auth.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Results\JsonNetResult.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Readme\glimpse.mvc3.readme.txt" />
+    <Content Include="App_Readme\glimpse.readme.txt" />
+    <Content Include="Content\datepicker\css\datepicker.css" />
+    <Content Include="Content\datepicker\images\custom_b.png" />
+    <Content Include="Content\datepicker\images\custom_bl.png" />
+    <Content Include="Content\datepicker\images\custom_br.png" />
+    <Content Include="Content\datepicker\images\custom_l.png" />
+    <Content Include="Content\datepicker\images\custom_r.png" />
+    <Content Include="Content\datepicker\images\custom_t.png" />
+    <Content Include="Content\datepicker\images\custom_tl.png" />
+    <Content Include="Content\datepicker\images\custom_tr.png" />
+    <Content Include="Content\datepicker\images\datepicker_b.png" />
+    <Content Include="Content\datepicker\images\datepicker_bl.png" />
+    <Content Include="Content\datepicker\images\datepicker_br.png" />
+    <Content Include="Content\datepicker\images\datepicker_l.png" />
+    <Content Include="Content\datepicker\images\datepicker_r.png" />
+    <Content Include="Content\datepicker\images\datepicker_t.png" />
+    <Content Include="Content\datepicker\images\datepicker_tl.png" />
+    <Content Include="Content\datepicker\images\datepicker_tr.png" />
+    <Content Include="Content\datepicker\images\field.png" />
+    <Content Include="Content\icons\archive.png" />
+    <Content Include="Content\icons\archive2.png" />
+    <Content Include="Content\icons\archive2_black.png" />
+    <Content Include="Content\icons\archive3.png" />
+    <Content Include="Content\icons\archive3_black.png" />
+    <Content Include="Content\icons\archive_black.png" />
+    <Content Include="Content\icons\arrows.png" />
+    <Content Include="Content\icons\arrows_black.png" />
+    <Content Include="Content\icons\blog-icons.png" />
+    <Content Include="Content\icons\blog.png" />
+    <Content Include="Content\icons\blog_black.png" />
+    <Content Include="Content\icons\Checkbox_Blue.png" />
+    <Content Include="Content\icons\Checkbox_Blue_Toggler.png" />
+    <Content Include="Content\icons\checkbox_checked.png" />
+    <Content Include="Content\icons\chrome.png" />
+    <Content Include="Content\icons\cloud.png" />
+    <Content Include="Content\icons\cloud_black.png" />
+    <Content Include="Content\icons\comments.png" />
+    <Content Include="Content\icons\comments_black.png" />
+    <Content Include="Content\icons\firefox.png" />
+    <Content Include="Content\icons\glyphicons_136_computer_locked.png" />
+    <Content Include="Content\icons\HTML5.png" />
+    <Content Include="Content\icons\HTML5_Logo_48.png" />
+    <Content Include="Content\icons\IE.png" />
+    <Content Include="Content\icons\librarian_tileicons_black.png" />
+    <Content Include="Content\icons\opera.png" />
+    <Content Include="Content\icons\photos.png" />
+    <Content Include="Content\icons\photos_black.png" />
+    <Content Include="Content\icons\reset_filter.png" />
+    <Content Include="Content\icons\tileicons.png" />
+    <Content Include="Content\icons\tileicons_black.png" />
+    <Content Include="Content\icons\twitter.png" />
+    <Content Include="Content\icons\twitter_black.png" />
+    <Content Include="Content\icons\ViewDemo.png" />
+    <Content Include="Content\icons\ViewDemo_black.png" />
+    <Content Include="Content\Media\Header Images\Amsterdam.jpg" />
+    <Content Include="Content\openid\images\aolW.png" />
+    <Content Include="Content\openid\images\blogger.png" />
+    <Content Include="Content\openid\images\claimid.png" />
+    <Content Include="Content\openid\images\facebookW.png" />
+    <Content Include="Content\openid\images\fadegrey.png" />
+    <Content Include="Content\openid\images\flickr.png" />
+    <Content Include="Content\openid\images\flickrW.png" />
+    <Content Include="Content\openid\images\googleB.png" />
+    <Content Include="Content\openid\images\googleW.png" />
+    <Content Include="Content\openid\images\livejournal.png" />
+    <Content Include="Content\openid\images\myopenid.png" />
+    <Content Include="Content\openid\images\myopenidB.png" />
+    <Content Include="Content\openid\images\myopenidW.png" />
+    <Content Include="Content\openid\images\myspaceW.png" />
+    <Content Include="Content\openid\images\openidB.png" />
+    <Content Include="Content\openid\images\openidico.png" />
+    <Content Include="Content\openid\images\openidW.png" />
+    <Content Include="Content\openid\images\technorati.png" />
+    <Content Include="Content\openid\images\verisign.png" />
+    <Content Include="Content\openid\images\vidoop.png" />
+    <Content Include="Content\openid\images\wordpress.png" />
+    <Content Include="Content\openid\images\yahooB.png" />
+    <Content Include="Content\openid\images\yahooW.png" />
+    <Content Include="Content\openid\openid.css" />
+    <Content Include="Content\Pagedown\Pagedown.css" />
+    <Content Include="Content\Pagedown\wmd-buttons.png" />
+    <Content Include="Content\redmond\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\redmond\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="Content\redmond\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="Content\redmond\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="Content\redmond\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\redmond\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Content\redmond\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="Content\redmond\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Content\redmond\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="Content\redmond\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\redmond\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="Content\redmond\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="Content\redmond\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\redmond\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Content\redmond\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="Content\redmond\jquery-ui-1.8.13.custom.css" />
+    <Content Include="Content\ScriptHighlighter\sh.css" />
+    <Content Include="Content\ScriptHighlighter\help.png" />
+    <Content Include="Content\ScriptHighlighter\magnifier.png" />
+    <Content Include="Content\ScriptHighlighter\page_white_code.png" />
+    <Content Include="Content\ScriptHighlighter\page_white_copy.png" />
+    <Content Include="Content\ScriptHighlighter\printer.png" />
+    <Content Include="Content\ScriptHighlighter\shCore.css" />
+    <Content Include="Content\ScriptHighlighter\shThemeDefault.css" />
+    <Content Include="Content\ScriptHighlighter\shThemeDjango.css" />
+    <Content Include="Content\ScriptHighlighter\shThemeEclipse.css" />
+    <Content Include="Content\ScriptHighlighter\shThemeEmacs.css" />
+    <Content Include="Content\ScriptHighlighter\shThemeFadeToGrey.css" />
+    <Content Include="Content\ScriptHighlighter\shThemeMidnight.css" />
+    <Content Include="Content\ScriptHighlighter\shThemeRDark.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\Archive\Blog\base.js" />
+    <Content Include="Scripts\Archive\Sidebar\base.js" />
+    <Content Include="Scripts\Archive\Sidebar\Blog\BlogArchive.js" />
+    <Content Include="Scripts\Archive\Sidebar\Browser\base.js" />
+    <Content Include="Scripts\Archive\Sidebar\Twitter\Twitter.js" />
+    <Content Include="Scripts\Blog\base.js" />
+    <Content Include="Scripts\app.build.js" />
+    <Content Include="Scripts\datepicker.js" />
+    <Content Include="Scripts\Forms\timeValidator.js" />
+    <Content Include="Scripts\Forms\currentTime.js" />
+    <Content Include="Scripts\Forms\dateValidator.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\Forms\base.js" />
+    <Content Include="Scripts\Forms\fieldValidators.js" />
+    <Content Include="Scripts\Forms\validateMessage.js" />
+    <Content Include="Scripts\Forms\validator.js" />
+    <Content Include="Scripts\Pagedown\Markdown.Converter.js" />
+    <Content Include="Scripts\Pagedown\Markdown.Editor.js" />
+    <Content Include="Scripts\Pagedown\Markdown.Sanitizer.js" />
+    <Content Include="Scripts\PhotoGrid\GridAnimations.js" />
+    <Content Include="Scripts\PhotoGrid\PhotoGridHeaderImageLayout.js" />
+    <Content Include="Scripts\PhotoGrid\PhotoGridCellLayout.js" />
+    <Content Include="Scripts\PhotoGrid\HeaderImagePosition.js" />
+    <Content Include="Scripts\Rory\base.js" />
+    <Content Include="Scripts\Rory\initialLoad.js" />
+    <Content Include="Scripts\Rory\data.js" />
+    <Content Include="Scripts\Tegud\HoldButton.js" />
+    <Content Include="Scripts\Tegud\NumberSpinner.js" />
+    <Content Include="Scripts\Tests\Tegud.PhotoGrid.Tests.js" />
+    <Content Include="Scripts\underscore.1.3.3.min.js" />
+    <Content Include="Scripts\Flickr\base.js" />
+    <Content Include="Scripts\Flickr\yearMonthGroupedPhotoStore.js" />
+    <Content Include="Scripts\jflickrfeed.min.js" />
+    <Content Include="Scripts\Librarian\controls.js" />
+    <Content Include="Scripts\Librarian\addNew.js" />
+    <Content Include="Scripts\Librarian\update.js" />
+    <Content Include="Scripts\Librarian\grid.js" />
+    <Content Include="Scripts\Librarian\main.js" />
+    <Content Include="Scripts\Librarian\parameters.js" />
+    <Content Include="Scripts\Librarian\data.js" />
+    <Content Include="Scripts\PhotoGrid\base.js" />
+    <Content Include="Scripts\require.js" />
+    <Content Include="Scripts\Cufon\cufon-yui.js" />
+    <Content Include="Scripts\Cufon\cufon.js">
+      <DependentUpon>cufon.chirp.config</DependentUpon>
+    </Content>
+    <Content Include="Scripts\Cufon\Museo_Slab_500_400.font.js" />
+    <Content Include="Scripts\Cufon\Segoe_UI_400.font.js" />
+    <Content Include="Scripts\Cufon\Segoe_UI_Light_300.font.js" />
+    <Content Include="Scripts\Cufon\Segoe_WP_400.font.js" />
+    <Content Include="Scripts\jQuery\jquery.1.6.2-dev.js" />
+    <Content Include="Scripts\Archive\Metro\base.js" />
+    <Content Include="Scripts\Metro\base.js" />
+    <Content Include="Scripts\modernizr-2.js" />
+    <Content Include="Scripts\modernizr-2.min.js" />
+    <Content Include="Scripts\openid\jquery.openid.js" />
+    <Content Include="Scripts\openid\openid-en.js" />
+    <Content Include="Scripts\openid\openid-jquery.js" />
+    <Content Include="Scripts\ScriptHighlighter\clipboard.swf" />
+    <Content Include="Scripts\ScriptHighlighter\sh.min.js">
+      <DependentUpon>ScriptHighlighter.chirp.config</DependentUpon>
+    </Content>
+    <Content Include="Scripts\ScriptHighlighter\shBrushAS3.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushBash.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushColdFusion.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushCpp.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushCSharp.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushCss.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushDelphi.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushDiff.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushErlang.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushGroovy.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushJava.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushJavaFX.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushJScript.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushPerl.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushPhp.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushPlain.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushPowerShell.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushPython.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushRuby.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushScala.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushSql.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushVb.js" />
+    <Content Include="Scripts\ScriptHighlighter\shBrushXml.js" />
+    <Content Include="Scripts\ScriptHighlighter\shCore.js" />
+    <Content Include="Scripts\ScriptHighlighter\shLegacy.js" />
+    <Content Include="Scripts\Archive\AdminMenu\base.js" />
+    <Content Include="Scripts\Archive\Stuff\base.js" />
+    <Content Include="Scripts\Tegud.Base.min.js">
+      <DependentUpon>Tegud.chirp.config</DependentUpon>
+    </Content>
+    <Content Include="Scripts\Tegud\base.js" />
+    <Content Include="Scripts\Tegud\ajax.js" />
+    <Content Include="Scripts\Tegud\checkboxList.js" />
+    <Content Include="Scripts\Tegud\timeline.js" />
+    <Content Include="Scripts\Tegud\spinner.js" />
+    <Content Include="Scripts\Tegud\dialog.js" />
+    <Content Include="Scripts\Tegud\overlay.js" />
+    <Content Include="Scripts\Tests\qunit.js" />
+    <Content Include="Scripts\Tests\Tegud.Utilities.Tests.js" />
+    <Content Include="Scripts\Sidebar\Twitter.js" />
+    <Content Include="Scripts\Archive\Tiles\base.js" />
+    <Content Include="Scripts\Utilities\base.js" />
+    <Content Include="Scripts\Utilities\jquery.imageloaded.js" />
+    <Content Include="Scripts\Utilities\pubsub.js" />
+    <Content Include="Scripts\Utilities\yql.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TegudData\TegudData.csproj">
+      <Project>{E38628A1-C959-48F8-8708-C77F5A379870}</Project>
+      <Name>TegudData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TegudUtilities\TegudUtilities.csproj">
+      <Project>{20119E47-4856-4B40-BF94-BBE4DF156FF1}</Project>
+      <Name>TegudUtilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\Cufon\cufon.chirp.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_SideBar.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_SingleColumn.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\Tegud.chirp.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\SidebarModules\TagCloud.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\BlogItem.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\ScriptHighlighter\ScriptHighlighter.chirp.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\ViewBlog.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Stuff\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\Forms\Blog\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\51Degrees.mobi.config" />
+    <Content Include="Views\Shared\_Mobile.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Admin\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Rory\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Blog\Add.cshtml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61268</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:61268/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,19 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="MainContent" class="SingleColumn">
+    @RenderBody()
+</div>
+
+@section Scripts {
+    @RenderSection("Scripts", false)
+}
+
+@section HeadScripts {
+    @RenderSection("HeadScripts", false)
+}
+
+@section Style {
+    @RenderSection("Style", false)
+}

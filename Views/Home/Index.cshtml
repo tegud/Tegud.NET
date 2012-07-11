@@ -1,0 +1,110 @@
+﻿@model TegudData.ViewModels.Homepage.HomepageViewModel
+@using TegudData.Models.BlogModel
+@{
+    ViewBag.Title = "Steve Elliott's Blog - jQuery, .NET C# and other geeky stuff";
+    Layout = "~/Views/Shared/_SideBar.cshtml";
+}
+@if (string.IsNullOrWhiteSpace(Model.Title))
+{
+    <h2>Blog</h2>
+}
+else
+{
+    <h2>Blog - @(Model.Title)</h2>
+}
+@foreach (var d in Model.BlogList) {
+    <h3 class="BlogDateHeader">@(d.Key.ToString("dddd, dd MMMM yyyy"))</h3> 
+    foreach (var i in d)
+    {
+        Html.RenderPartial("BlogItem", i);
+    }
+}
+
+@section Sidebar
+{
+    @if (ViewBag.User != null && ViewBag.User.IsAuthenticated && ViewBag.User.IsAdmin)
+    {
+        <article id="SideBarAdminOptions">
+            <h3>Admin</h3>
+            <ul class="sidebar-admin-options">
+                <li class="blog-admin-add-new">Add new</li>
+                <li class="blog-admin-blog-admin">Blog Admin</li>
+            </ul>
+        </article>
+    }
+    <article id="Twitter" data-tegud-twitter-user1="tegud">
+        <h3>Twitter</h3>
+        <article class="Loading">
+            <div class="Spinner"></div>
+            <div class="Text cufon">Loading Tweets</div>
+        </article>
+        <article class="Error hiddenElement">
+            <div class="Error"></div>
+            <div class="Text cufon">Could not load Tweets</div>
+        </article>
+        <div id="TweetContainer">
+            <ul class="ParallaxHeader TweetDates"></ul>
+            <article></article>
+            <div class="TweetControl hiddenElement Refresh" title="Refresh Tweets"></div>
+            <div class="TweetControl hiddenElement Latest" title="Latest Tweet"></div>
+            <div class="TweetControl hiddenElement Prev" title="Previous Tweet"></div>
+            <div class="TweetControl hiddenElement Next" title="Next Tweet"></div>
+        </div>
+        <div id="TwitterFollowMe"><a href="http://twitter.com/tegud" target="_blank">Follow me for more...</a></div>
+    </article>
+
+    @{ Html.RenderPartial("../Shared/SidebarModules/TagCloud", (Model.TagCloud)); }
+    
+    <article id="BlogArchive">
+        <h3>Blog Archive</h3>
+        @foreach (var archiveYear in Model.BlogArchive.Years)
+        {
+            <h4><a href="/archive/@archiveYear.Year">@archiveYear.Year</a></h4>
+            <ul>
+                @foreach(var month in archiveYear.Months)
+                {
+                    <li><a href="/archive/@archiveYear.Year/@month.Month">@month.MonthName (@month.Posts)</a></li>
+                }
+            </ul>
+        }
+    </article>
+}
+
+@section HeadScripts
+{
+    <script type="text/javascript">
+        (function () {
+            var tweetsLoaded,
+                loadTweets = function () {
+                    if (tweetsLoaded) {
+                        return;
+                    }
+                    
+                    require(['sidebar/twitter']);
+                };
+
+
+            require(['tegud/base'], function () {
+                TEGUD.attachMediaQueryEvent('>', 800, loadTweets);
+            });
+        })();
+    </script>
+}
+
+@section Scripts
+{
+    <script type="text/javascript">
+        (function () {
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'tegud'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var s = document.createElement('script'); s.async = true;
+                s.type = 'text/javascript';
+                s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+                (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+            } ());
+        })();
+    </script>
+}

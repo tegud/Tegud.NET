@@ -1,0 +1,22 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="SideBar">
+    @RenderSection("Sidebar", required: false)
+</div>
+<div id="MainContent">
+    @RenderBody()
+</div>
+
+@section HeadScripts {
+    @RenderSection("HeadScripts", false)
+}
+
+@section Scripts {
+    @RenderSection("Scripts", false)
+}
+
+@section Style {
+    @RenderSection("Style", false)
+}
