@@ -1,0 +1,866 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SQL2008_615903_tegudModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="SQL2008_615903_tegudModelStoreContainer">
+          <EntitySet Name="Blog" EntityType="SQL2008_615903_tegudModel.Store.Blog" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="BlogSeries" EntityType="SQL2008_615903_tegudModel.Store.BlogSeries" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="BlogSeriesBlog" EntityType="SQL2008_615903_tegudModel.Store.BlogSeriesBlog" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="BlogSeriesPlaceholder" EntityType="SQL2008_615903_tegudModel.Store.BlogSeriesPlaceholder" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="BlogTag" EntityType="SQL2008_615903_tegudModel.Store.BlogTag" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Categories" EntityType="SQL2008_615903_tegudModel.Store.Categories" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Comment" EntityType="SQL2008_615903_tegudModel.Store.Comment" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FrontPageHeader" EntityType="SQL2008_615903_tegudModel.Store.FrontPageHeader" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Location" EntityType="SQL2008_615903_tegudModel.Store.Location" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PhotoStore" EntityType="SQL2008_615903_tegudModel.Store.PhotoStore" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Site" EntityType="SQL2008_615903_tegudModel.Store.Site" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tag" EntityType="SQL2008_615903_tegudModel.Store.Tag" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="User" EntityType="SQL2008_615903_tegudModel.Store.User" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Blog_BlogSeries" Association="SQL2008_615903_tegudModel.Store.FK_Blog_BlogSeries">
+            <End Role="BlogSeries" EntitySet="BlogSeries" />
+            <End Role="Blog" EntitySet="Blog" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Blog_Categories" Association="SQL2008_615903_tegudModel.Store.FK_Blog_Categories">
+            <End Role="Categories" EntitySet="Categories" />
+            <End Role="Blog" EntitySet="Blog" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Blog_Location" Association="SQL2008_615903_tegudModel.Store.FK_Blog_Location">
+            <End Role="Location" EntitySet="Location" />
+            <End Role="Blog" EntitySet="Blog" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Blog_Site" Association="SQL2008_615903_tegudModel.Store.FK_Blog_Site">
+            <End Role="Site" EntitySet="Site" />
+            <End Role="Blog" EntitySet="Blog" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Blog_User" Association="SQL2008_615903_tegudModel.Store.FK_Blog_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Blog" EntitySet="Blog" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogSeriesBlog_Blog" Association="SQL2008_615903_tegudModel.Store.FK_BlogSeriesBlog_Blog">
+            <End Role="Blog" EntitySet="Blog" />
+            <End Role="BlogSeriesBlog" EntitySet="BlogSeriesBlog" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogSeriesBlog_BlogSeries" Association="SQL2008_615903_tegudModel.Store.FK_BlogSeriesBlog_BlogSeries">
+            <End Role="BlogSeries" EntitySet="BlogSeries" />
+            <End Role="BlogSeriesBlog" EntitySet="BlogSeriesBlog" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogSeriesPlaceholder_BlogSeries" Association="SQL2008_615903_tegudModel.Store.FK_BlogSeriesPlaceholder_BlogSeries">
+            <End Role="BlogSeries" EntitySet="BlogSeries" />
+            <End Role="BlogSeriesPlaceholder" EntitySet="BlogSeriesPlaceholder" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogTag_Blog" Association="SQL2008_615903_tegudModel.Store.FK_BlogTag_Blog">
+            <End Role="Blog" EntitySet="Blog" />
+            <End Role="BlogTag" EntitySet="BlogTag" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogTag_Tag1" Association="SQL2008_615903_tegudModel.Store.FK_BlogTag_Tag1">
+            <End Role="Tag" EntitySet="Tag" />
+            <End Role="BlogTag" EntitySet="BlogTag" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comment_Blog" Association="SQL2008_615903_tegudModel.Store.FK_Comment_Blog">
+            <End Role="Blog" EntitySet="Blog" />
+            <End Role="Comment" EntitySet="Comment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Site" Association="SQL2008_615903_tegudModel.Store.FK_User_Site">
+            <End Role="Site" EntitySet="Site" />
+            <End Role="User" EntitySet="User" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Blog">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SiteID" Type="int" Nullable="false" />
+          <Property Name="Title" Type="nvarchar(max)" />
+          <Property Name="AuthorID" Type="int" Nullable="false" />
+          <Property Name="CategoriesID" Type="int" />
+          <Property Name="PostedAt" Type="smalldatetime" Nullable="false" />
+          <Property Name="Text" Type="nvarchar(max)" />
+          <Property Name="UpdatedAt" Type="smalldatetime" />
+          <Property Name="CommentCount" Type="int" Nullable="false" />
+          <Property Name="LocationID" Type="int" />
+          <Property Name="BlogSeriesID" Type="int" />
+        </EntityType>
+        <EntityType Name="BlogSeries">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="BlogSeriesBlog">
+          <Key>
+            <PropertyRef Name="BlogSeriesID" />
+            <PropertyRef Name="BlogID" />
+          </Key>
+          <Property Name="BlogSeriesID" Type="int" Nullable="false" />
+          <Property Name="BlogID" Type="int" Nullable="false" />
+          <Property Name="Part" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="BlogSeriesPlaceholder">
+          <Key>
+            <PropertyRef Name="BlogSeriesID" />
+            <PropertyRef Name="Part" />
+          </Key>
+          <Property Name="BlogSeriesID" Type="int" Nullable="false" />
+          <Property Name="Part" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="BlogTag">
+          <Key>
+            <PropertyRef Name="BlogID" />
+            <PropertyRef Name="TagID" />
+          </Key>
+          <Property Name="BlogID" Type="int" Nullable="false" />
+          <Property Name="TagID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Categories">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Comment">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="BlogID" Type="int" Nullable="false" />
+          <Property Name="AuthorName" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="AuthorEmail" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Text" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="PostedAt" Type="datetime" Nullable="false" />
+          <Property Name="IsSiteAdmin" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="FrontPageHeader">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Image" Type="nvarchar" Nullable="false" MaxLength="500" />
+          <Property Name="Title" Type="nvarchar" MaxLength="500" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="AlwaysShowInfo" Type="bit" Nullable="false" />
+          <Property Name="Active" Type="bit" Nullable="false" />
+          <Property Name="TargetURL" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Location">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Public" Type="bit" Nullable="false" />
+          <Property Name="Longitude" Type="float" />
+          <Property Name="Latitude" Type="float" />
+        </EntityType>
+        <EntityType Name="PhotoStore">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Directory" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Site">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Tag">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Username" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="FullName" Type="nvarchar(max)" />
+          <Property Name="Email" Type="nvarchar(max)" />
+          <Property Name="PIN" Type="nvarchar" MaxLength="4" />
+          <Property Name="DefaultSiteID" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Blog_BlogSeries">
+          <End Role="BlogSeries" Type="SQL2008_615903_tegudModel.Store.BlogSeries" Multiplicity="0..1" />
+          <End Role="Blog" Type="SQL2008_615903_tegudModel.Store.Blog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BlogSeries">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Blog">
+              <PropertyRef Name="BlogSeriesID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Blog_Categories">
+          <End Role="Categories" Type="SQL2008_615903_tegudModel.Store.Categories" Multiplicity="0..1" />
+          <End Role="Blog" Type="SQL2008_615903_tegudModel.Store.Blog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Categories">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Blog">
+              <PropertyRef Name="CategoriesID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Blog_Location">
+          <End Role="Location" Type="SQL2008_615903_tegudModel.Store.Location" Multiplicity="0..1" />
+          <End Role="Blog" Type="SQL2008_615903_tegudModel.Store.Blog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Location">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Blog">
+              <PropertyRef Name="LocationID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Blog_Site">
+          <End Role="Site" Type="SQL2008_615903_tegudModel.Store.Site" Multiplicity="1" />
+          <End Role="Blog" Type="SQL2008_615903_tegudModel.Store.Blog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Site">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Blog">
+              <PropertyRef Name="SiteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Blog_User">
+          <End Role="User" Type="SQL2008_615903_tegudModel.Store.User" Multiplicity="1" />
+          <End Role="Blog" Type="SQL2008_615903_tegudModel.Store.Blog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Blog">
+              <PropertyRef Name="AuthorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BlogSeriesBlog_Blog">
+          <End Role="Blog" Type="SQL2008_615903_tegudModel.Store.Blog" Multiplicity="1" />
+          <End Role="BlogSeriesBlog" Type="SQL2008_615903_tegudModel.Store.BlogSeriesBlog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Blog">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="BlogSeriesBlog">
+              <PropertyRef Name="BlogID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BlogSeriesBlog_BlogSeries">
+          <End Role="BlogSeries" Type="SQL2008_615903_tegudModel.Store.BlogSeries" Multiplicity="1" />
+          <End Role="BlogSeriesBlog" Type="SQL2008_615903_tegudModel.Store.BlogSeriesBlog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BlogSeries">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="BlogSeriesBlog">
+              <PropertyRef Name="BlogSeriesID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BlogSeriesPlaceholder_BlogSeries">
+          <End Role="BlogSeries" Type="SQL2008_615903_tegudModel.Store.BlogSeries" Multiplicity="1" />
+          <End Role="BlogSeriesPlaceholder" Type="SQL2008_615903_tegudModel.Store.BlogSeriesPlaceholder" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BlogSeries">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="BlogSeriesPlaceholder">
+              <PropertyRef Name="BlogSeriesID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BlogTag_Blog">
+          <End Role="Blog" Type="SQL2008_615903_tegudModel.Store.Blog" Multiplicity="1" />
+          <End Role="BlogTag" Type="SQL2008_615903_tegudModel.Store.BlogTag" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Blog">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="BlogTag">
+              <PropertyRef Name="BlogID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BlogTag_Tag1">
+          <End Role="Tag" Type="SQL2008_615903_tegudModel.Store.Tag" Multiplicity="1" />
+          <End Role="BlogTag" Type="SQL2008_615903_tegudModel.Store.BlogTag" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tag">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="BlogTag">
+              <PropertyRef Name="TagID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comment_Blog">
+          <End Role="Blog" Type="SQL2008_615903_tegudModel.Store.Blog" Multiplicity="1" />
+          <End Role="Comment" Type="SQL2008_615903_tegudModel.Store.Comment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Blog">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Comment">
+              <PropertyRef Name="BlogID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Site">
+          <End Role="Site" Type="SQL2008_615903_tegudModel.Store.Site" Multiplicity="1" />
+          <End Role="User" Type="SQL2008_615903_tegudModel.Store.User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Site">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="DefaultSiteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SQL2008_615903_tegudModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="SQL2008_615903_tegudEntities9" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Blogs" EntityType="SQL2008_615903_tegudModel.Blog" />
+          <EntitySet Name="Categories" EntityType="SQL2008_615903_tegudModel.Categories" />
+          <EntitySet Name="Comments" EntityType="SQL2008_615903_tegudModel.Comment" />
+          <EntitySet Name="Locations" EntityType="SQL2008_615903_tegudModel.Location" />
+          <EntitySet Name="PhotoStores" EntityType="SQL2008_615903_tegudModel.PhotoStore" />
+          <EntitySet Name="Tags" EntityType="SQL2008_615903_tegudModel.Tag" />
+          <EntitySet Name="Users" EntityType="SQL2008_615903_tegudModel.User" />
+          <AssociationSet Name="FK_Blog_Categories" Association="SQL2008_615903_tegudModel.FK_Blog_Categories">
+            <End Role="Categories" EntitySet="Categories" />
+            <End Role="Blog" EntitySet="Blogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Blog_Location" Association="SQL2008_615903_tegudModel.FK_Blog_Location">
+            <End Role="Location" EntitySet="Locations" />
+            <End Role="Blog" EntitySet="Blogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Blog_User" Association="SQL2008_615903_tegudModel.FK_Blog_User">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Blog" EntitySet="Blogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comment_Blog" Association="SQL2008_615903_tegudModel.FK_Comment_Blog">
+            <End Role="Blog" EntitySet="Blogs" />
+            <End Role="Comment" EntitySet="Comments" />
+          </AssociationSet>
+          <AssociationSet Name="BlogTag" Association="SQL2008_615903_tegudModel.BlogTag">
+            <End Role="Blog" EntitySet="Blogs" />
+            <End Role="Tag" EntitySet="Tags" />
+          </AssociationSet>
+          <EntitySet Name="FrontPageHeaders" EntityType="SQL2008_615903_tegudModel.FrontPageHeader" />
+          <EntitySet Name="Sites" EntityType="SQL2008_615903_tegudModel.Site" />
+          <AssociationSet Name="FK_Blog_Site" Association="SQL2008_615903_tegudModel.FK_Blog_Site">
+            <End Role="Site" EntitySet="Sites" />
+            <End Role="Blog" EntitySet="Blogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Site" Association="SQL2008_615903_tegudModel.FK_User_Site">
+            <End Role="Site" EntitySet="Sites" />
+            <End Role="User" EntitySet="Users" />
+          </AssociationSet>
+          <EntitySet Name="BlogSeries1" EntityType="SQL2008_615903_tegudModel.BlogSeries" />
+          <EntitySet Name="BlogSeriesBlogs" EntityType="SQL2008_615903_tegudModel.BlogSeriesBlog" />
+          <EntitySet Name="BlogSeriesPlaceholders" EntityType="SQL2008_615903_tegudModel.BlogSeriesPlaceholder" />
+          <AssociationSet Name="FK_Blog_BlogSeries" Association="SQL2008_615903_tegudModel.FK_Blog_BlogSeries">
+            <End Role="BlogSery" EntitySet="BlogSeries1" />
+            <End Role="Blog" EntitySet="Blogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogSeriesBlog_Blog" Association="SQL2008_615903_tegudModel.FK_BlogSeriesBlog_Blog">
+            <End Role="Blog" EntitySet="Blogs" />
+            <End Role="BlogSeriesBlog" EntitySet="BlogSeriesBlogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogSeriesBlog_BlogSeries" Association="SQL2008_615903_tegudModel.FK_BlogSeriesBlog_BlogSeries">
+            <End Role="BlogSery" EntitySet="BlogSeries1" />
+            <End Role="BlogSeriesBlog" EntitySet="BlogSeriesBlogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BlogSeriesPlaceholder_BlogSeries" Association="SQL2008_615903_tegudModel.FK_BlogSeriesPlaceholder_BlogSeries">
+            <End Role="BlogSery" EntitySet="BlogSeries1" />
+            <End Role="BlogSeriesPlaceholder" EntitySet="BlogSeriesPlaceholders" />
+          </AssociationSet>
+          </EntityContainer>
+        <EntityType Name="Blog">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SiteID" Type="Int32" Nullable="false" />
+          <Property Name="Title" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="AuthorID" Type="Int32" Nullable="false" />
+          <Property Name="CategoriesID" Type="Int32" />
+          <Property Name="PostedAt" Type="DateTime" Nullable="false" />
+          <Property Name="Text" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="UpdatedAt" Type="DateTime" />
+          <Property Name="CommentCount" Type="Int32" Nullable="false" />
+          <Property Name="LocationID" Type="Int32" />
+          <NavigationProperty Name="Categories" Relationship="SQL2008_615903_tegudModel.FK_Blog_Categories" FromRole="Blog" ToRole="Categories" />
+          <NavigationProperty Name="Location" Relationship="SQL2008_615903_tegudModel.FK_Blog_Location" FromRole="Blog" ToRole="Location" />
+          <NavigationProperty Name="User" Relationship="SQL2008_615903_tegudModel.FK_Blog_User" FromRole="Blog" ToRole="User" />
+          <NavigationProperty Name="Comments" Relationship="SQL2008_615903_tegudModel.FK_Comment_Blog" FromRole="Blog" ToRole="Comment" />
+          <NavigationProperty Name="Tags" Relationship="SQL2008_615903_tegudModel.BlogTag" FromRole="Blog" ToRole="Tag" />
+          <NavigationProperty Name="Site" Relationship="SQL2008_615903_tegudModel.FK_Blog_Site" FromRole="Blog" ToRole="Site" />
+          <Property Type="Int32" Name="BlogSeriesID" />
+          <NavigationProperty Name="BlogSeries" Relationship="SQL2008_615903_tegudModel.FK_Blog_BlogSeries" FromRole="Blog" ToRole="BlogSery" />
+          <NavigationProperty Name="BlogSeriesBlogs" Relationship="SQL2008_615903_tegudModel.FK_BlogSeriesBlog_Blog" FromRole="Blog" ToRole="BlogSeriesBlog" />
+          </EntityType>
+        <EntityType Name="Categories">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Blogs" Relationship="SQL2008_615903_tegudModel.FK_Blog_Categories" FromRole="Categories" ToRole="Blog" />
+        </EntityType>
+        <EntityType Name="Comment">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BlogID" Type="Int32" Nullable="false" />
+          <Property Name="AuthorName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="AuthorEmail" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Text" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="PostedAt" Type="DateTime" Nullable="false" />
+          <Property Name="IsSiteAdmin" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="Blog" Relationship="SQL2008_615903_tegudModel.FK_Comment_Blog" FromRole="Comment" ToRole="Blog" />
+        </EntityType>
+        <EntityType Name="Location">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Public" Type="Boolean" Nullable="false" />
+          <Property Name="Longitude" Type="Double" />
+          <Property Name="Latitude" Type="Double" />
+          <NavigationProperty Name="Blogs" Relationship="SQL2008_615903_tegudModel.FK_Blog_Location" FromRole="Location" ToRole="Blog" />
+        </EntityType>
+        <EntityType Name="PhotoStore">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Directory" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tag">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Blogs" Relationship="SQL2008_615903_tegudModel.BlogTag" FromRole="Tag" ToRole="Blog" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Username" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="FullName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Email" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="PIN" Type="String" MaxLength="4" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Blogs" Relationship="SQL2008_615903_tegudModel.FK_Blog_User" FromRole="User" ToRole="Blog" />
+          <Property Type="Int32" Name="DefaultSiteID" Nullable="false" />
+          <NavigationProperty Name="Site" Relationship="SQL2008_615903_tegudModel.FK_User_Site" FromRole="User" ToRole="Site" />
+        </EntityType>
+        <Association Name="FK_Blog_Categories">
+          <End Role="Categories" Type="SQL2008_615903_tegudModel.Categories" Multiplicity="0..1" />
+          <End Role="Blog" Type="SQL2008_615903_tegudModel.Blog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Categories">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Blog">
+              <PropertyRef Name="CategoriesID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Blog_Location">
+          <End Role="Location" Type="SQL2008_615903_tegudModel.Location" Multiplicity="0..1" />
+          <End Role="Blog" Type="SQL2008_615903_tegudModel.Blog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Location">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Blog">
+              <PropertyRef Name="LocationID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Blog_User">
+          <End Role="User" Type="SQL2008_615903_tegudModel.User" Multiplicity="1" />
+          <End Role="Blog" Type="SQL2008_615903_tegudModel.Blog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Blog">
+              <PropertyRef Name="AuthorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comment_Blog">
+          <End Role="Blog" Type="SQL2008_615903_tegudModel.Blog" Multiplicity="1" />
+          <End Role="Comment" Type="SQL2008_615903_tegudModel.Comment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Blog">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Comment">
+              <PropertyRef Name="BlogID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="BlogTag">
+          <End Role="Blog" Type="SQL2008_615903_tegudModel.Blog" Multiplicity="*" />
+          <End Role="Tag" Type="SQL2008_615903_tegudModel.Tag" Multiplicity="*" />
+        </Association>
+        <EntityType Name="FrontPageHeader">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Image" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Title" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="AlwaysShowInfo" Nullable="false" />
+          <Property Type="Boolean" Name="Active" Nullable="false" />
+          <Property Type="String" Name="TargetURL" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Site">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Blogs" Relationship="SQL2008_615903_tegudModel.FK_Blog_Site" FromRole="Site" ToRole="Blog" />
+          <NavigationProperty Name="Users" Relationship="SQL2008_615903_tegudModel.FK_User_Site" FromRole="Site" ToRole="User" />
+        </EntityType>
+        <Association Name="FK_Blog_Site">
+          <End Type="SQL2008_615903_tegudModel.Site" Role="Site" Multiplicity="1" />
+          <End Type="SQL2008_615903_tegudModel.Blog" Role="Blog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Site">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Blog">
+              <PropertyRef Name="SiteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Site">
+          <End Type="SQL2008_615903_tegudModel.Site" Role="Site" Multiplicity="1" />
+          <End Type="SQL2008_615903_tegudModel.User" Role="User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Site">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="DefaultSiteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="BlogSeries">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Blogs" Relationship="SQL2008_615903_tegudModel.FK_Blog_BlogSeries" FromRole="BlogSery" ToRole="Blog" />
+          <NavigationProperty Name="BlogSeriesBlogs" Relationship="SQL2008_615903_tegudModel.FK_BlogSeriesBlog_BlogSeries" FromRole="BlogSery" ToRole="BlogSeriesBlog" />
+          <NavigationProperty Name="BlogSeriesPlaceholders" Relationship="SQL2008_615903_tegudModel.FK_BlogSeriesPlaceholder_BlogSeries" FromRole="BlogSery" ToRole="BlogSeriesPlaceholder" />
+        </EntityType>
+        <EntityType Name="BlogSeriesBlog">
+          <Key>
+            <PropertyRef Name="BlogSeriesID" />
+            <PropertyRef Name="BlogID" />
+          </Key>
+          <Property Type="Int32" Name="BlogSeriesID" Nullable="false" />
+          <Property Type="Int32" Name="BlogID" Nullable="false" />
+          <Property Type="Int32" Name="Part" Nullable="false" />
+          <NavigationProperty Name="Blog" Relationship="SQL2008_615903_tegudModel.FK_BlogSeriesBlog_Blog" FromRole="BlogSeriesBlog" ToRole="Blog" />
+          <NavigationProperty Name="BlogSery" Relationship="SQL2008_615903_tegudModel.FK_BlogSeriesBlog_BlogSeries" FromRole="BlogSeriesBlog" ToRole="BlogSery" />
+        </EntityType>
+        <EntityType Name="BlogSeriesPlaceholder">
+          <Key>
+            <PropertyRef Name="BlogSeriesID" />
+            <PropertyRef Name="Part" />
+          </Key>
+          <Property Type="Int32" Name="BlogSeriesID" Nullable="false" />
+          <Property Type="Int32" Name="Part" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="BlogSery" Relationship="SQL2008_615903_tegudModel.FK_BlogSeriesPlaceholder_BlogSeries" FromRole="BlogSeriesPlaceholder" ToRole="BlogSery" />
+        </EntityType>
+        <Association Name="FK_Blog_BlogSeries">
+          <End Type="SQL2008_615903_tegudModel.BlogSeries" Role="BlogSery" Multiplicity="0..1" />
+          <End Type="SQL2008_615903_tegudModel.Blog" Role="Blog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BlogSery">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Blog">
+              <PropertyRef Name="BlogSeriesID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BlogSeriesBlog_Blog">
+          <End Type="SQL2008_615903_tegudModel.Blog" Role="Blog" Multiplicity="1" />
+          <End Type="SQL2008_615903_tegudModel.BlogSeriesBlog" Role="BlogSeriesBlog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Blog">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="BlogSeriesBlog">
+              <PropertyRef Name="BlogID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BlogSeriesBlog_BlogSeries">
+          <End Type="SQL2008_615903_tegudModel.BlogSeries" Role="BlogSery" Multiplicity="1" />
+          <End Type="SQL2008_615903_tegudModel.BlogSeriesBlog" Role="BlogSeriesBlog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BlogSery">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="BlogSeriesBlog">
+              <PropertyRef Name="BlogSeriesID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BlogSeriesPlaceholder_BlogSeries">
+          <End Type="SQL2008_615903_tegudModel.BlogSeries" Role="BlogSery" Multiplicity="1" />
+          <End Type="SQL2008_615903_tegudModel.BlogSeriesPlaceholder" Role="BlogSeriesPlaceholder" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BlogSery">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="BlogSeriesPlaceholder">
+              <PropertyRef Name="BlogSeriesID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SQL2008_615903_tegudModelStoreContainer" CdmEntityContainer="SQL2008_615903_tegudEntities9">
+          <EntitySetMapping Name="Blogs"><EntityTypeMapping TypeName="SQL2008_615903_tegudModel.Blog"><MappingFragment StoreEntitySet="Blog">
+            <ScalarProperty Name="BlogSeriesID" ColumnName="BlogSeriesID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="SiteID" ColumnName="SiteID" />
+            <ScalarProperty Name="Title" ColumnName="Title" />
+            <ScalarProperty Name="AuthorID" ColumnName="AuthorID" />
+            <ScalarProperty Name="CategoriesID" ColumnName="CategoriesID" />
+            <ScalarProperty Name="PostedAt" ColumnName="PostedAt" />
+            <ScalarProperty Name="Text" ColumnName="Text" />
+            <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+            <ScalarProperty Name="CommentCount" ColumnName="CommentCount" />
+            <ScalarProperty Name="LocationID" ColumnName="LocationID" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Categories"><EntityTypeMapping TypeName="SQL2008_615903_tegudModel.Categories"><MappingFragment StoreEntitySet="Categories">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Name" ColumnName="Name" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Comments"><EntityTypeMapping TypeName="SQL2008_615903_tegudModel.Comment"><MappingFragment StoreEntitySet="Comment">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="BlogID" ColumnName="BlogID" />
+            <ScalarProperty Name="AuthorName" ColumnName="AuthorName" />
+            <ScalarProperty Name="AuthorEmail" ColumnName="AuthorEmail" />
+            <ScalarProperty Name="Text" ColumnName="Text" />
+            <ScalarProperty Name="PostedAt" ColumnName="PostedAt" />
+            <ScalarProperty Name="IsSiteAdmin" ColumnName="IsSiteAdmin" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Locations"><EntityTypeMapping TypeName="SQL2008_615903_tegudModel.Location"><MappingFragment StoreEntitySet="Location">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Name" ColumnName="Name" />
+            <ScalarProperty Name="Public" ColumnName="Public" />
+            <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+            <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="PhotoStores"><EntityTypeMapping TypeName="SQL2008_615903_tegudModel.PhotoStore"><MappingFragment StoreEntitySet="PhotoStore">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Name" ColumnName="Name" />
+            <ScalarProperty Name="Directory" ColumnName="Directory" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tags"><EntityTypeMapping TypeName="SQL2008_615903_tegudModel.Tag"><MappingFragment StoreEntitySet="Tag">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Name" ColumnName="Name" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Users"><EntityTypeMapping TypeName="SQL2008_615903_tegudModel.User"><MappingFragment StoreEntitySet="User">
+            <ScalarProperty Name="DefaultSiteID" ColumnName="DefaultSiteID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Username" ColumnName="Username" />
+            <ScalarProperty Name="Password" ColumnName="Password" />
+            <ScalarProperty Name="FullName" ColumnName="FullName" />
+            <ScalarProperty Name="Email" ColumnName="Email" />
+            <ScalarProperty Name="PIN" ColumnName="PIN" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <AssociationSetMapping Name="BlogTag" TypeName="SQL2008_615903_tegudModel.BlogTag" StoreEntitySet="BlogTag">
+            <EndProperty Name="Blog">
+              <ScalarProperty Name="ID" ColumnName="BlogID" />
+            </EndProperty>
+            <EndProperty Name="Tag">
+              <ScalarProperty Name="ID" ColumnName="TagID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <EntitySetMapping Name="FrontPageHeaders">
+            <EntityTypeMapping TypeName="SQL2008_615903_tegudModel.FrontPageHeader">
+              <MappingFragment StoreEntitySet="FrontPageHeader">
+                <ScalarProperty Name="TargetURL" ColumnName="TargetURL" />
+                <ScalarProperty Name="Active" ColumnName="Active" />
+                <ScalarProperty Name="AlwaysShowInfo" ColumnName="AlwaysShowInfo" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Image" ColumnName="Image" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sites">
+            <EntityTypeMapping TypeName="SQL2008_615903_tegudModel.Site">
+              <MappingFragment StoreEntitySet="Site">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BlogSeries1">
+            <EntityTypeMapping TypeName="SQL2008_615903_tegudModel.BlogSeries">
+              <MappingFragment StoreEntitySet="BlogSeries">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BlogSeriesBlogs">
+            <EntityTypeMapping TypeName="SQL2008_615903_tegudModel.BlogSeriesBlog">
+              <MappingFragment StoreEntitySet="BlogSeriesBlog">
+                <ScalarProperty Name="Part" ColumnName="Part" />
+                <ScalarProperty Name="BlogID" ColumnName="BlogID" />
+                <ScalarProperty Name="BlogSeriesID" ColumnName="BlogSeriesID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BlogSeriesPlaceholders">
+            <EntityTypeMapping TypeName="SQL2008_615903_tegudModel.BlogSeriesPlaceholder">
+              <MappingFragment StoreEntitySet="BlogSeriesPlaceholder">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Part" ColumnName="Part" />
+                <ScalarProperty Name="BlogSeriesID" ColumnName="BlogSeriesID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="TegudModel21" ZoomLevel="92">
+        <EntityTypeShape EntityType="SQL2008_615903_tegudModel.Blog" Width="1.5" PointX="3" PointY="1.625" Height="4.0956022135416656" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQL2008_615903_tegudModel.Categories" Width="1.5" PointX="0.75" PointY="3.875" Height="1.5956835937499996" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQL2008_615903_tegudModel.Comment" Width="1.5" PointX="5.25" PointY="6.875" Height="2.5571907552083317" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQL2008_615903_tegudModel.Location" Width="1.5" PointX="3" PointY="6.375" Height="2.1725878906249987" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQL2008_615903_tegudModel.PhotoStore" Width="1.5" PointX="7.25" PointY="2.125" Height="1.5956835937499996" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQL2008_615903_tegudModel.Tag" Width="1.5" PointX="0.75" PointY="2.125" Height="1.5956835937499996" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQL2008_615903_tegudModel.User" Width="1.5" PointX="5.25" PointY="3" Height="2.7494921874999996" IsExpanded="true" />
+        <AssociationConnector Association="SQL2008_615903_tegudModel.FK_Blog_Categories" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="4.672841796875" />
+          <ConnectorPoint PointX="2.5416666666666665" PointY="4.6728417968749989" />
+          <ConnectorPoint PointX="2.7083333333333335" PointY="4.672841796875" />
+          <ConnectorPoint PointX="3" PointY="4.672841796875" />
+        </AssociationConnector>
+        <AssociationConnector Association="SQL2008_615903_tegudModel.FK_Blog_Location" ManuallyRouted="false">
+          <ConnectorPoint PointX="3.75" PointY="6.375" />
+          <ConnectorPoint PointX="3.75" PointY="6.2975065104166656" />
+        </AssociationConnector>
+        <AssociationConnector Association="SQL2008_615903_tegudModel.FK_Blog_User" ManuallyRouted="false">
+          <ConnectorPoint PointX="5.25" PointY="4.37474609375" />
+          <ConnectorPoint PointX="4.5" PointY="4.37474609375" />
+        </AssociationConnector>
+        <AssociationConnector Association="SQL2008_615903_tegudModel.FK_Comment_Blog" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="6.2975065104166656" />
+          <ConnectorPoint PointX="4.875" PointY="6.6725065104166656" />
+          <ConnectorPoint PointX="4.875" PointY="6.5" />
+          <ConnectorPoint PointX="5.25" PointY="6.875" />
+        </AssociationConnector>
+        <AssociationConnector Association="SQL2008_615903_tegudModel.BlogTag" ManuallyRouted="false">
+          <ConnectorPoint PointX="3" PointY="2.922841796875" />
+          <ConnectorPoint PointX="2.25" PointY="2.922841796875" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="SQL2008_615903_tegudModel.FrontPageHeader" Width="1.5" PointX="7.25" PointY="6.25" Height="1.9802864583333317" />
+        <EntityTypeShape EntityType="SQL2008_615903_tegudModel.Site" Width="1.5" PointX="5.25" PointY="0.5" Height="1.7879850260416674" />
+        <AssociationConnector Association="SQL2008_615903_tegudModel.FK_Blog_Site" >
+          <ConnectorPoint PointX="5.25" PointY="1.9564925130208337" />
+          <ConnectorPoint PointX="4.5" PointY="1.9564925130208337" />
+        </AssociationConnector>
+        <AssociationConnector Association="SQL2008_615903_tegudModel.FK_User_Site" >
+          <ConnectorPoint PointX="6" PointY="2.2879850260416674" />
+          <ConnectorPoint PointX="6" PointY="3" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="SQL2008_615903_tegudModel.BlogSeries" Width="1.5" PointX="0.875" PointY="9.75" Height="1.9802864583333388" />
+        <EntityTypeShape EntityType="SQL2008_615903_tegudModel.BlogSeriesBlog" Width="1.5" PointX="0.875" PointY="6.625" Height="1.9802864583333388" />
+        <EntityTypeShape EntityType="SQL2008_615903_tegudModel.BlogSeriesPlaceholder" Width="1.5" PointX="3" PointY="8.875" Height="1.7879850260416674" />
+        <AssociationConnector Association="SQL2008_615903_tegudModel.FK_Blog_BlogSeries" >
+          <ConnectorPoint PointX="1.625" PointY="9.75" />
+          <ConnectorPoint PointX="1.625" PointY="8.8552864583333388" />
+          <ConnectorPoint PointX="1.9791666666666667" PointY="8.8552864583333388" />
+          <ConnectorPoint PointX="2.1458333333333335" PointY="8.8552864583333388" />
+          <ConnectorPoint PointX="2.625" PointY="8.8552864583333388" />
+          <ConnectorPoint PointX="2.625" PointY="3.797841796875" />
+          <ConnectorPoint PointX="3" PointY="3.797841796875" />
+        </AssociationConnector>
+        <AssociationConnector Association="SQL2008_615903_tegudModel.FK_BlogSeriesBlog_Blog" >
+          <ConnectorPoint PointX="3" PointY="6.2975065104166656" />
+          <ConnectorPoint PointX="2.6988138308912437" PointY="6.4553249256737262" />
+          <ConnectorPoint PointX="2.5511861691087558" PointY="6.5326802826596069" />
+          <ConnectorPoint PointX="2.375" PointY="6.625" />
+        </AssociationConnector>
+        <AssociationConnector Association="SQL2008_615903_tegudModel.FK_BlogSeriesBlog_BlogSeries" >
+          <ConnectorPoint PointX="2.0625" PointY="9.75" />
+          <ConnectorPoint PointX="2.0625" PointY="8.6052864583333388" />
+        </AssociationConnector>
+        <AssociationConnector Association="SQL2008_615903_tegudModel.FK_BlogSeriesPlaceholder_BlogSeries" >
+          <ConnectorPoint PointX="2.375" PointY="10.206492513020834" />
+          <ConnectorPoint PointX="3" PointY="10.206492513020834" />
+        </AssociationConnector>
+        </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{37EE6630-8BA0-4CFA-8364-E404BF062500}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TegudMVC.vsmdi = TegudMVC.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0532C5AF-B6FB-402F-9885-013030CEBE56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TegudMVC3", "TegudMVC3\TegudMVC3.csproj", "{58F23EEA-0AE3-403B-8447-F0FDBEB2C8BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TegudData", "TegudData\TegudData.csproj", "{E38628A1-C959-48F8-8708-C77F5A379870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TegudData.Test", "TegudData.Test\TegudData.Test.csproj", "{DFEC7879-B1C2-4334-888E-104C7688FA36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TegudUtilities", "TegudUtilities\TegudUtilities.csproj", "{20119E47-4856-4B40-BF94-BBE4DF156FF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20119E47-4856-4B40-BF94-BBE4DF156FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20119E47-4856-4B40-BF94-BBE4DF156FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20119E47-4856-4B40-BF94-BBE4DF156FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20119E47-4856-4B40-BF94-BBE4DF156FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F23EEA-0AE3-403B-8447-F0FDBEB2C8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F23EEA-0AE3-403B-8447-F0FDBEB2C8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F23EEA-0AE3-403B-8447-F0FDBEB2C8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F23EEA-0AE3-403B-8447-F0FDBEB2C8BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFEC7879-B1C2-4334-888E-104C7688FA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFEC7879-B1C2-4334-888E-104C7688FA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFEC7879-B1C2-4334-888E-104C7688FA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFEC7879-B1C2-4334-888E-104C7688FA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E38628A1-C959-48F8-8708-C77F5A379870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38628A1-C959-48F8-8708-C77F5A379870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38628A1-C959-48F8-8708-C77F5A379870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38628A1-C959-48F8-8708-C77F5A379870}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFEC7879-B1C2-4334-888E-104C7688FA36} = {0532C5AF-B6FB-402F-9885-013030CEBE56}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TegudMVC.vsmdi
+	EndGlobalSection
+EndGlobal

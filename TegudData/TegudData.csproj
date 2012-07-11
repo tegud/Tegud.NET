@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E38628A1-C959-48F8-8708-C77F5A379870}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TegudData</RootNamespace>
+    <AssemblyName>TegudData</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper">
+      <HintPath>..\packages\Dapper.1.8\lib\net40\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth">
+      <HintPath>..\packages\DotNetOpenAuth.3.4.7.11121\lib\DotNetOpenAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.4.1.10715.0\lib\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="MiniProfiler">
+      <HintPath>..\packages\MiniProfiler.2.0.1\lib\net40\MiniProfiler.dll</HintPath>
+    </Reference>
+    <Reference Include="MiniProfiler.EntityFramework">
+      <HintPath>..\packages\MiniProfiler.EF.2.0.2\lib\net40\MiniProfiler.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap, Version=2.6.3.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\structuremap.2.6.3\lib\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebActivator, Version=1.4.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\WebActivator.1.4.3\lib\net40\WebActivator.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Extensions\DapperExtensions.cs" />
+    <Compile Include="Interfaces\Parameters\IStuffParameterFactory.cs" />
+    <Compile Include="Interfaces\Repository\IBlogEntryRepository.cs" />
+    <Compile Include="Interfaces\Repository\IContextFactory.cs" />
+    <Compile Include="Interfaces\Repository\IRepository.cs" />
+    <Compile Include="Interfaces\Stuff\IStuffItemRepository.cs" />
+    <Compile Include="Interfaces\Stuff\IStuffView.cs" />
+    <Compile Include="Interfaces\ViewModelFactories\IHomepageViewModelFactory.cs" />
+    <Compile Include="Interfaces\ViewModelFactories\ISingleBlogItemViewModelFactory.cs" />
+    <Compile Include="Interfaces\ViewModelFactories\IStuffCategoryIndexViewModelFactory.cs" />
+    <Compile Include="Interfaces\ViewModelFactories\IStuffViewModelFactory.cs" />
+    <Compile Include="Models\AdminModel\LoginViewModel.cs" />
+    <Compile Include="Models\BlogModel\BlogArchive.cs" />
+    <Compile Include="Models\BlogModel\BlogArchiveMonth.cs" />
+    <Compile Include="Models\BlogModel\BlogArchiveYear.cs" />
+    <Compile Include="Models\BlogModel\CloudTag.cs" />
+    <Compile Include="Models\Blog\BlogCategory.cs" />
+    <Compile Include="Models\Blog\BlogEntry.cs" />
+    <Compile Include="Models\Blog\BlogSeriesEntry.cs" />
+    <Compile Include="Models\Blog\BlogSeriesSummary.cs" />
+    <Compile Include="Models\Blog\BlogTag.cs" />
+    <Compile Include="Models\Blog\TagCloud.cs" />
+    <Compile Include="Models\Blog\TagCloudItem.cs" />
+    <Compile Include="Models\Security\User.cs" />
+    <Compile Include="Models\Session\UserData.cs" />
+    <Compile Include="Models\Stuff\LentOutItemsView.cs" />
+    <Compile Include="Models\Stuff\RecentItemsView.cs" />
+    <Compile Include="Models\Stuff\AtHomeItemsView.cs" />
+    <Compile Include="Models\Stuff\StuffCategory.cs" />
+    <Compile Include="Models\Stuff\StuffItem.cs" />
+    <Compile Include="Parameters\HomepageParameters.cs" />
+    <Compile Include="Parameters\StuffParameterFactory.cs" />
+    <Compile Include="Parameters\StuffParameters.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Blog\BlogEntryRepository.cs" />
+    <Compile Include="Repository\Stuff\StuffCategoryRepository.cs" />
+    <Compile Include="Repository\Stuff\StuffItemRepository.cs" />
+    <Compile Include="Repository\TegudEntityFrameworkContextFactory.cs" />
+    <Compile Include="StructureMap\TegudDataRegistry.cs" />
+    <Compile Include="TegudModel21.Designer.cs">
+      <DependentUpon>TegudModel21.edmx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="SiteSession\ISession.cs" />
+    <Compile Include="ViewModelFactories\HomepageTitleFactory.cs" />
+    <Compile Include="ViewModelFactories\HomepageViewModelFactory.cs" />
+    <Compile Include="ViewModelFactories\IHomepageTitleFactory.cs" />
+    <Compile Include="ViewModelFactories\IStuffViewModelListFactory.cs" />
+    <Compile Include="ViewModelFactories\ITagCloudViewModelFactory.cs" />
+    <Compile Include="ViewModelFactories\SingleBlogItemViewModelFactory.cs" />
+    <Compile Include="ViewModelFactories\StuffCategoryIndexViewModelFactory.cs" />
+    <Compile Include="ViewModelFactories\StuffViewModelFactory.cs" />
+    <Compile Include="ViewModelFactories\StuffViewModelListFactory.cs" />
+    <Compile Include="ViewModelFactories\TagCloudViewModelFactory.cs" />
+    <Compile Include="ViewModels\Blog\BlogItemLink.cs" />
+    <Compile Include="ViewModels\Blog\BlogItemViewModel.cs" />
+    <Compile Include="ViewModels\Blog\BlogItemViewModelBase.cs" />
+    <Compile Include="ViewModels\Blog\SingleBlogItemViewModel.cs" />
+    <Compile Include="ViewModels\Blog\TagCloudViewModel.cs" />
+    <Compile Include="ViewModels\Homepage\HomepageViewModel.cs" />
+    <Compile Include="ViewModels\Stuff\StuffCategoryIndexViewModel.cs" />
+    <Compile Include="ViewModels\Stuff\StuffCategoryViewModel.cs" />
+    <Compile Include="ViewModels\Stuff\StuffItemViewModel.cs" />
+    <Compile Include="ViewModels\Stuff\StuffViewModel.cs" />
+    <Compile Include="ViewModels\Stuff\StuffViewViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <EntityDeploy Include="TegudModel21.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>TegudModel21.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TegudUtilities\TegudUtilities.csproj">
+      <Project>{20119E47-4856-4B40-BF94-BBE4DF156FF1}</Project>
+      <Name>TegudUtilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,40 @@
+<ProjectConfiguration>
+  <CopyReferencedAssembliesToWorkspace>false</CopyReferencedAssembliesToWorkspace>
+  <ConsiderInconclusiveTestsAsPassing>false</ConsiderInconclusiveTestsAsPassing>
+  <IgnoreThisComponentCompletely>false</IgnoreThisComponentCompletely>
+  <RunPreBuildEvents>false</RunPreBuildEvents>
+  <RunPostBuildEvents>false</RunPostBuildEvents>
+  <PreviouslyBuiltSuccessfully>true</PreviouslyBuiltSuccessfully>
+  <InstrumentAssembly>true</InstrumentAssembly>
+  <PreventSigningOfAssembly>false</PreventSigningOfAssembly>
+  <AnalyseExecutionTimes>true</AnalyseExecutionTimes>
+  <IncludeStaticReferencesInWorkspace>true</IncludeStaticReferencesInWorkspace>
+  <DefaultTestTimeout>60000</DefaultTestTimeout>
+  <UseBuildConfiguration />
+  <ProxyProcessPath />
+  <UseCPUArchitecture>AutoDetect</UseCPUArchitecture>
+  <IgnoredTests>
+    <NamedTestSelector>
+      <TestName>TegudData.Test.ViewModelFactories.StuffItemCategoryFilterTests.VariantBIsFastest(100,100000)</TestName>
+    </NamedTestSelector>
+    <NamedTestSelector>
+      <TestName>TegudData.Test.ViewModelFactories.StuffItemCategoryFilterTests.VariantBIsFastest(1000,1000000)</TestName>
+    </NamedTestSelector>
+    <NamedTestSelector>
+      <TestName>TegudData.Test.ViewModelFactories.StuffItemCategoryFilterTests.VariantBIsFastest(10000,1000000)</TestName>
+    </NamedTestSelector>
+    <NamedTestSelector>
+      <TestName>TegudData.Test.ViewModelFactories.StuffItemCategoryFilterTests.VariantBIsFastest(100000,1000000)</TestName>
+    </NamedTestSelector>
+    <NamedTestSelector>
+      <TestName>TegudData.Test.ViewModelFactories.StuffItemCategoryFilterTests.VariantBIsFastest(1000000,1000000)</TestName>
+    </NamedTestSelector>
+    <NamedTestSelector>
+      <TestName>TegudData.Test.ViewModelFactories.StuffItemCategoryFilterTests.VariantBIsFastest(1000000,10000000)</TestName>
+    </NamedTestSelector>
+    <RegexTestSelector>
+      <RegularExpression>TegudData\.Test\.ViewModelFactories\.StuffItemCategoryFilterTests\..*</RegularExpression>
+    </RegexTestSelector>
+  </IgnoredTests>
+  <HiddenWarnings>LongTestTimesWithoutParallelExecution</HiddenWarnings>
+</ProjectConfiguration>
