@@ -5,7 +5,7 @@ using System.Web.Configuration;
 using System.Web.Mvc;
 using System.Web.Security;
 using DotNetOpenAuth.Messaging;
-using DotNetOpenAuth.OAuth2;
+//using DotNetOpenAuth.OAuth2;
 using DotNetOpenAuth.OpenId;
 using DotNetOpenAuth.OpenId.Extensions.AttributeExchange;
 using DotNetOpenAuth.OpenId.Extensions.SimpleRegistration;
@@ -13,7 +13,7 @@ using DotNetOpenAuth.OpenId.RelyingParty;
 using Newtonsoft.Json;
 using TegudData.Models.AdminModel;
 using TegudData.Models.Session;
-using TegudMVC3.Models;
+//using TegudMVC3.Models;
 
 namespace TegudMVC3.Controllers
 {
@@ -31,44 +31,44 @@ namespace TegudMVC3.Controllers
             return Redirect(HttpContext.Request.UrlReferrer != null ? HttpContext.Request.UrlReferrer.ToString() : "/");
         }
 
-        public ActionResult Facebook(LoginViewModel model)
-        {
-            var client = new FacebookClient
-            {
-                ClientIdentifier = "149468868470566",
-                ClientSecret = "e6a0759c4c2510847763a1fb7d5b8566",
-            };
-            IAuthorizationState authorization = client.ProcessUserAuthorization();
-            if (authorization == null)
-            {
-                // Kick off authorization request
-                client.RequestUserAuthorization();
-            }
-            else
-            {
-                var request = WebRequest.Create("https://graph.facebook.com/me?access_token=" + Uri.EscapeDataString(authorization.AccessToken));
-                using (var response = request.GetResponse())
-                {
-                    using (var responseStream = response.GetResponseStream())
-                    {
-                        var graph = FacebookGraph.Deserialize(responseStream);
+        //public ActionResult Facebook(LoginViewModel model)
+        //{
+        //    var client = new FacebookClient
+        //    {
+        //        ClientIdentifier = "149468868470566",
+        //        ClientSecret = "e6a0759c4c2510847763a1fb7d5b8566",
+        //    };
+        //    IAuthorizationState authorization = client.ProcessUserAuthorization();
+        //    if (authorization == null)
+        //    {
+        //        // Kick off authorization request
+        //        client.RequestUserAuthorization();
+        //    }
+        //    else
+        //    {
+        //        var request = WebRequest.Create("https://graph.facebook.com/me?access_token=" + Uri.EscapeDataString(authorization.AccessToken));
+        //        using (var response = request.GetResponse())
+        //        {
+        //            using (var responseStream = response.GetResponseStream())
+        //            {
+        //                var graph = FacebookGraph.Deserialize(responseStream);
 
-                        var userData = new UserData
-                        {
-                            FriendlyName = graph.Name,
-                            Identifier = graph.Link.ToString(),
-                            LoginProvider = "Facebook"
-                        };
+        //                var userData = new UserData
+        //                {
+        //                    FriendlyName = graph.Name,
+        //                    Identifier = graph.Link.ToString(),
+        //                    LoginProvider = "Facebook"
+        //                };
 
-                        SetAuthCookie(graph.Link.ToString(), true, JsonConvert.SerializeObject(userData));
+        //                SetAuthCookie(graph.Link.ToString(), true, JsonConvert.SerializeObject(userData));
 
-                        return Redirect(Url.Action("Index", "Home"));
-                    }
-                }
-            }
+        //                return Redirect(Url.Action("Index", "Home"));
+        //            }
+        //        }
+        //    }
 
-            return Redirect(Url.Action("Index", "Home"));
-        }
+        //    return Redirect(Url.Action("Index", "Home"));
+        //}
 
         [HttpPost]
         [ValidateAntiForgeryToken]

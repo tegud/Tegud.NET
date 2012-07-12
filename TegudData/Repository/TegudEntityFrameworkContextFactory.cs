@@ -34,26 +34,4 @@ namespace TegudData.Repository
             return profiledConnection;
         }
     }
-
-    public class TegudEntityFrameworkContextFactory : IContextFactory<SQL2008_615903_tegudEntities9>
-    {
-        private readonly SQL2008_615903_tegudEntities9 _context;
-
-        public TegudEntityFrameworkContextFactory(string connectionString)
-        {
-            var conn = new EFProfiledDbConnection(GetConnection(connectionString), MiniProfiler.Current);
-            _context = conn.CreateObjectContext<SQL2008_615903_tegudEntities9>();
-        }
-
-        private static SqlConnection GetConnection(string connectionString)
-        {
-            var entityConnStr = new EntityConnectionStringBuilder(connectionString);
-            return new SqlConnection(entityConnStr.ProviderConnectionString);
-        }
-
-        public SQL2008_615903_tegudEntities9 Context
-        {
-            get { return _context; }
-        }
-    }
 }

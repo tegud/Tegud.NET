@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Dispatcher;
 using System.Web.Mvc;
@@ -31,7 +32,7 @@ namespace TegudMVC3.DependencyResolution
             _container = container;
         }
 
-        public IHttpController Create(HttpControllerContext controllerContext, Type controllerType)
+        public IHttpController Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
         {
             return _container.GetInstance(controllerType) as IHttpController;
         }

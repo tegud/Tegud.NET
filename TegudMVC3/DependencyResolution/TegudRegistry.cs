@@ -23,14 +23,7 @@ namespace TegudMVC3.DependencyResolution
             For<IControllerActivator>().Use<StructureMapControllerActivator>();
             For<IHttpControllerActivator>().Use<StructureMapApiControllerActivator>();
 
-            var eb = new EntityConnectionStringBuilder(MvcApplication.ConnectionString);
             var sql = MvcApplication.SqlConnectionString;
-
-            For<IContextFactory<SQL2008_615903_tegudEntities9>>()
-                .HybridHttpOrThreadLocalScoped()
-                .Use<TegudEntityFrameworkContextFactory>()
-                .Ctor<string>()
-                .Is(eb.ConnectionString);
 
             For<ITegudSqlConnectionFactory>()
                 .Use<TegudSqlConnectionFactory>()

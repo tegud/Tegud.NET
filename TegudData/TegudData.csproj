@@ -51,14 +51,13 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="MiniProfiler">
-      <HintPath>..\packages\MiniProfiler.2.0.1\lib\net40\MiniProfiler.dll</HintPath>
+    <Reference Include="MiniProfiler, Version=2.0.2.0, Culture=neutral, PublicKeyToken=b44f9351044011a3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MiniProfiler.2.0.2\lib\net40\MiniProfiler.dll</HintPath>
     </Reference>
-    <Reference Include="MiniProfiler.EntityFramework">
-      <HintPath>..\packages\MiniProfiler.EF.2.0.2\lib\net40\MiniProfiler.EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.4.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.4.5.7\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="StructureMap, Version=2.6.3.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -150,7 +149,6 @@
     <Compile Include="ViewModels\Stuff\StuffViewViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.Config" />
     <None Include="packages.config" />
     <EntityDeploy Include="TegudModel21.edmx">
       <Generator>EntityModelCodeGenerator</Generator>

@@ -7,7 +7,8 @@ using Newtonsoft.Json;
 using StackExchange.Profiling;
 using TegudMVC3.DependencyResolution;
 using TegudMVC3.Filters;
-using TegudMVC3.MediaTypeFormatters;
+
+//using TegudMVC3.MediaTypeFormatters;
 
 namespace TegudMVC3
 {
@@ -107,11 +108,11 @@ namespace TegudMVC3
 
             config.Formatters.Remove(config.Formatters.XmlFormatter);
             config.Formatters.Remove(config.Formatters.JsonFormatter);
-            config.Formatters.Add(new JsonNetFormatter(new JsonSerializerSettings()));
-            config.ServiceResolver.SetResolver(new SmApiDependencyResolver(container));
+            //config.Formatters.Add(new JsonNetFormatter(new JsonSerializerSettings()));
+           // config.ServiceResolver.SetResolver(new SmApiDependencyResolver(container));
 
             MiniProfiler.Settings.Results_List_Authorize = request => request.IsAuthenticated;
-            MiniProfiler.Settings.UseExistingjQuery = false;
+            //MiniProfiler.Settings.UseExistingjQuery = false;
 
             SetGlobalFilters();
             RegisterRoutes(RouteTable.Routes); 
