@@ -42,7 +42,12 @@
             <input type="number" class="year-field" min="2010" max="2060" name="BlogItemYear" placeholder="Year" />
             <div class="blog-item-date-icon"></div>
             <div class="blog-item-date-error-holder"></div>
-            <div class="blog-item-calendar-container big-calendar right-calendar white-theme hidden" id="blog-item-calendar-container"></div>
+            <div class="blog-item-calendar-container big-calendar right-calendar white-theme hidden">
+                <ul class="blog-item-calendar-jump-to">
+                    <li data-jump-to-days-after-today="0">Today</li>
+                    <li data-jump-to-days-after-today="1">Tomorrow</li>
+                </ul>
+            </div>
         </div>
     
         <div class="blog-item-field-container blog-item-date-holder blog-item-time-holder" id="blog-item-time-fields">

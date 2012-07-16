@@ -1,4 +1,4 @@
-﻿define(['datepicker', 'moment'], function () {
+﻿define(['datepicker', 'moment', 'tegud/base', 'forms/base'], function () {
 
     TEGUD.Forms.DateSelectorCalendar = (function () {
         return (function(dateSelector, container) {
@@ -26,6 +26,22 @@
                             dateSelector.val(calendar.DatePickerGetDate());
                         }
                     });
+
+                    container
+                        .on('click', '.blog-item-calendar-jump-to > li', function () {
+                            var item = $(this),
+                                jumpToAfterToday = item.data('jumpToDaysAfterToday'),
+                                newDate;
+
+                            if (typeof jumpToAfterToday === 'undefined') {
+                                return;
+                            }
+
+                            newDate = moment(new Date()).add('d', jumpToAfterToday);
+
+                            dateSelector.val(newDate.toDate());
+                            calendar.DatePickerSetDate(formatMomentForCalendar(newDate), true);
+                        });
                 },
                 self = {
                     toggle: function(show) {

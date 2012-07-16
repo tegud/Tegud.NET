@@ -544,7 +544,11 @@ h1 > a { text-decoration: none; }
 .blog-item-time-holder.hide-border input,
 .blog-item-date-holder.hide-border input { border-left: 0; }
 
-.blog-item-calendar-container { height: 250px; }
+.blog-item-calendar-container { height: 288px; }
+
+.blog-item-calendar-jump-to { list-style: none;padding: 0;margin: 0 0 0 0; }
+
+.blog-item-calendar-jump-to > li { display: inline-block;padding: 4px 8px 4px 8px;cursor: pointer; }
 
 @media screen and (max-width:1080px) {
     .blog-item-admin { position: static;top: auto;left: auto;margin-top: 3px;padding-top: 4px; border-top: solid 1px #666; }

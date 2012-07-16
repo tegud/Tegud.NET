@@ -52,7 +52,7 @@
             dateFieldContainer
                 .on('click', '.blog-item-date-icon', function () {
                     if (!calendar) {
-                        calendar = new TEGUD.Forms.DateSelectorCalendar(self, $('#blog-item-calendar-container'));
+                        calendar = new TEGUD.Forms.DateSelectorCalendar(self, $('.blog-item-calendar-container', dateFieldContainer));
                         return;
                     }
 

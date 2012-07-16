@@ -1,4 +1,4 @@
-﻿define(['forms/fieldValidators'], function () {
+﻿define(['forms/fieldValidators', 'forms/validator'], function () {
 
     TEGUD.Forms.DateValidator = (function () {
 

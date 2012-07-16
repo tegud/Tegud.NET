@@ -38,16 +38,6 @@ namespace TegudMVC3.DependencyResolution
 
             IncludeRegistry<TegudUtilitiesRegistry>();
             IncludeRegistry<TegudDataRegistry>();
-
-            //Scan(x =>
-            //         {
-            //             x.Assembly(TegudData);
-
-            //         });
-
-            //For<ISingleBlogItemViewModelFactory>().Use<singleBlogItemViewModelFactory>();
-
-            //For<IHomep>()
         }
     }
 }
