@@ -20,20 +20,15 @@
                 },
                 getCurrentValue = function() {
                     var dateArray = [],
-                        isValid = true;
-
-                    $.each(dateFields.get().reverse(), function (x, item) {
-                        if (!item.value || isNaN(item.value)) {
-                            isValid = false;
-                            return false;
-                        }
-
-                        dateArray[dateArray.length] = item.value;
-                    });
+                        isValid = dateValidator.isValid();
 
                     if (!isValid) {
                         return;
                     }
+
+                    $.each(dateFields.get().reverse(), function (x, item) {
+                        dateArray[dateArray.length] = item.value;
+                    });
 
                     return moment(dateArray.join('-'));
                 },

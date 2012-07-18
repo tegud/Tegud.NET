@@ -44,8 +44,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DotNetOpenAuth">
-      <HintPath>..\..\..\..\..\Downloads\DotNetOpenAuth-4.0.1.12097\DotNetOpenAuth-4.0.1.12097\Bin\DotNetOpenAuth.dll</HintPath>
+    <Reference Include="DotNetOpenAuth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\DotNetOpenAuth.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.4.1.10715.0\lib\EntityFramework.dll</HintPath>
@@ -286,6 +287,7 @@
     <Content Include="Content\ScriptHighlighter\shThemeFadeToGrey.css" />
     <Content Include="Content\ScriptHighlighter\shThemeMidnight.css" />
     <Content Include="Content\ScriptHighlighter\shThemeRDark.css" />
+    <Content Include="DotNetOpenAuth.dll" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\Archive\Blog\base.js" />
@@ -319,6 +321,8 @@
     <Content Include="Scripts\Rory\data.js" />
     <Content Include="Scripts\Tegud\HoldButton.js" />
     <Content Include="Scripts\Tegud\NumberSpinner.js" />
+    <Content Include="Scripts\Tests\Forms\TimeSelector.Tests.js" />
+    <Content Include="Scripts\Tests\Forms\Tegud.Forms.TimeSelector.Tests.html" />
     <Content Include="Scripts\Tests\Forms\Tegud.Forms.DateSelector.Tests.html" />
     <Content Include="Scripts\Tests\qunit.css" />
     <Content Include="Scripts\Tests\Test.Core.js" />

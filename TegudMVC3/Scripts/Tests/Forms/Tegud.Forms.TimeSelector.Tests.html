@@ -1,0 +1,12 @@
+﻿<!DOCTYPE html>  <html>      <head>          <title>QUnit Test Suite</title>  
+        <link rel="stylesheet" href="../qunit.css" type="text/css" media="screen">          <script type="text/javascript" src="../qunit.js"></script>        <script type="text/javascript" src="../../require.js"></script>        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>        <script type="text/javascript">            require.config({
+                baseUrl: '/scripts'
+            });        </script>        <script>
+            require(['Tests/Forms/TimeSelector.Tests'], function() { });
+        </script>    </head>      <body>          <h1 id="qunit-header">QUnit Test Suite</h1>          <h2 id="qunit-banner"></h2>          <div id="qunit-testrunner-toolbar"></div>          <h2 id="qunit-userAgent"></h2>          <ol id="qunit-tests"></ol>      
+        <div id="qunit-fixture">
+            <div class="blog-item-field-container blog-item-date-holder blog-item-time-holder" id="blog-item-time-fields">
+                <label>Time</label>
+                <input type="number" class="hour-field" min="0" max="23" name="BlogItemHour" placeholder="Hour" />
+                <input type="number" class="minute-field" min="0" max="59" name="BlogItemMinute" placeholder="Minute" />
+            </div>        </div>    </body>  </html>

@@ -26,7 +26,7 @@
                         errorTypes[currnetNumberOfErrorTypes] = errorMessage;
                     }
                 },
-                validationFunction = function() {
+                validationFunction = function(value, force) {
                     var isValid = true;
 
                     erroredFields = $([]);
@@ -43,7 +43,7 @@
                                 erroredFields = erroredFields.add(field);
                             };
 
-                        if (!hadFocus) {
+                        if (!hadFocus && !force) {
                             return true;
                         }
 
@@ -80,7 +80,7 @@
                         }
                     });
 
-                    if (isValid && !fields.filter('.validate-ignore').length) {
+                    if (isValid && (!fields.filter('.validate-ignore').length || force)) {
                         var dateArray = [],
                             dayField = fields.filter('.day-field'),
                             day = parseInt(dayField.val(), 10);
@@ -120,7 +120,7 @@
 
             return {
                 isValid: function () {
-                    return validator.validate();
+                    return validator.validate(true);
                 }
             };
         };

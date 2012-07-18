@@ -8,6 +8,7 @@
             var validateMessage,
                 customValidators = {},
                 options = $.extend({}, defaultOptions, settings),
+                validate,
                 self;
             
                 if(!appendMessageTo) {
@@ -16,14 +17,14 @@
 
             validateMessage = new TEGUD.Forms.ValidateMessage(field, appendMessageTo);
 
-            validate = function() {
+            validate = function(force) {
                 var classes = field[0].className.split(' '),
                     classLength = classes.length,
                     x = 0,
                     isValid = true,
                     fieldValidators = $.extend(TEGUD.Forms.FieldValidators.getAll(), customValidators),
                     currentValidator,
-                    failureMessage;
+                    failureMessage = '';
 
                 if (field.is(':visible')) {
                     for (; x < classLength; x++) {
@@ -32,7 +33,7 @@
                             continue;
                         }
 
-                        if (!currentValidator.validate(field.val())) {
+                        if (!currentValidator.validate(field.val(), force)) {
                             isValid = false;
                             failureMessage = currentValidator.message();
                             break;
