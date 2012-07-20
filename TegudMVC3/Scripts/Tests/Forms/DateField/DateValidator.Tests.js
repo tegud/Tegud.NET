@@ -42,110 +42,6 @@ define(['Forms/DateSelector'], function () {
                     .html('');
         };
 
-    module('TEGUD.Forms.DateSelector', { teardown: tearDown });
-
-    test('new date selector with invalid date set returns undefined', function () {
-        var element = buildOrGetDateSelector(),
-            dateSelector = new TEGUD.Forms.DateSelector(element),
-            expected = undefined;
-
-        equal(dateSelector.val(), expected, 'expected undefined');
-    });
-
-    test('date selector with valid date returns that date', function () {
-        var element = buildOrGetDateSelector(),
-            dateSelector = new TEGUD.Forms.DateSelector(element),
-            formatString = 'D M YYYY',
-            expected = moment(new Date(2012, 3, 25)).format(formatString),
-            actualValue;
-
-        element
-            .find('.day-field')
-                .val(25)
-                .end()
-            .find('.month-field')
-                .val(4)
-                .end()
-            .find('.year-field')
-                .val(2012);
-
-        actualValue = dateSelector.val().format(formatString);
-
-        equal(actualValue, expected, 'expected 25 4 2012');
-    });
-    
-    asyncTest('date selector calendar button click appends datepicker', function () {
-        var selectorId = 'calendar-test',
-            element = buildOrGetDateSelector(selectorId);
-
-        new TEGUD.Forms.DateSelector(element);
-        $('.blog-item-date-icon', element)
-            .trigger('click');
-
-        setTimeout(function () {
-            ok($('.datepicker', element).length, 'expected datepicker element to exist');
-
-            start();
-
-            tearDown(selectorId);
-        }, 25);
-    });
-
-    asyncTest('date selector calendar button second click hides datepicker', function () {
-        var selectorId = 'calendar-hide-test',
-            element = buildOrGetDateSelector(selectorId),
-            calendarIcon;
-
-        new TEGUD.Forms.DateSelector(element);
-
-        calendarIcon = $('.blog-item-date-icon', element).trigger('click');
-
-        setTimeout(function () {
-            calendarIcon = calendarIcon.trigger('click');
-
-            setTimeout(function () {
-                ok($('.blog-item-calendar-container', element).hasClass('hidden'), 'expected datepicker element to be hidden');
-
-                start();
-
-                tearDown(selectorId);
-            }, 25);
-        }, 25);
-    });
-
-    asyncTest('calendar selected date changes when selector date changes', function () {
-        
-        var selectorId = 'calendar-date-change-test',
-            element = buildOrGetDateSelector(selectorId);
-
-        new TEGUD.Forms.DateSelector(element);
-
-        $('.blog-item-date-icon', element).trigger('click');
-
-        setTimeout(function () {
-            element
-                .find('.day-field')
-                    .val(10)
-                    .end()
-                .find('.month-field')
-                    .val(2)
-                    .end()
-                .find('.year-field')
-                    .val(2012)
-                    .trigger('change');
-
-            setTimeout(function() {
-                equal($('.datepickerSelected', element).text(), '10', 'expected day to be the 10th');
-                equal($('.datepickerMonth', element).text(), 'February, 2012', 'expected month and year to be the February, 2012');
-                
-
-                start();
-                
-                tearDown(selectorId);
-            }, 25);
-        }, 25);
-    });
-
     module('TEGUD.Forms.DateValidator', { teardown: tearDown });
 
     test('is valid returns false when all fields are empty', function () {
@@ -199,24 +95,55 @@ define(['Forms/DateSelector'], function () {
         ok(!$('.blog-item-date-error-holder', element).children().length, 'No error messages should be present');
     });
 
-    test('when date value is negative isValid returns false', function () {
-        var element = buildOrGetDateSelector(),
-            dateValidator = new TEGUD.Forms.DateValidator(element);
+    test('is valid is false and appends error message when date field is empty', function () {
+        var element = buildOrGetDateSelector();
 
         element
-            .find('.day-field')
-                .val(-25)
-                .end()
             .find('.month-field')
                 .val(4)
                 .end()
             .find('.year-field')
                 .val(2012);
 
-        ok(!dateValidator.isValid(), 'isValid should return false');
+        var isValid = new TEGUD.Forms.DateValidator(element).isValid();
+
+        ok(!isValid, 'isValid should return false');
+        equal($('.blog-item-date-error-holder', element).children(':first').text(), 'You have to enter something', 'Error message should be "You have to enter something"');
     });
 
-    test('is valid appends error message when date field is negative', function () {
+    test('is valid is false and appends error message when month field is empty', function () {
+        var element = buildOrGetDateSelector();
+
+        element
+            .find('.day-field')
+                .val(25)
+                .end()
+            .find('.year-field')
+                .val(2012);
+
+        var isValid = new TEGUD.Forms.DateValidator(element).isValid();
+
+        ok(!isValid, 'isValid should return false');
+        equal($('.blog-item-date-error-holder', element).children(':first').text(), 'You have to enter something', 'Error message should be "You have to enter something"');
+    });
+
+    test('is valid is false and appends error message when year field is empty', function () {
+        var element = buildOrGetDateSelector();
+
+        element
+            .find('.day-field')
+                .val(25)
+                .end()
+            .find('.month-field')
+                .val(4);
+
+        var isValid = new TEGUD.Forms.DateValidator(element).isValid();
+
+        ok(!isValid, 'isValid should return false');
+        equal($('.blog-item-date-error-holder', element).children(':first').text(), 'You have to enter something', 'Error message should be "You have to enter something"');
+    });
+
+    test('is valid is false and appends error message when date field is negative', function () {
         var element = buildOrGetDateSelector();
 
         element
@@ -229,12 +156,13 @@ define(['Forms/DateSelector'], function () {
             .find('.year-field')
                 .val(2012);
 
-        new TEGUD.Forms.DateValidator(element).isValid();
+        var isValid = new TEGUD.Forms.DateValidator(element).isValid();
 
+        ok(!isValid, 'isValid should return false');
         equal($('.blog-item-date-error-holder', element).children(':first').text(), 'Negative values make no sense', 'Error message should be "Negative values make no sense"');
     });
 
-    test('is valid appends error message when year field is negative', function () {
+    test('is valid is false and appends error message when year field is negative', function () {
         var element = buildOrGetDateSelector();
 
         element
@@ -247,9 +175,29 @@ define(['Forms/DateSelector'], function () {
             .find('.year-field')
                 .val(-2012);
 
-        new TEGUD.Forms.DateValidator(element).isValid();
+        var isValid = new TEGUD.Forms.DateValidator(element).isValid();
 
+        ok(!isValid, 'isValid should return false');
         equal($('.blog-item-date-error-holder', element).children(':first').text(), 'Negative values make no sense', 'Error message should be "Negative values make no sense"');
+    });
+
+    test('is valid is false and appends error message when year day does not exist for month', function () {
+        var element = buildOrGetDateSelector();
+
+        element
+            .find('.day-field')
+                .val(31)
+                .end()
+            .find('.month-field')
+                .val(2)
+                .end()
+            .find('.year-field')
+                .val(2012);
+
+        var isValid = new TEGUD.Forms.DateValidator(element).isValid();
+
+        ok(!isValid, 'isValid should return false');
+        equal($('.blog-item-date-error-holder', element).children(':first').text(), 'That month doesn\'t have that many days.', 'Error message should be "That month doesn\'t have that many days."');
     });
 
     test('is valid appends one error message when two fields are invalid for the same reason', function () {
