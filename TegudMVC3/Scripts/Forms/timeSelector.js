@@ -40,24 +40,20 @@
                             minute = parseInt(minuteField.val(), 10),
                             tokens = format.match(formatterRegex),
                             i,
-                            tokensLength = tokens.length,
-                            formattedString = format;
+                            tokensLength = tokens.length;
 
                         for (i = 0; i < tokensLength; i++) {
-                            formattedString = formattedString.replace(tokens[i], timeFormatters[tokens[i]](hour, minute));
+                            format = format.replace(tokens[i], timeFormatters[tokens[i]](hour, minute));
                         }
 
-                        return formattedString;
+                        return format;
                     },
                     val: function () {
                         if (!timeValidator.isValid()) {
                             return;
                         }
 
-                        var hour = parseInt(hourField.val(), 10),
-                            minute = parseInt(minuteField.val(), 10);
-
-                        return TEGUD.Utilities.PadNumberForTime(hour) + ':' + TEGUD.Utilities.PadNumberForTime(minute);
+                        return self.format('HH:mm');
                     }
                 };
             
