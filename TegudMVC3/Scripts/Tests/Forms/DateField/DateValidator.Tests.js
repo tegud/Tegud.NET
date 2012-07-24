@@ -214,7 +214,7 @@ define(['Forms/DateSelector'], function () {
         equal(messages.length, 1, 'There should only be one error message per reason');
     });
 
-    test('is valid appends two error message when two fields are invalid for the distinct reasons', function () {
+    test('is valid appends two error message when two fields are invalid for distinct reasons', function () {
         var element = buildOrGetDateSelector();
 
         element
@@ -227,6 +227,6 @@ define(['Forms/DateSelector'], function () {
 
         equal(messages.length, 2, 'There should only be two error messages displayed');
         equal(messages[0], 'You have to enter something', 'First message should be "You have to enter something"');
-        equal(messages[1], 'Enter a time not a fraction of a day', 'First message should be "Enter a time not a fraction of a day"');
+        equal(messages[1], 'Enter a time not a fraction of a day', 'Second message should be "Enter a time not a fraction of a day"');
     });
 });

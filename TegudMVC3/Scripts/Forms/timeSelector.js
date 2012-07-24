@@ -1,27 +1,63 @@
 ﻿define(['moment', 'forms/timeValidator', 'utilities/base'], function () {
-    
+
+    var padNumber = TEGUD.Utilities.PadNumberForTime,
+        formatterRegex = /(hh?|HH?|mm?|a|A)/g,
+        timeFormatters = {
+        'h': function (hour) {
+            return hour > 12 ? hour - 12 : hour;
+        },
+        'hh': function (hour) {
+            return padNumber(timeFormatters['h'](hour));
+        },
+        'H': function (hour) {
+            return hour;
+        },
+        'HH': function (hour) {
+            return padNumber(timeFormatters['H'](hour));
+        },
+        'm': function(hour, minute) {
+            return minute;
+        },
+        'mm': function (hour, minute) {
+            return padNumber(timeFormatters['m'](hour, minute));
+        },
+        'a': function (hour) {
+            return hour > 11 ? 'pm' : 'am';
+        },
+        'A': function (hour) {
+            return (timeFormatters['a'](hour) + '').toUpperCase();
+        }
+    };
+
     TEGUD.Forms.TimeSelector = (function () {
         return function (timeFieldContainer) {
             var timeValidator = new TEGUD.Forms.TimeValidator(timeFieldContainer),
+                hourField = $('.hour-field', timeFieldContainer),
+                minuteField = $('.minute-field', timeFieldContainer),
                 self = {
-                    val: function () {
-                        var hourField = $('.hour-field', timeFieldContainer),
-                            minuteField = $('.minute-field', timeFieldContainer);
+                    format: function (format) {
+                        var hour = parseInt(hourField.val(), 10),
+                            minute = parseInt(minuteField.val(), 10),
+                            tokens = format.match(formatterRegex),
+                            i,
+                            tokensLength = tokens.length,
+                            formattedString = format;
 
-                        if (hourField.val() && minuteField.val()
-                            && !isNaN(hourField.val()) && !isNaN(minuteField.val())
-                            && hourField.val().indexOf('.') < 0
-                            && minuteField.val().indexOf('.') < 0) {
-                            var hour = parseInt(hourField.val(), 10),
-                                minute = parseInt(minuteField.val(), 10);
-
-                            if (hour >= 0 && minute >= 0
-                                && hour < 24 && minute < 60) {
-                                return TEGUD.Utilities.PadNumberForTime(hour) + ':' + TEGUD.Utilities.PadNumberForTime(minute);
-                            }
+                        for (i = 0; i < tokensLength; i++) {
+                            formattedString = formattedString.replace(tokens[i], timeFormatters[tokens[i]](hour, minute));
                         }
 
-                        return;
+                        return formattedString;
+                    },
+                    val: function () {
+                        if (!timeValidator.isValid()) {
+                            return;
+                        }
+
+                        var hour = parseInt(hourField.val(), 10),
+                            minute = parseInt(minuteField.val(), 10);
+
+                        return TEGUD.Utilities.PadNumberForTime(hour) + ':' + TEGUD.Utilities.PadNumberForTime(minute);
                     }
                 };
             
