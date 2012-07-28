@@ -67,12 +67,15 @@ define(['Forms/DateSelector'], function () {
         element
             .find('.day-field')
                 .val(25)
+                .trigger('blur')
                 .end()
             .find('.month-field')
                 .val(4)
+                .trigger('blur')
                 .end()
             .find('.year-field')
-                .val(2012);
+                .val(2012)
+                .trigger('blur');
 
         actualValue = dateSelector.val().format(formatString);
 

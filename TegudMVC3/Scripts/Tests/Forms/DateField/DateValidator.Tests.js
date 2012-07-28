@@ -251,7 +251,7 @@ define(['Forms/DateSelector'], function () {
         var element = buildOrGetDateSelector(),
             validator = new TEGUD.Forms.DateValidator(element);
 
-        equal(validator.isValid(), true, 'isValid should return true');
+        equal(validator.isValid(), false, 'isValid should return true');
     });
 
     test('is valid returns false if a field has been focused and is not valid', function () {

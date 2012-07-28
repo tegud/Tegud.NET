@@ -16,7 +16,7 @@
                         .filter('.year-field')
                             .val(value.getFullYear());
 
-                    dateValidator.isValid();
+                    dateValidator.validate();
                 },
                 getCurrentValue = function() {
                     var dateArray = [],

@@ -11,6 +11,7 @@
                 erroredFields,
                 errorTypes,
                 isValid = true,
+                fieldsValidated = false,
                 addErrorMessage = function(errorMessage) {
                     var newErrorType = true,
                         x = 0,
@@ -36,6 +37,8 @@
                     if (force ===  true) {
                         fields.removeClass('validate-ignore');
                     }
+
+                    fieldsValidated = true;
 
                     fields.each(function () {
                         var field = $(this),
@@ -128,7 +131,7 @@
                     return validator.validate(true);
                 },
                 isValid: function () {
-                    return isValid;
+                    return isValid && fieldsValidated;
                 }
             };
         };
