@@ -1,6 +1,9 @@
 ﻿/// <reference path="qunit.js"/>
 /// <reference path="../Tegud/base.js"/>
 /// <reference path="../Utilities/base.js"/>
+/// <reference path="~/Scripts/Tegud/base.js" />
+/// <reference path="~/Scripts/Tests/qunit.js" />
+/// <reference path="~/Scripts/moment.js" />
 
 define(['Forms/DateSelector'], function () {
     var defaultId = '#date-field-container',
@@ -48,6 +51,8 @@ define(['Forms/DateSelector'], function () {
         var element = buildOrGetDateSelector(),
             dateSelector = new TEGUD.Forms.DateSelector(element),
             expected = undefined;
+
+        element.find('.day-field').trigger('blur');
 
         equal(dateSelector.val(), expected, 'expected undefined');
     });
@@ -114,7 +119,7 @@ define(['Forms/DateSelector'], function () {
     });
 
     asyncTest('calendar selected date changes when selector date changes', function () {
-        
+
         var selectorId = 'calendar-date-change-test',
             element = buildOrGetDateSelector(selectorId);
 
@@ -134,15 +139,49 @@ define(['Forms/DateSelector'], function () {
                     .val(2012)
                     .trigger('change');
 
-            setTimeout(function() {
+            setTimeout(function () {
                 equal($('.datepickerSelected', element).text(), '10', 'expected day to be the 10th');
                 equal($('.datepickerMonth', element).text(), 'February, 2012', 'expected month and year to be the February, 2012');
-                
+
 
                 start();
-                
+
                 tearDown(selectorId);
             }, 25);
+        }, 25);
+    });
+
+    asyncTest('validation is not triggered when date selector is blank and calendar button is clicked', function () {
+        var selectorId = 'calendar-toggle-no-validation-change-test',
+            element = buildOrGetDateSelector(selectorId);
+
+        new TEGUD.Forms.DateSelector(element);
+
+        $('.blog-item-date-icon', element).trigger('click');
+
+        setTimeout(function () {
+            ok(!$('.blog-item-date-error-holder', element).children().length, 'No error messages should be present');
+
+            start();
+
+            tearDown(selectorId);
+        }, 25);
+    });
+
+    asyncTest('calendar is correctly populated when no date has been selected', function () {
+        var selectorId = 'calendar-toggle-no-validation-change-test',
+            element = buildOrGetDateSelector(selectorId);
+
+        new TEGUD.Forms.DateSelector(element);
+
+        $('.blog-item-date-icon', element).trigger('click');
+
+        setTimeout(function () {
+            notEqual($('.datepickerWeek:first', element).text(), 'NaN', 'Text should not be "NaN"');
+
+            start();
+
+            tearDown(selectorId);
         }, 25);
     });
 });

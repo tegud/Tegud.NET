@@ -10,6 +10,7 @@
                     }),
                 erroredFields,
                 errorTypes,
+                isValid = true,
                 addErrorMessage = function(errorMessage) {
                     var newErrorType = true,
                         x = 0,
@@ -27,12 +28,16 @@
                     }
                 },
                 validationFunction = function(value, force) {
-                    var isValid = true;
+                    isValid = true;
 
                     erroredFields = $([]);
                     errorTypes = [];
 
-                    fields.each(function() {
+                    if (force ===  true) {
+                        fields.removeClass('validate-ignore');
+                    }
+
+                    fields.each(function () {
                         var field = $(this),
                             hadFocus = !field.hasClass('validate-ignore'),
                             fieldValue = field.val(),
@@ -43,7 +48,7 @@
                                 erroredFields = erroredFields.add(field);
                             };
 
-                        if (!hadFocus && !force) {
+                        if (!hadFocus && force !== true) {
                             return true;
                         }
 
@@ -80,7 +85,7 @@
                         }
                     });
 
-                    if (isValid && (!fields.filter('.validate-ignore').length || force)) {
+                    if (isValid && (!fields.filter('.validate-ignore').length || force === true)) {
                         var dateArray = [],
                             dayField = fields.filter('.day-field'),
                             day = parseInt(dayField.val(), 10);
@@ -119,8 +124,11 @@
                 });
 
             return {
-                isValid: function () {
+                validate: function () {
                     return validator.validate(true);
+                },
+                isValid: function () {
+                    return isValid;
                 }
             };
         };

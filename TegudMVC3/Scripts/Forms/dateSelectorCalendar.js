@@ -1,5 +1,4 @@
 ﻿define(['datepicker', 'moment', 'tegud/base', 'forms/base'], function () {
-
     TEGUD.Forms.DateSelectorCalendar = (function () {
         return (function(dateSelector, container) {
             var isVisible,
