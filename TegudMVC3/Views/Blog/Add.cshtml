@@ -145,10 +145,9 @@
                     var blogPartSpinner = new tegud.NumberSpinner($('#blog-item-blog-part-spinner')),
                         currentTime = new TEGUD.Forms.CurrentTime($('#blog-entry-current-date-time'));
 
-                    var dateSelector = new tegud.Forms.DateSelector($('#blog-item-date-fields'));
-
                     (function () {
-                        var timeValidator = new TEGUD.Forms.TimeValidator($('#blog-item-time-fields')),
+                        var dateSelector = new tegud.Forms.DateSelector($('#blog-item-date-fields')),
+                            timeValidator = new TEGUD.Forms.TimeValidator($('#blog-item-time-fields')),
                             titleValidator = new TEGUD.Forms.Validator($('#blog-item-title-field')),
                             categoryValidator = new TEGUD.Forms.Validator($('#blog-item-category-field'));
                     })();
